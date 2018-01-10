@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/components/intec/startshop.basket.basket/templates/.default/style.css" => "15133256014589",)); ?>

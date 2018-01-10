@@ -1,0 +1,39 @@
+.tabs_block #tabs_block ul.nav {
+	padding:0;
+	margin:0;
+	list-style:none;
+	padding-bottom:25px;
+}
+.tabs_block #tabs_block ul.nav li {
+	float: left;
+	padding: 5px 25px 5px 0;
+	
+}
+.tabs_block #tabs_block ul.nav li.ui-tabs-active a {
+	outline:none;
+	text-decoration:none;
+	color:#000000 !important;
+}
+.tabs_block #tabs_block ul.nav li a {
+	padding-bottom: 5px; 
+	text-decoration:none;
+	font-size:16px;
+	//color:#a3a3a3;
+	font-weight:500;
+}
+.tabs_block.tabsblock_bgn{
+	position: absolute;
+    left: 0;
+    width: 100%;
+    background: #fafafa;	
+}
+.tabs_block .tabsblock_bgn_wrapper {
+	position: relative;
+    display: block;
+    margin: 0 auto;
+    padding: 40px 9px;
+    max-width: 1162px;
+}
+.tabslable_bgn_size {
+	margin-bottom: 30px;
+}

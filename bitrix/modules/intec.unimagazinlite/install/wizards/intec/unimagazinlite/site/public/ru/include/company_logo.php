@@ -1,0 +1,1 @@
+<a href="https://intecweb.ru" target="_blank"><img src="<?=SITE_DIR?>include/company_logo.png" /></a>

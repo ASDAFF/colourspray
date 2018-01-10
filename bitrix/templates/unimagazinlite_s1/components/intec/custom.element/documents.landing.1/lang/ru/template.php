@@ -1,0 +1,4 @@
+<?
+    $MESS['DOCUMENT_ITEM_SIZE_CAPTION'] = "Размер";
+    $MESS['DOCUMENT_ITEM_SIZE_DIMENSION'] = "КБ";
+?>

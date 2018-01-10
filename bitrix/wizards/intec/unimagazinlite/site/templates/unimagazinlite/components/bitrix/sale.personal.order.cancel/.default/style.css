@@ -1,0 +1,34 @@
+a.link {
+	display: block;
+	padding: 15px 0 20px 13px;
+}
+.bx_textarea_cancel{
+	display: inline-block;
+	vertical-align: middle;
+	border: none;
+	background: #ededed;
+	color: #494949;
+	font-size: 14px;
+	padding: 10px;
+	border-radius: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 112px;
+	resize: none;
+	width: 307px;
+	margin-top:25px;
+}
+.bx_cancel_order input[type="submit"]{
+	width: 130px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	border: 0;
+	color: #fff;
+	border-radius: 6px;
+	font-size: 14px;
+}
+.bx_cancel_order input[type="submit"]:hover{	
+	background: #1b8fc0;
+}

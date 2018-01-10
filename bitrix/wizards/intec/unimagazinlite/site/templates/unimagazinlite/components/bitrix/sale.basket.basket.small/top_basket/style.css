@@ -1,0 +1,333 @@
+/*Общие*/
+.basket-small .icons .basket .icon,
+.basket-small .icons .like .icon,
+.basket-small-fly .header .call .icon,
+.basket-small-fly .header .basket .icon,
+.basket-small-fly .header .like .icon {
+    display: inline-block;
+	vertical-align: middle;
+	background-repeat:no-repeat;
+}
+
+.basket-small .icons .basket .text,
+.basket-small .icons .like .text,
+.basket-small-fly .header .basket .text,
+.basket-small-fly .header .like .text {
+    display: inline-block;
+	vertical-align: middle;
+    font-size: 10px;
+    line-height: 11px;
+	font-weight: 700;
+}
+
+.basket-small .icons .like .icon,
+.basket-small-fly .header .like .icon {
+    width: 16px;
+    height: 13px;
+	margin-top: 2px;
+	margin-bottom: 1px;
+    background:url(images/like_icon.png) no-repeat;
+}
+
+.basket-small .icons .basket .icon,
+.basket-small-fly .header .basket .icon {
+    width: 16px;
+    height: 16px;
+    background: url(images/basket_icon.png) no-repeat;
+}
+
+.basket-small-fly .header .call .icon {
+    width: 16px;
+    height: 16px;
+    background: url('images/call.png');
+}
+/**Общие**/
+
+/*Обычная корзина*/
+.basket-small .icons .basket,
+.basket-small .icons .like {
+	display:inline-block;
+	vertical-align: middle;
+	position: relative;
+	outline:none;
+	white-space: nowrap;
+	text-decoration:none;
+	font-size: 0px;
+}
+.basket-small.fly .icons .basket,
+.basket-small.fly .icons .like,
+.basket-small.header .icons .basket,
+.basket-small.header .icons .like {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.basket-small.top .icons .basket,
+.basket-small.top .icons .like {
+	padding-left: 5px;
+}
+
+.basket-small .icons .basket .text-wrapper,
+.basket-small .icons .like .text-wrapper {
+	display: inline-block;
+	vertical-align: middle;
+    width: 18px;
+	height: 18px;
+	border: 2px solid #fff;
+	border-radius: 12px;
+	color: #fff;
+	text-align: center;
+    white-space: nowrap;
+	margin-right: 3px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.basket-small.fly .icons .basket .text-wrapper,
+.basket-small.fly .icons .like .text-wrapper,
+.basket-small.header .icons .basket .text-wrapper,
+.basket-small.header .icons .like .text-wrapper {
+	position: absolute;
+	display: block;
+	top: -10px;
+	left: -15px;
+}
+
+
+.basket-small .icons .basket .text.summ {
+	color: #1D1B1B;
+	margin-left: 9px;
+}
+.basket-small .icons .basket .text.summ:hover {
+	color:#a3a3a3;
+}
+/**Обычная корзина**/
+
+/*Летающая корзина*/
+/*#small_top_basket_js.fly {
+	position:fixed;
+	background:#fff;
+}
+basket-small-fly {
+	
+}*/
+
+.basket-small-fly div {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.basket-small-fly {
+	position:fixed;
+	right: -1px;
+	top:150px;
+	z-index:500;
+}
+.basket-small-fly > .header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin-left: -70px;
+    background: #f2f2f2;
+    width: 70px;
+    border-radius: 7px 0 0 7px;
+	z-index: -1;
+	cursor: pointer;
+}
+.basket-small-fly > .header .opener {
+    display: block;
+	padding-top: 16px;
+	padding-bottom: 16px;
+    text-align: right;
+    text-decoration: none;
+    padding-right: 13px;
+}
+
+.basket-small-fly > .header .opener .text {
+	font-size: 14px;
+}
+
+.basket-small-fly > .header .opener + .opener {
+    padding-top: 0px;
+}
+
+.basket-small-fly .header .call .icon,
+.basket-small-fly .header .basket .icon,
+.basket-small-fly .header .like .icon {
+    margin-right: 8px;
+	margin-left: 3px;
+}
+
+.basket-small-fly .sections {
+	background:#fff;
+	width: 0px;
+	box-shadow: 0 0 30px rgba(0,0,0,0.3);
+	border: 1px solid #dfdfdf;
+	border-right: none;
+    overflow: hidden;
+}
+
+.basket-small-fly .sections .section {
+	position: relative;
+	display: none;
+    min-height:120px;
+}
+
+.basket-small-fly .sections .section.product_section,
+.basket-small-fly .sections .section.like_section {
+    width: 800px;
+}
+
+.basket-small-fly .sections .section .header {
+	color: #3a58d2;
+	font-size: 16px;
+	padding: 20px 30px;
+}
+
+.basket-small-fly .sections .section .products-wrapper {
+	display: block;
+	height: 236px;
+	overflow-x: auto;
+}
+
+.basket-small-fly .sections .section .products {
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	width: 100%;
+}
+
+.basket-small-fly .sections .section .products .product-header {
+	position: relative;
+	height: 36px;
+	background: #fff;
+	border-bottom: 1px solid #e8e8e8;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.basket-small-fly .sections .section .products .product {
+	position: relative;
+	height: 99px;
+	background: #fff;
+	cursor: pointer;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.basket-small-fly .sections .section .products .product + .product {
+	border-top: 1px solid #e8e8e8;
+}
+
+.basket-small-fly .sections .section .products .product:hover {
+	background: #f7f7f7;
+}
+
+.basket-small-fly .sections .section .products .product .min-button-custom {
+	display: block;
+	width: 16px;
+	height: 16px;
+	background-position-x: 16px;
+	background: url('images/button-sprite.png') no-repeat;
+}.basket-small-fly .sections .section .products .product .min-button-custom:hover {
+	background-position-y: -16px;
+}
+.basket-small-fly .sections .section .products .product .min-button-custom.like {
+	background-position-x: 0px;
+}
+.basket-small-fly .sections .section .products .product .min-button-custom.delete {
+	background-position-x: -16px;
+}
+.basket-small-fly .sections .section .products .product .min-button-custom.to-cart {
+	background-position-x: -32px;
+}
+
+.basket-small-fly .sections .section .products .product .image {
+	position: relative;
+	display: block;
+	float: left;
+	width: 63px;
+	height: 63px;
+}
+
+.basket-small-fly .sections .section .products .product-header .margins,
+.basket-small-fly .sections .section .products .product .margins {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.basket-small-fly .sections .section .products .product .name {
+    display: block;
+	white-space: normal;
+	color: #7f7f7f;
+	text-decoration: underline;
+	font-size: 14px;
+	line-height: 16px;
+	max-height: 32px;
+    overflow: hidden;
+}
+
+.basket-small-fly .sections .section .products .product:hover .information .name {
+	/*color: #3a58d2;*/
+}
+
+.basket-small-fly .sections .section .products .product .price {
+	color: #222;
+	font-weight: bold;
+}
+
+.basket-small-fly .sections .section .buttons {
+	padding-top: 32px;
+	padding-bottom: 30px;
+	margin-left: 34px;
+	margin-right: 34px;
+	overflow: hidden;
+}
+
+.basket-small-fly .sections .section#call-section .buttons {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.basket-small-fly .sections .section .buttons .button {
+	font-size: 12px;
+	line-height: 12px;
+	padding: 12px 12px;
+	border-radius: 0px;
+}
+.basket-small-fly .sections .section .buttons .button.uni-button-gray {
+	padding: 11px 12px;
+}
+
+.basket-small-fly .sections .section .message {
+	text-align: center;
+}
+
+.basket-small-fly .sections .section .message .text {
+	padding: 30px 0px 10px 0px;
+	font-size: 16px;
+}
+
+.basket-small-fly .sections .section .message .buttons {
+	margin: 0px;
+	padding: 10px 0px 30px 0px;
+}
+/**Летающая корзина**/
+
+#small_top_basket_js.hidden-part {
+	display: none;
+}
+
+@media all and (max-width: 800px) {
+	#small_top_basket_js.hidden-part {
+		display: block;
+	}
+	
+	.basket-small-fly {
+		display: none;
+	}
+}

@@ -1,0 +1,167 @@
+.ocb-form {	
+	width:522px;
+	height: 410px;
+	padding:20px 30px 30px 28px;
+	overflow:hidden;	
+	position:relative;
+}
+.ocb-form .title {
+	font-size:25px;
+	color:#2e2e2e;
+}
+.ocb-form .comment {
+	color:#7c7c7c;
+	font-size:11px;
+}
+.ocb-form .ocb-form-wrap {
+	overflow:hidden;
+}
+.ocb-form .ocb-form-wrap .price_image {
+	float:left;
+	width:35%;
+	margin-top:25px;	
+}
+.ocb-form .ocb-form-wrap .price_image .image {
+	width:152px;
+	height:218px;
+	margin: 0 auto;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+.ocb-form .ocb-form-wrap .price_image .name_product {
+	font-size: 14px;
+	width: 152px;
+}
+.ocb-form .ocb-form-wrap .price_image .price {
+	width:152px;
+}
+.ocb-form .ocb-form-wrap .price_image .price span.new_price {
+	font-size:17px;
+	color:#434343;
+	font-weight:bold;
+}
+.ocb-form .ocb-form-wrap .price_image .price span.old_price {
+	color:#a77600;
+	font-size:14px;
+	padding-left:17px;
+	text-decoration:line-through;
+}
+.ocb-form .ocb-form-wrap .ocb-params {
+	float:right;
+	width:50%;
+}
+.ocb-form .ocb-form-wrap .ocb-params input[type="text"], .ocb-form .ocb-form-wrap .ocb-params textarea {
+	width:249px;
+}
+.ocb-form .ocb-form-wrap .ocb-params textarea {
+    height: 112px;
+    resize: none
+}
+.ocb-form .ocb-form-wrap .ocb-params .ocb-form-field label {
+	font-size:14px;
+	line-height: 25px
+}
+.ocb-form .ocb-form-wrap .ocb-params .ocb-form-field {
+	margin-bottom:15px;
+}
+.ocb-form .ocb-form-wrap .ocb-params button.button {
+	padding: 10px 55px;
+}
+.ocb-form .ocb-form-wrap .promt {	
+	width:100%;
+	font-size:11px;	
+	color:#575757;
+	text-align:left;		
+	padding-top: 15px;
+	top: 0;
+}
+.ocb-modules-button {
+	position:relative;
+}
+.ocb-form .starrequired {
+	color:#ff0000;
+}
+.ocb-form .ocb-form-wrap .ocb-params input[type="text"].nofill {
+	border:1px solid #f10000;
+}
+.requared {
+	display:none;
+	font-size:11px;
+	color:#f10000;
+	position:absolute;
+}
+.ocb-form-result {
+	float:right;
+	width:50%;
+	font-size:13px;
+}
+.ocb-result-icon-fail {
+	color:red;
+	position: absolute;
+	top: 36px;
+}
+.ocb-result-text {
+	margin-top: 18px;
+}
+.ocb-form .separator {
+	position:absolute;
+	width:16px;
+	height:301px;
+	left: 238px;
+	top: 48px;
+	background:url(images/pb_separator.png) right no-repeat;
+}
+.consent {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 10px 20px;
+}
+.consent label {
+	font-size: 11px;
+	color: #585858;
+	cursor: pointer;
+}.consent label:hover {color: #8e8e8e;}
+.consent label, .consent input {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+@media all and (max-width: 650px) {
+	.ocb-form {
+		width: 240px;
+		height: auto;
+	}
+	.ocb-form .ocb-form-wrap .uni-indents-vertical {
+		display: none;
+	}
+	.ocb-form-result {
+		float: none;
+		width: 100%;
+	}
+	.ocb-form .separator {
+		display: none;
+	}
+	.ocb-form .ocb-form-wrap .price_image {
+		float: none;
+		width: 100%;
+		margin-top: 20px;
+		text-align: center;
+	}
+	.ocb-form .ocb-form-wrap .price_image .image {
+		display: none;
+	}
+	.ocb-form .ocb-form-wrap .price_image .price {
+		width: 100%;
+		margin: 10px 0;
+	}
+	
+	.ocb-form .ocb-form-wrap .price_image .name_product {
+		width: 100%;
+	}
+	.ocb-form .ocb-form-wrap .ocb-params {
+		float: none;
+		width: 100%;
+	}
+}

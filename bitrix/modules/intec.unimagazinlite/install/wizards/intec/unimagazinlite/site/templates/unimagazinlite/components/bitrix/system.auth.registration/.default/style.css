@@ -1,0 +1,40 @@
+.bx_registration_page {
+	max-width:370px;
+}
+.bx_registration_page .header_grey {
+	font-size: 27px;
+	margin: 0.67em 0;
+	margin-bottom: 25px;
+}
+.bx_registration_page{
+	color: #3F3F3F;
+	font-size: 13px;
+	line-height: 20px;
+}
+.bx_registration_page strong {
+	font-size: 14px;
+	color: #1d1d1d;
+	line-height: 24px;
+	font-weight: normal;
+	display:block;
+}
+.bx_registration_page .starrequired{color: #ab0b45;}
+
+.bx_registration_page p {	
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	color: #575757;
+}
+.bx_registration_page .solid_button {
+	display: block;
+	height: 38px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 36px;
+	border-radius: 6px;
+	border: 0;
+	float: right;
+	width: 45%;
+	text-align: center;
+}

@@ -1,0 +1,35 @@
+.bx_forgotpassword_page{}
+.bx_forgotpassword_page p {
+	padding: 10px 0;
+}
+.bx_forgotpassword_page{
+	color: #3F3F3F;
+	font-size: 13px;
+	line-height: 20px;
+	max-width: 370px;
+}
+.bx_forgotpassword_page a{	
+	margin-top:12px;
+	display: block;	
+	text-decoration: underline;	
+	font-size: 14px;
+}
+.bx_forgotpassword_page a:hover{}
+.bx_forgotpassword_page strong{
+	font-size: 14px;
+	color: #1d1d1d;
+	line-height: 24px;
+	font-weight:normal
+}
+.fogot_psw_submit {
+	display: block;
+	height: 38px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 36px;
+	border-radius: 6px;
+	border: 0;
+	float: right;
+	width: 45%;
+	text-align: center;
+}

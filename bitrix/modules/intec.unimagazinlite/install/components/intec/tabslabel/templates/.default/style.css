@@ -1,0 +1,15 @@
+.tabs_block #tabs_block ul.nav {
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+.tabs_block #tabs_block ul.nav li {
+	float:left;
+	padding-right:18px;
+}
+.tabs_block #tabs_block ul.nav li a {
+	text-decoration:none;
+	font-size:14px;
+	color:#282828;
+	font-weight:bold;
+}

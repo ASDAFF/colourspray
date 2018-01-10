@@ -1,0 +1,271 @@
+
+
+/* Start:/bitrix/templates/unimagazinlite_s1/components/intec/reviews/reviews/style.css?15133256112509*/
+.reviews-box .button {
+	font-size: 14px;
+	padding: 8px 20px;
+}
+
+.reviews-box {
+	position: relative;
+}
+
+.reviews-box .reviews {
+	position: relative;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.reviews-box .reviews .review {
+	display: block;
+	width: 100%;
+	white-space: nowrap;
+	border-top: 1px solid #e8e8e8;
+}
+
+.reviews-box .reviews .review:nth-child(2) {
+	border-top: none;
+}
+
+.reviews-box .reviews .review .info {
+	display: block;
+	float: left;
+	margin-left: 60px;
+	width: 160px;
+	overflow: hidden;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.reviews-box .reviews .review .info .date {
+	font-size: 12px;
+	color: #8d8d8d;
+	margin-top: 40px
+}
+
+.reviews-box .reviews .review .info .name {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.reviews-box .reviews .review .description {
+	display: block;
+	margin-left: 265px;
+	font-size: 12px;
+	white-space: normal;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.reviews-box .reviews .form {
+	position: relative;
+	display: none;
+	overflow: hidden;
+}
+
+.reviews-box .reviews .form .row {
+	position: relative;
+	display: block;
+    width: 100%;
+	overflow: hidden;
+	margin: 0px;
+}
+
+.reviews-box .reviews .form  .label {
+	display: block;
+	/*float: left;*/
+	width: 40px;
+	line-height: 35px;
+	padding: 0px;
+	font-size: 10px;
+	color: #000;
+	text-align: left;
+	font-weight: bold;
+}
+
+.reviews-box .reviews .form .label .needed {
+	color: #f00;
+}
+
+.reviews-box .reviews .form .control {
+	position: relative;
+	display: block;
+	/*margin-left: 60px;*/
+	text-align: left;
+}
+
+.reviews-box .reviews .form .row .control textarea,
+.reviews-box .reviews .form .row .control input {
+	display: block;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	resize: none;
+}
+
+.reviews-box .reviews .form .row .control textarea.ui-state-error,
+.reviews-box .reviews .form .row .control input.ui-state-error {
+	border: 1px solid #d55b4b;
+}
+
+.reviews-box #message {
+    display: none;
+    background: #f7f7f7;
+    border: 1px solid #e7e7e7;
+    height: 0px;
+    line-height: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media all and (max-width: 600px) {
+	.reviews-box .reviews .review .info {
+		margin-left: 0px;
+		float: none;
+		margin-top: 20px;
+		margin-bottom: 0px;
+	}
+	
+	.reviews-box .reviews .review .info .date {
+		margin-top: 10px;
+	}
+	
+	.reviews-box .reviews .review .description {
+		margin-left: 0px;
+		padding-top: 10px;
+	}
+    
+    .reviews-box .reviews .form .row {
+        width: auto;
+    }
+}
+/* End */
+
+
+/* Start:/bitrix/templates/unimagazinlite_s1/components/bitrix/catalog.section/slider/style.css?15133256121915*/
+.slider-wrapper {
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+.slider {
+	position: relative;
+	margin-top: 0px;
+	display: block;
+	width: auto;
+}
+
+.slider .title {
+	font-size: 21px;
+	height: 21px;
+	margin-bottom: 25px;
+	color: #444648;
+	font-weight: normal;
+	margin-top: 0px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.slider .nbs-flexisel-container {
+	position: static;
+	display: block;
+	width: initial;
+	max-width: initial;
+}
+
+.slider .nbs-flexisel-inner {
+	position: static;
+	display: block;
+	width: initial;
+	max-width: initial;
+	margin: 0px;
+}
+
+.slider .nbs-flexisel-nav-left {
+	position: absolute;
+	top: 3px !important;
+	left: auto;
+	right: 38px;
+}
+
+.slider .nbs-flexisel-nav-right {
+	position: absolute;
+	top: 3px !important;
+	right: 8px;
+}
+
+.slider .element {
+	display: block;
+	margin-left: 9px;
+	margin-right: 9px;
+}
+
+.slider .element > .wrapper {
+	border: 1px solid #ddd;
+	padding: 9px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+
+.slider .element .image {
+	position: relative;
+	display: block;
+	float: left;
+	width: 33%;
+	padding-top: 33%;
+	overflow: hidden;
+}
+
+.slider .element .image .wrapper {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 0px;
+}
+
+.slider .element .image .wrapper img {
+	width: auto;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+}
+
+.slider .element .information {
+	display: block;
+	margin-left: 33%;
+	padding-left: 5px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.slider .element .information .name {
+	display: block;
+	font-size: 13px;
+	line-height: 17px;
+	height: 34px;
+	margin-bottom: 17px;
+	overflow: hidden;
+	text-align: left;
+	text-decoration: none;
+}
+
+.slider .element .information .price {
+	font-size: 15px;
+	font-weight: bold;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100%;
+}
+/* End */
+/* /bitrix/templates/unimagazinlite_s1/components/intec/reviews/reviews/style.css?15133256112509 */
+/* /bitrix/templates/unimagazinlite_s1/components/bitrix/catalog.section/slider/style.css?15133256121915 */

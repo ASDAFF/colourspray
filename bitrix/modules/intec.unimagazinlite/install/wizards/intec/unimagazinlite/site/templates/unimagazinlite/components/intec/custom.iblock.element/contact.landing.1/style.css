@@ -1,0 +1,97 @@
+.contact.landing-1 {
+    display: block;
+    background: #f2f2f2;
+    border-radius: 4px;
+    padding: 30px;
+}
+
+.contact.landing-1 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;    
+}
+
+.contact.landing-1 .contact-information {
+    display: block;
+    position: relative;
+    margin: -8px;
+    overflow: hidden;
+    height: 100%;
+    font-size: 0px;
+    text-align: left;
+}
+
+.contact.landing-1 .contact-information .contact-information-field-information {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 0px;
+}
+
+.contact.landing-1 .contact-information .contact-information-field-information .contact-information-field-information-caption {
+    display: block;
+    font-size: 12px;
+    line-height: 18px;
+    color: #656565;
+    padding-right: 52px;
+}
+
+.contact.landing-1 .contact-information .contact-information-field-information .contact-information-field-information-value {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #1a1a1a;
+    white-space: normal;
+    padding-right: 52px;
+}
+
+.contact.landing-1 .contact-information .contact-information-phone,
+.contact.landing-1 .contact-information .contact-information-mail,
+.contact.landing-1 .contact-information .contact-information-address,
+.contact.landing-1 .contact-information .contact-information-button {
+    display: inline-block;
+    padding: 8px;
+    width: 25%;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.contact.landing-1 .contact-information .contact-information-button {
+    text-align: center;
+}
+
+.contact.landing-1 .contact-information .contact-information-button .uni-button {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 15px 30px;
+}
+
+.contact.landing-1 .contact-information .contact-information-phone .contact-information-phone-icon,
+.contact.landing-1 .contact-information .contact-information-mail .contact-information-mail-icon,
+.contact.landing-1 .contact-information .contact-information-address .contact-information-address-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+    background: url('images/sprite.png') no-repeat;
+}
+
+.contact.landing-1 .contact-information .contact-information-mail .contact-information-mail-icon {
+    background-position: -42px 0px;
+}
+
+.contact.landing-1 .contact-information .contact-information-address .contact-information-address-icon {
+    background-position: -84px 0px;
+}
+
+@media all and (max-width: 1000px) {
+    .adaptiv .contact.landing-1 .contact-information .contact-information-phone,
+    .adaptiv .contact.landing-1 .contact-information .contact-information-mail,
+    .adaptiv .contact.landing-1 .contact-information .contact-information-address,
+    .adaptiv .contact.landing-1 .contact-information .contact-information-button {
+        width: 100%;
+    }
+}

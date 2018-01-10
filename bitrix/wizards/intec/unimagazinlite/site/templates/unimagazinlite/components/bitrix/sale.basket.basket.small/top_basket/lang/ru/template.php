@@ -1,0 +1,31 @@
+<?
+$MESS['TSBS_READY'] = "Позиции в Вашей корзине:";
+$MESS['TSBS_PRICE'] = "Цена:";
+$MESS['TSBS_QUANTITY'] = "Количество:";
+$MESS['TSBS_2BASKET'] = "Изменить количество";
+$MESS['TSBS_2ORDER'] = "Оформить заказ";
+$MESS['TSBS_DELAY'] = "Отложенные позиции:";
+$MESS['TSBS_UNAVAIL'] = "Недоступны для покупки:";
+$MESS['TSBS_SUBSCRIBE'] = "Подписка:";
+$MESS['TITLE']="Корзина";
+$MESS['PRODUCTS']="Товаров";
+$MESS['SUMM']="Сумма";
+$MESS['LIKED']='Отложенные';
+$MESS["TITLE_ORDERCALL_TOP"] = "Заказать звонок";
+$MESS["TITLE_BASKET_TOP"] = "Корзина";
+$MESS["TITLE_LIKEBASKET_TOP"] = "Отложенные товары";
+$MESS["BASKET_FLY_TO_BASKET"] = "Перейти в корзину";
+$MESS["BASKET_FLY_ORDER"] = "Оформить заказ";
+$MESS["BASKET_FLY_GO_BUY"] = "Продолжить покупки";
+$MESS["BASKET_FLY_EMPTY_CART"] = "Ваша корзина пуста";
+$MESS["BASKET_FLY_EMPTY_LIKE"] = "Список отложенных товаров пуст";
+$MESS["BASKET_FLY_GO_NEW_BUY"] = "Перейти к покупкам";
+$MESS["BASKET_FLY_CLOSE"] = "Закрыть";
+$MESS["BASKET_FLY_GOODS_IN_CART"] = "Товаров в корзине";
+$MESS["BASKET_FLY_GOODS_IN_LIKE"] = "Отложено товаров";
+$MESS["BASKET_FLY_TABLE_NAME"] = "Наименование";
+$MESS["BASKET_FLY_TABLE_QUANTITY"] = "Количество";
+$MESS["BASKET_FLY_TABLE_PRICE"] = "Цена";
+$MESS["BASKET_FLY_TABLE_ALL_PRICE"] = "Итого";
+$MESS["BASKET_FLY_NO_SUMM"] = "0 руб.";
+?>

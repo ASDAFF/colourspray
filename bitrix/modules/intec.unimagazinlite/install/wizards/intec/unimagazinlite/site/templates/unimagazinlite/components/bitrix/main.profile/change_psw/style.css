@@ -1,0 +1,25 @@
+.bx_profile .save_personal {
+	width:130px;
+	height:42px;
+	line-height:42px;
+	text-align:center;
+	border:0;
+	color:#fff;
+	border-radius:6px;
+	font-size: 14px;
+}
+.change_psw input[type="text"], .change_psw input[type="password"]{
+	max-width:580px;
+	display:inline-block;
+}
+.change_psw  .one_group span {
+	color:#c7c7c7;
+	font-size:13px;
+	padding-left:32px;
+}
+font.notetext {
+	color: green;
+	font-size: 14px;
+	margin-bottom: 20px;
+	display:block;
+}

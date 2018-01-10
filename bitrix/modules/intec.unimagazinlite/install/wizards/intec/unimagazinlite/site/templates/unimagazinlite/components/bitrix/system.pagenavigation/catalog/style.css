@@ -1,0 +1,92 @@
+.paginator {
+    display: block;
+}
+
+.paginator .ajax {
+    display: block;
+    text-align: center;
+}
+
+.paginator .ajax .button {
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+    color: #1a58d7;
+    transition: 0.3s;
+}.paginator .ajax .button:hover {
+    color: #484848 !important;
+}
+
+.paginator .ajax .button .icon-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+    background: #1a58d7;
+    border-radius: 16px;
+    margin-right: 10px;
+    transition: 0.3s;
+    font-size: 0px;
+    text-align: center;
+}.paginator .ajax .button:hover .icon-wrapper {
+    background: #484848 !important;
+}
+
+.paginator .ajax .button .icon-wrapper .icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background: url('images/update.png');
+    transition-property: transform;
+    transition: 0.3s;
+}.paginator .ajax .button:hover .icon-wrapper .icon {
+    transform:  rotate(360deg);
+}.paginator .ajax .button.ui-state-working .icon-wrapper .icon {
+    transition: 10s;
+    transform:  rotate(7200deg);
+}
+
+.paginator .ajax .button .text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    color: inherit;
+}
+
+.paginator .static {
+    position: relative;
+    display: block;
+    font-size:  0px;
+    text-align: center;
+}
+
+.paginator .static .buttons {
+    display: inline-block;
+    font-size: 0px;
+}
+
+.paginator .static .buttons .button {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 6px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 12px;
+}
+
+.paginator .static .buttons .uni-slider-button-left {
+    position: absolute;
+    display: block;
+    top: -4px;
+    left: 0px;
+}
+.paginator .static .buttons .uni-slider-button-right {
+    position: absolute;
+    display: block;
+    top: -4px;
+    right: 0px;
+}

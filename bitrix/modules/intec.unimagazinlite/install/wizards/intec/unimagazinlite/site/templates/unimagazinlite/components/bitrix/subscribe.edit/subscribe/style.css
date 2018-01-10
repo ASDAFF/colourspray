@@ -1,0 +1,19 @@
+.subscription  .uni-input-text {
+	max-width: 560px;
+	width: 100%;
+}
+font.notetext {
+	display: block;
+	padding-bottom: 15px;
+}
+.field-name {
+	font-size: 15px;
+	color:#1f1f1f;
+	padding-bottom: 15px;
+}
+input[type="checkbox"] {
+	display:none;
+}
+.subscription .uni-button {
+	padding: 11px 25px;
+}

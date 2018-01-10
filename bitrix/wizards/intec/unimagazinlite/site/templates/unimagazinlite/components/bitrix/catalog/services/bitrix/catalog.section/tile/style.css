@@ -1,0 +1,85 @@
+.services-section.tile > .description {
+	display: block;
+	white-space: normal;
+	margin-top: 10px;
+	padding-right: 8px;
+	padding-left: 8px;
+}
+
+.services-section.tile > .description.only {
+	margin-top: 0px;
+}
+
+.services-section.tile {
+	position: relative;
+	display: block;
+	background: transparent;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-top: -8px;
+	margin-bottom: -8px;
+}
+
+.services-section.tile .element {
+	position: relative;
+	display: block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.services-section.tile .element .wrapper {
+	position: relative;
+	display: block;
+	border: 1px solid #ebebeb;
+	text-decoration: none;
+	overflow: hidden;
+}.services-section.tile .element .wrapper:focus {
+	outline: none;
+}
+
+.services-section.tile .element .image {
+	position: relative;
+	width: 100%;
+	padding-top: 100%;
+}
+
+.services-section.tile .element .image > div {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-weight: bold;
+    font-size: 0px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.services-section.tile .element .image > div img {
+	position: relative;
+    display: inline-block;
+    vertical-align: middle;
+	border: none;
+    max-width: 100%;
+	max-height: 100%;
+}
+
+.services-section.tile .element .text {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.services-section.tile .element .text .text-wrapper {
+	font-size: 13px;
+	line-height: 19px;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	white-space: normal;
+	height: 38px;
+	overflow: hidden;
+}

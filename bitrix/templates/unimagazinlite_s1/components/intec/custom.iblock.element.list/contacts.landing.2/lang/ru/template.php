@@ -1,0 +1,3 @@
+<?
+    $MESS["CONTACTS_CONTACTS_CONTACT_CITY"] = "г.";
+?>

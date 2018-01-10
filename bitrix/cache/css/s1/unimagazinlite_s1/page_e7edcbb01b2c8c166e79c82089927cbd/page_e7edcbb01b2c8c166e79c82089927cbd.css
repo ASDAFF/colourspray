@@ -1,0 +1,657 @@
+
+
+/* Start:/bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/style.css?1513325612611*/
+.startshop-button.to-cart {
+	background: #1a58d7;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+}.startshop-button.to-cart:hover {
+	background: #6B8ED6;
+	color: #ffffff;
+}
+
+.startshop-button.to-cart-added {
+	background: #6B8ED6;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+}.startshop-button.to-cart-added:hover {
+	color: #ffffff;
+}
+
+ @media all and (max-width: 800px) {
+    .startshop-column-left.adaptiv {
+        float: none !important;
+        width: auto !important;
+ 	}
+
+     .startshop-column-right.adaptiv {
+         float: none !important;
+         width: auto !important;
+     }
+ }
+/* End */
+
+
+/* Start:/bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/bitrix/menu/.default/style.css?15133256126558*/
+.startshop-menu {	
+	background:#fff;
+	border-radius:3px;
+}
+
+.startshop-menu > ul{
+	display:block;
+	margin-top:0;
+	padding:0;
+	width:100%;
+	border-radius:3px;
+	background:#fff;
+	list-style:none;
+	border:1px solid #e8e8e8;
+}
+.startshop-menu > ul li {
+	border-top: 1px solid #e8e8e8;
+}
+.startshop-menu > ul li:first-child{
+	border:0;
+}
+/* 1 уровень */
+.startshop-menu .startshop-level-first {
+	display:block;
+	padding:0;
+	position: relative;
+}
+.startshop-menu .startshop-level-first > a{
+	position: relative;
+    z-index: 105;
+    display: block;
+    padding: 13px 20px 14px 20px;
+    color: #484848;
+    vertical-align: middle;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+.startshop-menu .startshop-level-first:first-child,
+.startshop-menu .startshop-level-first:first-child > a{border-radius:4px 4px 0 0}
+.startshop-menu .startshop-level-first:last-child,
+.startshop-menu .startshop-level-first:last-child>a {border-radius:0 0 4px 4px}
+.startshop-menu ul:last-child .startshop-level-first:last-child>a{border-bottom:none}
+
+.startshop-menu .startshop-level-first>a{}
+.startshop-menu .startshop-level-first.hover>a{
+	background-image:url(/bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/bitrix/menu/.default/images/menu_arrow.png);
+	background-repeat:no-repeat;
+	background-position:95% 50%;
+}
+.startshop-menu .startshop-level-first.hover>a{		
+	border:none;		
+}
+.startshop-menu li:first-child .startshop-level-first.hover>a{
+	border-radius:3px 3px 0 0;
+}
+.startshop-menu .startshop-level-first.dropdown.hover{}
+.startshop-menu .startshop-level-first.dropdown.hover>a{z-index:1500}
+
+.startshop-menu .startshop-level-first>a:active,
+.startshop-menu .startshop-level-first.current>a{}
+/* // 1й уровень */
+/* Контейнер*/
+.startshop-menu .startshop-level-first .startshop-children-container{
+	position:absolute;
+	top:0;
+	left:100%;
+	z-index:1300;
+	display:none;
+	overflow:hidden;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius: 3px;	
+	background: #ffffff !important;
+	border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 18px rgba(0,0,0,0.15);
+}
+.startshop-menu .startshop-level-first.hover .startshop-children-container{display:block}
+.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block{
+	float:left;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	margin-bottom:-20000px;
+	padding:9px 21px;
+	padding-bottom:20000px;
+	min-width:240px;
+	max-width:320px;	
+}
+.startshop-shadow-fix{display:none}
+.startshop-menu .dropdown:hover .startshop-shadow-fix,
+.startshop-menu .dropdown.hover .startshop-shadow-fix {
+	position: absolute;
+	top: 0;
+	right: -2px;
+	bottom: -5px;
+	z-index: 1500;
+	display: block;
+	width: 5px;
+	opacity: 1;
+}
+
+.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block:first-child{border-left:none}
+.startshop-menu .startshop-level-first .startshop-children-container.b1 .startshop-children-block{width:100%}
+.startshop-menu .startshop-level-first .startshop-children-container.b2 .startshop-children-block{
+	border-radius: 5px;
+    	border: 1px solid rgba(232, 232, 232, 0.43);
+}
+.startshop-menu .startshop-level-first .startshop-children-container.b3 .startshop-children-block{width:33.3%}
+.startshop-menu .startshop-level-first .startshop-children-container.b4 .startshop-children-block{width:25%}
+.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block.advanced{
+	border-left:none;
+	background:#f7fafb;
+	box-shadow:inset 5px 0 7px -5px rgba(0,0,0,.12);
+}
+/*// Контейнер*/
+/* 2й уровень*/
+.startshop-menu .startshop-level-first ul{
+	display:block;
+	margin:0;
+	padding:0 0 10px 0;
+	list-style:none;
+}
+.startshop-menu .startshop-level-first .bx_children_advanced_panel {
+	display: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block li.parent>a{
+	display:block;
+	padding:5px 0;
+}
+
+/*.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block li.parent>a:hover{
+	
+}*/
+/* //2й уровень*/
+/* 3й уровень */
+.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block li.parent ul{border-bottom:1px solid #f2f2f2}
+.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block li.parent:last-child ul{border-bottom:none}
+.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block li.parent ul li{line-height:24px}
+.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block li.parent ul a{
+	display:block;
+	padding:5px 10px;
+}
+/*.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block li.parent ul a:hover{
+	background:#f0f6f8;
+	box-shadow:inset 0 1px 1px 0 #e3e9eb;
+}*/
+/* // 3й уровень */
+
+/* Панель */
+.startshop-menu .startshop-level-first .startshop-children-container .bx_children_advanced_panel{
+	display:none;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	text-align:center;
+}
+.startshop-menu .startshop-level-first .startshop-children-block.advanced .bx_children_advanced_panel{display:block !important}
+.startshop-menu .startshop-level-first .bx_children_advanced_panel img{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	max-width:100%;
+	max-height:220px;
+	border:1px solid #e7e9ea;
+}
+.startshop-menu .startshop-level-first .bx_children_advanced_panel p{
+	max-width:100%;
+	max-height:220px;
+	color:#000;
+	text-align:left;
+	white-space:normal;
+	font-weight:normal;
+	font-size:12px;
+	line-height:18px;
+}
+
+/* // Панель*/
+.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block>ul>li{
+	display:block;	
+}
+.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block>ul>li>a{
+	display:block;
+	color:#484848;
+	text-decoration:none;	
+	font-size: 14px;
+	line-height:23px;
+}
+.startshop-menu .startshop-level-first .startshop-children-container .startshop-children-block>ul>li>a:hover{
+	
+}
+.startshop-menu .startshop-level-first ul li ul li a{
+	color:#484848;
+	text-decoration:none;
+	font-size: 14px;
+	line-height:16px;
+}
+
+
+@media (max-width:569px) {
+	.adaptiv .startshop-menu{display:none}
+	.adaptiv .header_inner_bottom_line{
+		overflow:hidden;
+		height:auto;
+	}
+}
+/* End */
+
+
+/* Start:/bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/bitrix/catalog.section.list/tile/style.css?15133256121710*/
+.startshop-catalog .startshop-catalog-sections-list {
+	position: relative;
+	display: block;
+	background: transparent;
+	white-space: nowrap;
+}
+
+.startshop-catalog .startshop-catalog-sections-list .startshop-element {
+	position: relative;
+	display: block;
+}
+
+.startshop-catalog .startshop-catalog-sections-list .startshop-element .startshop-wrapper {
+	position: relative;
+	display: block;
+	border: 1px solid #ebebeb;
+	text-decoration: none;
+	width: auto;
+}.startshop-catalog .startshop-catalog-sections-list .startshop-element .startshop-wrapper:focus {
+	outline: none;
+}
+
+.startshop-catalog .startshop-catalog-sections-list .startshop-element .startshop-image-wrapper {
+	position: relative;
+	width: 100%;
+	padding-top: 100%;
+}
+
+.startshop-catalog .startshop-catalog-sections-list .startshop-element .startshop-image-wrapper > div {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-weight: bold;
+    font-size: 0px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.startshop-catalog .startshop-catalog-sections-list .startshop-element .startshop-image-wrapper > div img {
+	position: relative;
+    display: inline-block;
+    vertical-align: middle;
+	border: none;
+    max-width: 100%;
+	max-height: 100%;
+}
+
+.startshop-catalog .startshop-catalog-sections-list .startshop-element .startshop-text {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.startshop-catalog .startshop-catalog-sections-list .startshop-element .startshop-text .startshop-text-wrapper {
+	font-size: 13px;
+	line-height: 19px;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	white-space: normal;
+	height: 38px;
+	overflow: hidden;
+}
+/* End */
+
+
+/* Start:/bitrix/templates/unimagazinlite_s1/components//bitrix/system.pagenavigation/catalog/style.css?15133256121963*/
+.paginator {
+    display: block;
+}
+
+.paginator .ajax {
+    display: block;
+    text-align: center;
+}
+
+.paginator .ajax .button {
+    display: inline-block;
+    text-align: left;
+    cursor: pointer;
+    color: #1a58d7;
+    transition: 0.3s;
+}.paginator .ajax .button:hover {
+    color: #484848 !important;
+}
+
+.paginator .ajax .button .icon-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+    background: #1a58d7;
+    border-radius: 16px;
+    margin-right: 10px;
+    transition: 0.3s;
+    font-size: 0px;
+    text-align: center;
+}.paginator .ajax .button:hover .icon-wrapper {
+    background: #484848 !important;
+}
+
+.paginator .ajax .button .icon-wrapper .icon {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background: url('/bitrix/templates/unimagazinlite_s1/components//bitrix/system.pagenavigation/catalog/images/update.png');
+    transition-property: transform;
+    transition: 0.3s;
+}.paginator .ajax .button:hover .icon-wrapper .icon {
+    transform:  rotate(360deg);
+}.paginator .ajax .button.ui-state-working .icon-wrapper .icon {
+    transition: 10s;
+    transform:  rotate(7200deg);
+}
+
+.paginator .ajax .button .text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    font-weight: bold;
+    color: inherit;
+}
+
+.paginator .static {
+    position: relative;
+    display: block;
+    font-size:  0px;
+    text-align: center;
+}
+
+.paginator .static .buttons {
+    display: inline-block;
+    font-size: 0px;
+}
+
+.paginator .static .buttons .button {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 6px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 12px;
+}
+
+.paginator .static .buttons .uni-slider-button-left {
+    position: absolute;
+    display: block;
+    top: -4px;
+    left: 0px;
+}
+.paginator .static .buttons .uni-slider-button-right {
+    position: absolute;
+    display: block;
+    top: -4px;
+    right: 0px;
+}
+/* End */
+
+
+/* Start:/bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/bitrix/catalog.section/tile/style.css?15133256125959*/
+.startshop-catalog .startshop-catalog-section {
+	position: relative;
+	display:block;
+}
+
+.startshop-catalog .startshop-catalog-section .startshop-element {
+	height: auto;
+	font-size: 0px;
+	overflow: hidden;
+	border: 1px solid #e8e8e8;
+}
+
+.startshop-catalog .startshop-catalog-section .startshop-element .startshop-image-container {
+	position: relative;
+	display: block;
+	height: auto;
+	margin: 12px;
+	vertical-align: top;
+	overflow: hidden;
+	text-align: center;
+	font-size: 0px;
+}
+
+.startshop-catalog .startshop-catalog-section .startshop-element .startshop-image-container .startshop-image-wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.startshop-catalog .startshop-catalog-section .startshop-element .startshop-image-container .startshop-image-wrapper .startshop-image-wrapper-wrapper {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 30px 0px;
+    top: 0px;
+    left: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.startshop-catalog .startshop-catalog-section .startshop-element .startshop-information {
+	display: block;
+	vertical-align: top;
+	overflow: hidden;
+	white-space: normal;
+	text-align: left;
+	font-size: 14px;
+	margin: 12px;
+}
+
+.startshop-catalog .startshop-catalog-section .startshop-element .startshop-information .startshop-name {
+	display: block;
+	font-size: 14px;
+	line-height: 16px;
+	text-decoration: none;
+	height: 32px;
+}
+
+.startshop-catalog .startshop-catalog-section .startshop-element .startshop-buys {
+	position: relative;
+	right: 0px;
+	text-align: left;
+	white-space: nowrap;
+	margin: 12px;
+	border-top: 1px solid #e8e8e8;
+}
+
+.startshop-catalog .startshop-catalog-section .startshop-element .startshop-buys .startshop-price {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	text-align: left;
+	margin-top: 15px;
+	white-space: nowrap;
+	height: 36px;
+}
+
+.startshop-catalog .startshop-catalog-section .startshop-element .startshop-buys .startshop-price .startshop-new {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.startshop-catalog .startshop-catalog-section .startshop-element .buys > .startshop-buy {
+	position: absolute;
+	display: block;
+	right: 0px;
+	top: -2px;
+}
+
+.startshop-catalog .startshop-catalog-section .startshop-element .startshop-state-unavailable {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	margin-top: 19px;
+	font-size: 12px;
+	line-height: 12px;
+	color: #797979;
+}
+
+//
+.startshop-catalog .startshop-catalog-section .startshop-element {
+margin-left:8px;
+margin-right:8px;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .marks {
+	top: 12px;
+	left: 12px;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element:first-child {
+	margin-left:0!important;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element:nth-child(4n+1) {
+	margin-left:0;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .image_product {
+	width: 68%;
+	padding-top: 68%;
+	display: block;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: 0 auto;
+	position: static;
+	outline:0;
+	margin-bottom:10px;
+	margin-top: 15px;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element.image_product:hover {
+	-webkit-filter: contrast(110%);
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .name_product {
+	overflow:hidden;	
+	width: 88%;
+	margin:0 auto;
+	line-height:18px;
+	/*border-bottom:1px solid #e8e8e8;*/
+	margin-top:30px;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .price_block {		
+	width:100%;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .price_block .old_price {
+	float:right;
+	line-height: 28px;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .price_block .old_price, 
+.startshop-catalog .startshop-catalog-section .startshop-element .price_block .old_price span{
+	color:#2d2d2d;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:line-through;
+	
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .name_product a.name {
+	display: block;
+	font-size: 15px;
+	font-weight:normal;
+	margin-bottom: 10px;
+	height:37px;
+	overflow:hidden;
+	display:block;
+	color:black;
+	text-decoration:none;
+}
+.popular_slider ul.popular .one_section_product_cells .name_product a:hover{
+	    color: #888b92;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .name_product a.name_group {
+	display: block;
+	font-size:14px;
+	line-height: 14px;
+	height: 14px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	color:#b4b4b4;
+	text-decoration:none;
+	
+	/*text-transform: capitalize;*/
+}
+.startshop-catalog .startshop-catalog-section .startshop-element {
+	padding-top: 23px;
+	position:relative;
+	margin-bottom:14px;
+	padding-bottom:8px;	
+	border:1px solid #e8e8e8;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .name_product a:hover{
+	color:#888b92;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .buys {
+	position: relative;
+	width: 88%;
+	margin:15px auto;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .min-buttons {
+	position:absolute;
+	top:12px;
+	right: 12px;
+	margin: -4px 0px;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .min-buttons .min-button {
+	margin: 4px 0px;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .price_block {
+	margin-left:0;
+	float:left;
+	height:25px;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .price_block .new_price {
+	font-size:17px;
+	font-weight:bold;
+	color:#3b3b43;	
+	border-radius:3px;
+	float:left;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .price_block .new_price span { 
+	font-size:17px;
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .buy_block {	
+	float:right;    
+}
+.startshop-catalog .startshop-catalog-section .startshop-element .big_buy{
+	width:100%;
+} 
+/* End */
+/* /bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/style.css?1513325612611 */
+/* /bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/bitrix/menu/.default/style.css?15133256126558 */
+/* /bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/bitrix/catalog.section.list/tile/style.css?15133256121710 */
+/* /bitrix/templates/unimagazinlite_s1/components//bitrix/system.pagenavigation/catalog/style.css?15133256121963 */
+/* /bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/bitrix/catalog.section/tile/style.css?15133256125959 */

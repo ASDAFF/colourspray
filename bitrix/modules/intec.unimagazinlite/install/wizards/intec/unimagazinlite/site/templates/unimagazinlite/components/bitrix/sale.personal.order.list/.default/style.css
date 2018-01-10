@@ -1,0 +1,133 @@
+.bx_my_order .items {
+	width:100%;
+}
+.bx_my_order {
+	border:1px solid #ddd;
+	margin-bottom:18px;	
+}
+.bx_my_order_switch {
+	margin-bottom:30px;
+}
+.bx_my_order_switch .bx_mo_link {
+	font-size:13px;
+	font-weight:bold;
+	color:#727272;
+	text-decoration:none;
+	padding-right:18px;
+}
+.bx_my_order_switch .bx_mo_link.active {
+	color:#171717;
+}
+.bx_my_order .items thead th {
+	border-bottom:1px solid #ddd;
+	font-size:13px;
+	color:#c3c3c3;
+	padding:18px;
+	font-weight:normal;
+	text-align:left;
+}
+.bx_my_order .items tr:first-child td{
+	padding-top:18px;
+}
+.bx_my_order .items td {
+	color:#282828;
+	font-size:14px;
+	padding:18px;
+	padding-top:0;
+	text-align:left;
+}
+.bx_my_order .header_order {
+	padding: 18px 23px;
+	border-bottom:1px solid #ddd;
+	position:relative;
+}
+.bx_my_order .header_order .body {
+	padding-right:20px;
+	font-size:14px;
+	color:#787878;
+}
+.bx_my_order .header_order .body .link_order {
+	font-weight:bold;
+}
+.bx_my_order .header_order .switch_order {
+	position:absolute;
+	right:18px;
+	top:18px;
+	width:18px;
+	height:18px;
+	border-radius:3px;
+	cursor:pointer;
+}
+.bx_my_order .header_order .switch_order:after {
+	content:"";
+	width:7px;
+	height:6px;
+	background:url(images/arrows.png) no-repeat bottom left;
+	position:absolute;
+	left: 4px;
+	right: 0;
+	top: 1px;
+	bottom: 0;
+	margin: auto;
+}
+.bx_my_order .header_order .switch_order.active:after {
+	background:url(images/arrows.png) no-repeat top left;
+	left: 1px;
+	top: 2px;
+}
+.bx_my_order .body_order {	
+	padding: 18px 23px;
+	border-bottom:1px solid #ddd;
+	line-height:32px;
+	font-size:13px;
+}
+.bx_my_order .body_order table {
+	width:100%;
+}
+.bx_my_order_status.red {
+	color:red;
+}
+.bx_my_order_status.green {
+	color:#51951f;
+}
+.bx_my_order_status.yellow {
+	color:rgba(191, 145, 124, 0.81);
+}
+.bx_my_order_status.gray {
+	color:grey;
+}
+.bx_my_order .body_order .button {	
+	height:32px;
+	line-height:32px;
+	text-decoration:none;
+	color:#fff;
+	font-size:13px;
+	width:125px;
+	text-align:center;
+	border-radius:6px;
+	float:right;
+	margin-left:5px;
+}
+.bx_my_order .body_order .cancel_order:hover {
+	background:#e0dfdf;
+}
+.bx_my_order .body_order  span {
+	color:#737373;
+}
+.bx_my_order .body_order .cancel_order {
+	background:#ddd;
+	color:#595959;
+}
+@media (max-width:700px){
+	.adaptiv .bx_my_order .body_order table td {
+		display:block;
+		width:100%;
+		text-align:left!important;
+		margin-bottom:5px;
+	}
+	.adaptiv .bx_my_order .body_order .button {
+		float:left;
+		margin-left:0;
+		margin-right:5px;
+	}
+}

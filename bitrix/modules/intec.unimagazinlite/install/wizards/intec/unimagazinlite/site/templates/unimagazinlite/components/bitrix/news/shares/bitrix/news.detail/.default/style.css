@@ -1,0 +1,67 @@
+.share {
+    display: block;
+}
+
+.share > .image {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.share > .image img {
+    display: block;
+    width: 100%;
+}
+
+.share > .image .text {
+    display: block;
+    position: absolute;
+    background: #f00;
+    color: #fff;
+    height: 100%;
+    font-size: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.share > .image .text.location-left {
+    top: 0px;
+    left: 0px;
+    right: auto;
+    bottom: auto;
+}
+
+.share > .image .text.location-right {
+    top: 0px;
+    right: 0px;
+    left: auto;
+    bottom: auto;
+}
+
+.share > .image .text .text-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+    color: inherit;
+    background: inherit;
+    font-size: 14px;
+}
+
+.share > .image .text .text-wrapper * {
+    color: inherit;
+    background: inherit;
+}
+
+.share > .date {
+    font-size: 14px;
+    font-weight:  bold;
+}
+
+.share > .description {
+    text-align: justify;
+}
+
+@media all and (max-width: 500px) {
+    .adaptiv .share > .image .text {
+        display: none;    
+    }
+}

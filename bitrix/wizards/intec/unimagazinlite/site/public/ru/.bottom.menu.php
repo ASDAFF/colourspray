@@ -1,0 +1,25 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Компания", 
+		SITE_DIR."company/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Покупки", 
+		SITE_DIR."buys/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Помощь", 
+		SITE_DIR."help/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

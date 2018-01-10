@@ -1,0 +1,101 @@
+.form_feedback {
+	width: 262px;
+}
+.form_feedback .header_grey {
+	margin-bottom: 18px
+}
+.form_feedback_under {
+	padding: 39px 27px 30px;
+	font-size: 14px;
+}
+.form_feedback .header_grey {
+	font-size: 21px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	color: #1d1d1d;
+	font-weight: bold;
+	margin-top: -30px;
+}
+.form_feedback .controls label{
+	font-size: 14px;
+	color: #1d1d1d;
+	line-height: 24px
+}
+.form_feedback .controls .input input,.form_feedback .controls .input textarea,.form_feedback .controls .captcha_form .input input{
+	width: 262px;	
+	display: block;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 10px!important;	
+	height: 38px;
+	border: none;
+	border-radius: 6px;
+	background: #e9e9e9;
+	box-shadow: none;
+	font-weight: normal;
+	font-size: 14px;
+	float:none;
+}
+.form_feedback .controls .input input.nofill,
+.form_feedback .controls .input textarea.nofill,
+.form_feedback .controls .captcha_form .input input.nofill{
+	border:1px solid red;
+}
+
+.form_feedback .controls .input textarea{
+	height: 135px;
+}
+.form_feedback .control .starrequired{
+	color:#940939;
+}
+.form_feedback .controls {
+	margin-top: 16px;
+}
+.form_feedback .controls .captcha_form .input input{
+	width: 117px;
+}
+.form_feedback .controls .captcha_form .input img {
+	width: 113px;
+	display: inline-block;
+	vertical-align: middle;	
+	text-align:right;
+	margin-left: 13px;
+	margin-top: -4px;
+}
+.form_feedback .controls .input input.inputfile {
+	border:0;
+	box-shadow:none;
+}
+.form_feedback .buttons {
+	margin-top:30px;
+}
+.form_feedback .solid_button {
+	display: block;	
+	height: 38px;
+	font-size: 14px;
+	color: #fff;
+	line-height: 36px;
+	border-radius: 6px;	
+	border:0;
+	float:right;
+	width: 45%;
+	text-align:center;
+}
+
+.form_feedback .close_button {
+	height: 36px;
+	border-radius: 6px;
+	float:left;
+	line-height:36px;
+	width: 45%;
+	text-align:center;
+}
+.form_feedback .errors {
+	color:red;
+	font-size:12px;
+}
+.form_feedback .text {
+	font-size:11px;
+	margin-top:5px;
+}

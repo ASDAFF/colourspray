@@ -1,0 +1,19 @@
+.search-page input[type="text"] { 
+	max-width: 280px;
+	position: relative;
+	display: block;
+	float: left;
+}
+.search-page .button {
+	height: 34px;
+}
+.search-page {
+	clear:both;
+}
+.search-page:before,
+.search-page:after {
+	content:".";
+	visibility:hidden;
+	clear:both;
+	display:block;
+}

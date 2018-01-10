@@ -1,0 +1,72 @@
+.services-section.list > .description {
+	display: block;
+	white-space: normal;
+	margin-top: 10px;
+}
+
+.services-section.list > .description.only {
+	margin-top: 0px;
+}
+
+.services-section.list .element {
+	display: block;
+	text-decoration: none;
+	margin-bottom: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.services-section.list .element .image {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 55px;
+	height: 55px;
+	margin: 15px;
+	overflow: hidden;
+    font-size:  0px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.services-section.list .element .image img {
+	display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.services-section.list .element .content {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-right: 85px;
+}
+
+.services-section.list .element .content .name {
+	color: inherit;
+	display: block;
+	overflow: hidden;
+	text-decoration: underline;
+	font-size: 14px;
+	line-height: 18px;
+	height: 18px;
+	white-space: normal;
+}
+
+.services-section.list .element .content .description {
+	color: #000;
+	margin-top: 7px;
+	font-size: 14px;
+	line-height: 18px;
+	max-height: 18px;
+	overflow: hidden;
+}
+
+.services-section.list .description {
+	display: block;
+	white-space: normal;
+}

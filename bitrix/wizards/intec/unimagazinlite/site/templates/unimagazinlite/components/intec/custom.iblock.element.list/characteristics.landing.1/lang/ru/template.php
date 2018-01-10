@@ -1,0 +1,4 @@
+<?
+    $MESS["CHARACTERISTICS_BUTTONS_MORE_TEXT_ALL"] = "Развернуть";
+	$MESS["CHARACTERISTICS_BUTTONS_MORE_TEXT"] = "Свернуть";
+?>

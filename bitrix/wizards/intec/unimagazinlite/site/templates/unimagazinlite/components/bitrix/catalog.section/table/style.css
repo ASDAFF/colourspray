@@ -1,0 +1,203 @@
+.bg_table table .td_warehouse .catalog-price {
+	 color:red;
+}
+.bg_table table a.image_product {
+	font-size:0;
+	display:block;
+	width:41px;
+	height:41px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+}
+div.catalog-section table td {
+	padding-right:10px;
+	padding-top:10px;
+}
+.bg_table {
+	width: 100%;
+	border-radius: 8px;	
+}
+.bg_table table {
+	width:100%;
+	font-size:12px;
+	color:#606060;
+	border:0;
+	border-spacing:0;
+}
+.bg_table table th div.bg{	
+	text-align:left;
+	padding: 7px 20px;	
+	border-top:1px solid #23b9f9;
+	font-size: 14px;
+	font-family: Arial,sans-serif;
+	text-shadow:1px 1px 1px #095896;
+	color: #fff;
+	font-weight: normal;
+	background: #1b8fc0; /* Old browsers */
+	background: -moz-linear-gradient(top,  #1b8fc0 0%, #05539a 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1b8fc0), color-stop(100%,#05539a)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #1b8fc0 0%,#05539a 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #1b8fc0 0%,#05539a 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #1b8fc0 0%,#05539a 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #1b8fc0 0%,#05539a 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b8fc0', endColorstr='#05539a',GradientType=0 ); /* IE6-9 */
+}
+.bg_table table th:first-child div.bg{
+	border-left: 1px solid #fff;
+	border-radius: 8px 0 0 0;
+}
+.bg_table table th:last-child div.bg {
+	border-radius: 0 8px 0 0;
+	border-right: 1px solid #fff;
+}
+.bg_table table td.td_buy a.buy{
+	width:43px;
+	height:26px;
+	display:block;
+	font-size:0;
+	cursor:pointer;
+	background:url(images/buy_inner.png) top no-repeat;
+	display:block;
+}
+.bg_table table tr td {
+	border-bottom: 1px solid #f2f2f2;
+	padding: 14px 18px 14px 20px;
+	color: #606060;
+	font-size: 12px;
+	vertical-align: middle;
+}
+.bg_table table tr:nth-child(2n+1) {
+	background:#f1f1f1;
+}
+.bg_table table tr:first-child {
+	background:none;
+}
+.bg_table table td.td_buy a.buy:hover{
+	background-position:0 -26px;
+}
+.bg_table table td.td_buy a.added{
+	background-position:bottom;
+}
+.bg_table table td.td_buy a.added:hover{
+	background-position:bottom;
+}
+.bg_table table .td_name{
+	width:50%;
+}
+.bg_table table .td_price{
+	width:20%;
+}
+.bg_table table .td_buy{
+	width:64px;
+}
+.bg_table table .td_warehouse{	
+	width:20%;
+}
+.bg_table table td.td_name{		
+	font-family:Arial,sans-serif;
+	padding-left:20px;	
+}
+.bg_table table td.td_name a{
+	color:#2173b5;
+	display:block;
+	max-height:36px;
+	overflow:hidden;
+	font-size:14px;
+}
+.bg_table table td.td_name a:hover{
+	color:#606060;
+}
+.bg_table table td.td_price div.new_price{		
+	font-weight:bold;
+	font-family:Arial,sans-serif;
+	font-size:14px;
+}
+.bg_table table td.td_price div.old_price{	
+	text-decoration: line-through;
+	font-size:11px;
+}
+td.compare_like .add_compare{
+	display: block;	
+	height: 16px;
+	width: 16px;
+	margin-left: 4px;
+	cursor:pointer;
+	background: url(images/check.png) no-repeat top left;
+	position:relative;
+}
+td.compare_like .add_compare:hover{
+	background-position:0 -16px;
+}
+td.compare_like .delete_compare{
+	height: 16px;
+	display: block;	
+	width: 16px;
+	margin-left: 4px;
+	cursor:pointer;
+	background: url(images/check.png) no-repeat bottom;
+	position:relative;
+}
+ .bg_table table tr td.compare{
+	padding-left:0;
+	padding-right:0;
+}
+.hint_compare{
+	position:absolute;
+	width:137px;
+	height:34px;
+	background:url(images/hint_compare.png);
+	top: -48px;
+	left: -75px;
+	color:#565656;
+	font-size:10px;
+	font-family:Arial,sans-serif;
+	padding:8px 12px;
+	line-height: 11px;	
+}
+.bg_table table tr td.compare_like {
+	padding:0;
+}
+.compare_like .compare .text,
+.compare_like .compare .text1,
+.compare_like .like .text,
+.compare_like .like .text1
+ {
+	display:block;
+	float:left;
+	width:15px;
+	height:15px;	
+	font-size:0;
+	cursor:pointer;	
+	margin-left:3px;
+}
+.compare_like .compare .text {
+	background:url(images/sprite_compare.png) no-repeat -30px 0;
+}
+.compare_like .compare .text:hover,
+.compare_like .compare .text1 {
+	background:url(images/sprite_compare.png) no-repeat -45px 0;
+	font-size:0;
+}
+.compare_like .like .text {	
+	background:url(images/sprite_compare.png) no-repeat left;
+}
+.compare_like .like .text:hover,
+.compare_like .like .text1 {	 
+	background:url(images/sprite_compare.png) no-repeat -15px;
+}
+@media all and (max-width:768px) {
+	.bg_table table .td_name {
+		width:32%;
+	}
+	.bg_table table th.compare div.bg {
+		padding:7px 0;
+	}
+	td.compare_like {
+		width:0px;		
+	}
+	div.compare, div.like {
+		display:none;
+	}
+	
+}

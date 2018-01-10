@@ -1,0 +1,63 @@
+.tizers-2 {
+    display: block;
+    overflow: hidden;
+}
+
+.tizers-2 .tizers-2-wrapper {
+    display: block;
+    margin: -12px;
+    min-width: 40px;
+    min-height: 40px;
+    font-size: 0px;
+}
+
+.tizers-2 .tizers-2-tizer {
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tizers-2 .tizers-2-tizer .tizers-2-tizer-wrapper {
+    display: block;
+}
+
+.tizers-2 .tizers-2-tizer .tizers-2-image {
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.tizers-2 .tizers-2-tizer .tizers-2-information {
+    display: block;
+    margin-left: 80px;
+}
+
+.tizers-2 .tizers-2-tizer .tizers-2-information .tizers-2-name {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    height: 18px;
+    color: #07203c;
+    overflow: hidden;
+    margin-bottom: 5px;
+    text-align: left;
+    white-space: normal;
+}
+
+.tizers-2 .tizers-2-tizer .tizers-2-information .tizers-2-description {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+    height: 54px;
+    color: #83878c;
+    overflow: hidden;
+    text-align: left;
+    white-space: normal;
+}

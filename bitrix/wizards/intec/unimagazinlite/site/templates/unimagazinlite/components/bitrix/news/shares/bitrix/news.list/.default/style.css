@@ -1,0 +1,103 @@
+.shares {
+    display: block;
+    margin-top: -9px;
+    margin-bottom: -9px;
+}
+
+.shares .share {
+    display: block;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.shares .share .wrapper {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border:  1px solid #e8e8e8;
+    height: 150px;
+}
+
+.shares .share .image {
+    display: block;
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 150px;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 0px;
+}
+
+.shares .share .image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.shares .share .information {
+    position: relative;
+    display: block;
+    margin-left: 257px;
+    padding-right: 45px;
+}
+
+.shares .share .information .hide-wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 88px;   
+}
+
+.shares .share .information .caption {
+    font-size: 18px;
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden;
+    display: block;
+    padding-right: 80px;
+    text-decoration: none;
+}
+
+.shares .share .information .date-start {
+    position: absolute;
+    right: 0px;
+    top: 4px;
+}
+
+.shares .share .information .description {
+    color: #3c3c3c;
+    height: 51px;
+    line-height: 17px;
+    overflow: hidden;
+}
+
+.shares .share .information .date-end {
+    display: inline-block;
+    line-height: 13px;
+    font-size: 13px;
+}
+
+.shares .share .information .detail {
+    float:  right;
+    line-height: 13px;
+    font-size: 13px;
+}
+
+@media all and (max-width: 700px) {
+    .adaptiv .shares .share .image {
+        display: none;
+    }
+    
+    .shares .share .information .hide-wrapper,
+    .shares .share .information .description,
+    .shares .share .wrapper,
+    .shares .share .information .caption {
+        height: auto;
+    }
+    
+    .adaptiv .shares .share .information {
+        margin-left: 0px;
+        padding-left: 45px;
+        padding-bottom: 15px;
+        overflow: hidden;
+    }
+}

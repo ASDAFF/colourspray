@@ -1,0 +1,799 @@
+2017-11-16 20:53:03 -  - exec CUpdateClient::GetUpdatesList
+2017-11-16 20:53:03 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:53:04 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.0.7&VERSION=17.0.9&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:53:04 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:53:04 -  - TIME GetUpdatesList(request) 0.188 sec
+2017-11-16 20:53:04 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:53:19 -  - exec CUpdateClient::GetUpdatesList
+2017-11-16 20:53:19 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:53:20 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.0.7&VERSION=17.0.9&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:53:20 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:53:20 -  - TIME GetUpdatesList(request) 0.164 sec
+2017-11-16 20:53:20 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:53:29 -  - exec CUpdateClient::UpdateUpdate
+2017-11-16 20:53:29 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:53:29 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.0.7&VERSION=17.0.9&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&query_type=updateupdate
+2017-11-16 20:53:29 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:53:31 -  - TIME UpdateUpdate(request) 1.825 sec
+2017-11-16 20:53:31 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:53:31 -  - TIME UnGzipArchive 0.021 sec
+2017-11-16 20:53:31 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:53:31 - CURV - Update updated successfully!
+2017-11-16 20:53:31 - UPD_SUCCESS - Update system updated
+2017-11-16 20:53:31 -  - exec CUpdateClient::GetUpdatesList
+2017-11-16 20:53:31 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:53:31 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:53:31 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:53:32 -  - TIME GetUpdatesList(request) 0.336 sec
+2017-11-16 20:53:32 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:54:02 -  - exec CUpdateClient::ActivateCoupon
+2017-11-16 20:54:02 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:54:02 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&coupon=MPX-KEKAQQYYE1-LDPW127K0J&query_type=coupon
+2017-11-16 20:54:02 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:54:03 -  - TIME ActivateCoupon(request) 0.936 sec
+2017-11-16 20:54:03 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:54:04 - AC - [CHECK_IS_BAD] Купон (чек) не действителен. 
+2017-11-16 20:54:04 - UPD_ERROR - Error: [CHECK_IS_BAD] Купон (чек) не действителен. Ошибка активации купона. 
+2017-11-16 20:56:03 -  - exec CUpdateClient::GetUpdatesList
+2017-11-16 20:56:03 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:04 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:56:04 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:04 -  - TIME GetUpdatesList(request) 0.208 sec
+2017-11-16 20:56:04 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:25 -  - exec CUpdateClient::GetUpdatesList
+2017-11-16 20:56:25 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:25 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:56:25 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:25 -  - TIME GetUpdatesList(request) 0.2 sec
+2017-11-16 20:56:25 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:35 -  - exec CUpdateClient::RegisterVersion
+2017-11-16 20:56:35 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:35 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.9&TYPENC=D&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y&query_type=register
+2017-11-16 20:56:35 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:35 -  - TIME RegisterVersion(request) 0.177 sec
+2017-11-16 20:56:35 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:56:35 -  - TIME UnGzipArchive 0.002 sec
+2017-11-16 20:56:35 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:35 - CURV - Product registered successfully!
+2017-11-16 20:56:35 - UPD_SUCCESS - Registered
+2017-11-16 20:56:37 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:37 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:37 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.9&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.9&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:56:37 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:37 -  - TIME LoadModulesUpdates(request) 0.172 sec
+2017-11-16 20:56:37 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:37 - S - STEP
+2017-11-16 20:56:37 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:56:37 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:37 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:37 -  - loadFile
+2017-11-16 20:56:37 - U - RETURN
+2017-11-16 20:56:37 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:56:37 -  - TIME UnGzipArchive 0.005 sec
+2017-11-16 20:56:37 - CSURUS1 - Run updater '/bitrix/updates/update_m1510854997/main/updater17.0.10.php'
+2017-11-16 20:56:37 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510854997/main/updater17.0.10.php': CopyFiles(install/components, components)
+2017-11-16 20:56:37 -  - TIME UpdateStepModules 0.005 sec
+2017-11-16 20:56:37 - UPD_SUCCESS - Updated: main (17.0.10)<br><li>Исправлена ошибка сохранения выбранного соглашения в параметрах компонента. <li>Исправлена проблема с работоспособностью компонента main.userconsent.request после копирования шаблона компонента. 
+2017-11-16 20:56:37 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:37 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:37 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.10&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.10&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:56:37 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:38 -  - TIME LoadModulesUpdates(request) 0.173 sec
+2017-11-16 20:56:38 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:38 - S - STEP
+2017-11-16 20:56:38 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:56:38 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:38 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:38 -  - loadFile
+2017-11-16 20:56:38 - U - RETURN
+2017-11-16 20:56:38 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:56:38 -  - TIME UnGzipArchive 0.124 sec
+2017-11-16 20:56:38 - CSURUS1 - Run updater '/bitrix/updates/update_m1510854998/main/updater17.0.11.php'
+2017-11-16 20:56:38 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510854998/main/updater17.0.11.php': CopyFiles(install/components, components)
+2017-11-16 20:56:39 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510854998/main/updater17.0.11.php': CopyFiles(install/js, js)
+2017-11-16 20:56:39 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510854998/main/updater17.0.11.php': CopyFiles(install/panel, panel)
+2017-11-16 20:56:39 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510854998/main/updater17.0.11.php': CopyFiles(install/css, css)
+2017-11-16 20:56:39 -  - TIME UpdateStepModules 0.21 sec
+2017-11-16 20:56:39 - UPD_SUCCESS - Updated: main (17.0.11)<br><li>На странице с списком пользователей, в административной панели, подключен новый грид и фильтр. <li>Исправление ошибок.
+2017-11-16 20:56:39 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:39 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:39 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.11&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.11&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:56:39 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:39 -  - TIME LoadModulesUpdates(request) 0.167 sec
+2017-11-16 20:56:39 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:39 - S - STEP
+2017-11-16 20:56:39 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:56:39 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:39 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:39 -  - loadFile
+2017-11-16 20:56:39 - U - RETURN
+2017-11-16 20:56:39 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:56:39 -  - TIME UnGzipArchive 0.007 sec
+2017-11-16 20:56:39 -  - TIME UpdateStepModules 0.006 sec
+2017-11-16 20:56:39 - UPD_SUCCESS - Updated: main (17.0.12)<br><li>Исправление ошибок в проверке системы 
+2017-11-16 20:56:39 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:39 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:39 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.12&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.12&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:56:39 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:39 -  - TIME LoadModulesUpdates(request) 0.166 sec
+2017-11-16 20:56:39 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:40 - S - STEP
+2017-11-16 20:56:40 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:56:40 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:40 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:40 -  - loadFile
+2017-11-16 20:56:40 - U - RETURN
+2017-11-16 20:56:40 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:56:40 -  - TIME UnGzipArchive 0.027 sec
+2017-11-16 20:56:40 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855000/main/updater17.0.13.php'
+2017-11-16 20:56:40 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855000/main/updater17.0.13.php': CopyFiles(install/js, js)
+2017-11-16 20:56:40 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855000/main/updater17.0.13.php': CopyFiles(install/components, components)
+2017-11-16 20:56:40 -  - TIME UpdateStepModules 0.04 sec
+2017-11-16 20:56:40 - UPD_SUCCESS - Updated: main (17.0.13)<br><li>Добавлено отображение заглушки видео в редакторе. <li>Исправления ошибок в просмотрщике файлов.
+2017-11-16 20:56:40 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:40 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:40 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.13&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.13&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:56:40 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:40 -  - TIME LoadModulesUpdates(request) 0.176 sec
+2017-11-16 20:56:40 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:40 - S - STEP
+2017-11-16 20:56:40 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:56:40 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:40 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:40 -  - loadFile
+2017-11-16 20:56:42 - U - RETURN
+2017-11-16 20:56:42 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:56:42 -  - TIME UnGzipArchive 0.425 sec
+2017-11-16 20:56:42 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855002/main/updater17.0.14.php'
+2017-11-16 20:56:42 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855002/main/updater17.0.14.php': CopyFiles(install/components, components)
+2017-11-16 20:56:42 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855002/main/updater17.0.14.php': CopyFiles(install/js, js)
+2017-11-16 20:56:42 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855002/main/updater17.0.14.php': CopyFiles(install/tools, tools)
+2017-11-16 20:56:43 -  - TIME UpdateStepModules 0.593 sec
+2017-11-16 20:56:43 - UPD_SUCCESS - Updated: main (17.0.14)<br><li>Изменения в механизме пользовательских полей. <li>Новый тип поля \"Ссылка\". <li>Новое представление для поля типа \"Список\". <li>Возможность задавать подписи для пользовательских полей типа \"Да/Нет\". 
+2017-11-16 20:56:43 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:43 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:43 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.14&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.14&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:56:43 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:43 -  - TIME LoadModulesUpdates(request) 0.201 sec
+2017-11-16 20:56:43 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:43 - S - STEP
+2017-11-16 20:56:43 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:56:43 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:43 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:43 -  - loadFile
+2017-11-16 20:56:43 - U - RETURN
+2017-11-16 20:56:43 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:56:43 -  - TIME UnGzipArchive 0.017 sec
+2017-11-16 20:56:43 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855003/main/updater17.0.15.php'
+2017-11-16 20:56:43 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855003/main/updater17.0.15.php': CopyFiles(install/js, js)
+2017-11-16 20:56:43 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855003/main/updater17.0.15.php': CopyFiles(install/components, components)
+2017-11-16 20:56:43 -  - TIME UpdateStepModules 0.024 sec
+2017-11-16 20:56:43 - UPD_SUCCESS - Updated: main (17.0.15)<br><li>Служебные изменения в резервном копировании.
+2017-11-16 20:56:43 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:43 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:43 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.0.15&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.0.15&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:56:43 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:43 -  - TIME LoadModulesUpdates(request) 0.174 sec
+2017-11-16 20:56:43 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:43 - S - STEP
+2017-11-16 20:56:43 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:56:44 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:44 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:44 -  - loadFile
+2017-11-16 20:56:44 - U - RETURN
+2017-11-16 20:56:44 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:56:44 -  - TIME UnGzipArchive 0.049 sec
+2017-11-16 20:56:44 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855004/main/updater17.1.0/index.php'
+2017-11-16 20:56:44 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855004/main/updater17.1.0/index.php': CopyFiles(install/admin, admin)
+2017-11-16 20:56:44 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855004/main/updater17.1.0/index.php': CopyFiles(install/panel, panel)
+2017-11-16 20:56:44 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1510855004/main/updater17.1.0/index.php': Query(CREATE TABLE b_composite_page (
+				ID int(18) NOT NULL AUTO_INCREMENT,
+				CACHE_KEY varchar(2000) NOT NULL,
+				HOST varchar(100) NOT NULL,
+				URI varchar(2000) NOT NULL,
+				TITLE varchar(250) NULL,
+				CREATED datetime NOT NULL,
+				CHANGED datetime NOT NULL,
+				LAST_VIEWED datetime NOT NULL,
+				VIEWS int(18) NOT NULL DEFAULT 0,
+				REWRITES int(18) NOT NULL DEFAULT 0,
+				SIZE int(18) NOT NULL DEFAULT 0,
+				PRIMARY KEY (ID),
+				INDEX IX_B_COMPOSITE_PAGE_CACHE_KEY(CACHE_KEY(100)),
+				INDEX IX_B_COMPOSITE_PAGE_VIEWED(LAST_VIEWED),
+				INDEX IX_B_COMPOSITE_PAGE_HOST(HOST)
+			);, )
+2017-11-16 20:56:44 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1510855004/main/updater17.1.0/index.php': Query(CREATE TABLE b_composite_log (
+				ID int(18) NOT NULL AUTO_INCREMENT,
+				HOST varchar(100) NOT NULL,
+				URI varchar(2000) NOT NULL,
+				TITLE varchar(250) NULL,
+				CREATED datetime NOT NULL,
+				TYPE varchar(50) NOT NULL,
+				MESSAGE longtext,
+				AJAX char(1) NOT NULL DEFAULT 'N',
+				USER_ID int(18) NOT NULL DEFAULT 0,
+				PAGE_ID int(18) NOT NULL DEFAULT 0,
+				PRIMARY KEY (ID),
+				INDEX IX_B_COMPOSITE_LOG_PAGE_ID(PAGE_ID),
+				INDEX IX_B_COMPOSITE_LOG_HOST(HOST),
+				INDEX IX_B_COMPOSITE_LOG_TYPE(TYPE)
+			);, )
+2017-11-16 20:56:44 -  - TIME UpdateStepModules 0.075 sec
+2017-11-16 20:56:44 - UPD_SUCCESS - Updated: main (17.1.0)<br><li><b>Масштабный рефакторинг композита.</b> <li>Все классы технологии теперь находятся в пространстве имен <b>\\Bitrix\\Main\\Composite\\</b>. <li>В административном разделе добавлены новые страницы мониторинга и отладки. <li>Логирование всех ошибок, при которых режим кеширования может не сработать. <li>Отказ от константы <b>BX_COMPOSITE_DEBUG</b>. <li>Визуальное сравнение версий для поиска причин перезаписи кеша. <li>Автоматическая очистка старого кеша при достижении файлового лимита (LRU-алгоритм). <b>Внимание!</b> После установки обновления необходимо <a href=\"/bitrix/admin/cache.php?lang=ru&cachetype=html&tabControl_active_tab=fedit2\" target=\"_blank\">очистить композитный кеш</a>. 
+2017-11-16 20:56:44 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:44 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:44 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.1.0&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.1.0&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:56:44 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:44 -  - TIME LoadModulesUpdates(request) 0.173 sec
+2017-11-16 20:56:44 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:44 - S - STEP
+2017-11-16 20:56:44 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:56:44 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:44 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:44 -  - loadFile
+2017-11-16 20:56:46 - U - RETURN
+2017-11-16 20:56:46 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:56:47 -  - TIME UnGzipArchive 0.663 sec
+2017-11-16 20:56:47 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855006/main/updater17.5.0.php'
+2017-11-16 20:56:47 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855006/main/updater17.5.0.php': CopyFiles(install/admin, admin)
+2017-11-16 20:56:47 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855006/main/updater17.5.0.php': CopyFiles(install/components, components)
+2017-11-16 20:56:47 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855006/main/updater17.5.0.php': CopyFiles(install/css, css)
+2017-11-16 20:56:47 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855006/main/updater17.5.0.php': CopyFiles(install/gadgets, gadgets)
+2017-11-16 20:56:47 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855006/main/updater17.5.0.php': CopyFiles(install/js, js)
+2017-11-16 20:56:47 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855006/main/updater17.5.0.php': CopyFiles(install/panel, panel)
+2017-11-16 20:56:47 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855006/main/updater17.5.0.php': CopyFiles(install/tools, tools)
+2017-11-16 20:56:47 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1510855006/main/updater17.5.0.php': Query(alter table b_short_uri modify URI varchar(2000) not null, )
+2017-11-16 20:56:47 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1510855006/main/updater17.5.0.php': Query(DELETE FROM b_consent_user_consent where AGREEMENT_ID not in (select ID from b_consent_agreement), )
+2017-11-16 20:56:48 -  - TIME UpdateStepModules 0.918 sec
+2017-11-16 20:56:48 - UPD_SUCCESS - Updated: main (17.5.0)<br><li>В настройках модуля добавлена возможность принятия соглашения при регистрации пользователей. <li>В проверке системы добавлен тест push-сервера в виртуальной машине 7.1. <li>В проверке системы добавлен тест модуля XMPP, а также другие улучшения. <li>Доработан диалог просмотра файлов для показа видео. <li>Исправлена ошибка создания и распаковки резервной копии на некоторых системах. <li>Исправлен ряд интерфейсных ошибок. 
+2017-11-16 20:56:48 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:48 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:48 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.0&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.0&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:56:48 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:48 -  - TIME LoadModulesUpdates(request) 0.173 sec
+2017-11-16 20:56:48 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:48 - S - STEP
+2017-11-16 20:56:48 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:56:48 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:48 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:48 -  - loadFile
+2017-11-16 20:56:49 - U - RETURN
+2017-11-16 20:56:49 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:56:49 -  - TIME UnGzipArchive 0.152 sec
+2017-11-16 20:56:49 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855009/main/updater17.5.1.php'
+2017-11-16 20:56:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855009/main/updater17.5.1.php': CopyFiles(install/components, components)
+2017-11-16 20:56:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855009/main/updater17.5.1.php': CopyFiles(install/js, js)
+2017-11-16 20:56:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855009/main/updater17.5.1.php': CopyFiles(install/panel, panel)
+2017-11-16 20:56:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1510855009/main/updater17.5.1.php': Query(
+			CREATE TABLE b_user_index
+			(
+				USER_ID int(11) not null,
+				SEARCH_USER_CONTENT text null,
+				SEARCH_DEPARTMENT_CONTENT text null,
+				NAME varchar(50),
+				LAST_NAME varchar(50),
+				SECOND_NAME varchar(50),
+				WORK_POSITION varchar(255),
+				UF_DEPARTMENT_NAME varchar(255),
+				PRIMARY KEY (USER_ID)
+			), )
+2017-11-16 20:56:49 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1510855009/main/updater17.5.1.php': Query(CREATE INDEX ix_b_event_log_audit_type ON b_event_log (AUDIT_TYPE_ID), )
+2017-11-16 20:56:50 -  - TIME UpdateStepModules 0.274 sec
+2017-11-16 20:56:50 - UPD_SUCCESS - Updated: main (17.5.1)<br><li>В механизме объединения стилей убрана поддержка старых версий IE. <li>Исправлен ряд интерфейсных ошибок. <li>Разработчикам: добавлена таблица b_user_index для полнотекстового поиска по персональным данным пользователей. 
+2017-11-16 20:56:50 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:50 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:56:50 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.1&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.1&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:56:50 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:56:50 -  - TIME LoadModulesUpdates(request) 0.165 sec
+2017-11-16 20:56:50 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:50 - S - STEP
+2017-11-16 20:56:50 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:56:50 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:56:50 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:56:50 -  - loadFile
+2017-11-16 20:56:51 - U - RETURN
+2017-11-16 20:56:51 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:56:51 -  - TIME UnGzipArchive 0.118 sec
+2017-11-16 20:56:51 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855011/main/updater17.5.2/index.php'
+2017-11-16 20:56:51 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855011/main/updater17.5.2/index.php': CopyFiles(install/components, components)
+2017-11-16 20:56:51 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855011/main/updater17.5.2/index.php': CopyFiles(install/gadgets, gadgets)
+2017-11-16 20:56:51 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855011/main/updater17.5.2/index.php': CopyFiles(install/js, js)
+2017-11-16 20:56:51 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855011/main/updater17.5.2/index.php': CopyFiles(install/tools, tools)
+2017-11-16 20:56:51 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1510855011/main/updater17.5.2/index.php': Query(
+				create table b_user_auth_action
+				(
+					ID int NOT NULL AUTO_INCREMENT,
+					USER_ID int NOT NULL,
+					PRIORITY int NOT NULL DEFAULT 100,
+					ACTION varchar(20),
+					ACTION_DATE datetime NOT NULL,
+					PRIMARY KEY (ID),
+					index ix_auth_action_user(USER_ID, PRIORITY),
+					index ix_auth_action_date(ACTION_DATE)
+				)
+			, )
+2017-11-16 20:56:51 - CRUPDCDF2 - Run updater '/bitrix/updates/update_m1510855011/main/updater17.5.2/index.php': Query(INSERT INTO b_agent (MODULE_ID, SORT, NAME, ACTIVE, AGENT_INTERVAL, IS_PERIOD, NEXT_EXEC) VALUES('main', 100, 'CUser::AuthActionsCleanUpAgent();', 'Y', 60*60*24, 'N', '2017-11-17 04:15:00'), )
+2017-11-16 20:56:51 -  - TIME UpdateStepModules 0.185 sec
+2017-11-16 20:56:51 - UPD_SUCCESS - Updated: main (17.5.2)<br><li>Добавлен механизм обновления сессии пользователя после деактивации, удаления и обновления критичных данных пользователя. <li>Добавлен компонент main.mail.confirm и почтовое событие для подтверждения email. <li>В компоненте system.auth.registration добавлены соглашения в шаблон flat. <li>Исправлен ряд интерфейсных ошибок. 
+2017-11-16 20:58:37 -  - exec CUpdateClient::GetUpdatesList
+2017-11-16 20:58:37 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:37 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.2&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.2&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:37 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:38 -  - TIME GetUpdatesList(request) 0.198 sec
+2017-11-16 20:58:38 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:40 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:40 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:40 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.2&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.2&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:40 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:40 -  - TIME LoadModulesUpdates(request) 0.179 sec
+2017-11-16 20:58:40 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:40 - S - STEP
+2017-11-16 20:58:40 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:41 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:41 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:41 -  - loadFile
+2017-11-16 20:58:41 - U - RETURN
+2017-11-16 20:58:41 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:41 -  - TIME UnGzipArchive 0.127 sec
+2017-11-16 20:58:41 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855121/main/updater17.5.3/index.php'
+2017-11-16 20:58:41 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855121/main/updater17.5.3/index.php': CopyFiles(install/components, components)
+2017-11-16 20:58:41 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855121/main/updater17.5.3/index.php': CopyFiles(install/js, js)
+2017-11-16 20:58:42 -  - TIME UpdateStepModules 0.204 sec
+2017-11-16 20:58:42 - UPD_SUCCESS - Updated: main (17.5.3)<br><li>В парсер текста добавлена поддержка хештегов. <li>Исправлен ряд интерфейсных ошибок. 
+2017-11-16 20:58:42 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:42 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:42 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.3&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.3&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:42 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:42 -  - TIME LoadModulesUpdates(request) 0.173 sec
+2017-11-16 20:58:42 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:42 - S - STEP
+2017-11-16 20:58:42 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:42 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:42 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:42 -  - loadFile
+2017-11-16 20:58:42 - U - RETURN
+2017-11-16 20:58:42 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:42 -  - TIME UnGzipArchive 0.004 sec
+2017-11-16 20:58:42 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855122/main/updater17.5.4.php'
+2017-11-16 20:58:42 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855122/main/updater17.5.4.php': CopyFiles(install/components, components)
+2017-11-16 20:58:42 -  - TIME UpdateStepModules 0.005 sec
+2017-11-16 20:58:42 - UPD_SUCCESS - Updated: main (17.5.4)<br><li>Исправлена ошибка невозможности поиска в списках при отсутствии нового API слайдеров.
+2017-11-16 20:58:42 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:42 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:42 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.0&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:42 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:43 -  - TIME LoadModulesUpdates(request) 0.169 sec
+2017-11-16 20:58:43 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:43 - S - STEP
+2017-11-16 20:58:43 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:43 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:43 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:43 -  - loadFile
+2017-11-16 20:58:43 - U - RETURN
+2017-11-16 20:58:43 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:43 -  - TIME UnGzipArchive 0.004 sec
+2017-11-16 20:58:43 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855123/fileman/updater17.5.1.php'
+2017-11-16 20:58:43 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855123/fileman/updater17.5.1.php': CopyFiles(install/js, js)
+2017-11-16 20:58:43 -  - TIME UpdateStepModules 0.004 sec
+2017-11-16 20:58:43 - UPD_SUCCESS - Updated: fileman (17.5.1)<br><li>Добавлено событие OnIframeBeforeGetValue в визуальный редактор. 
+2017-11-16 20:58:43 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:43 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:43 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.1&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:43 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:43 -  - TIME LoadModulesUpdates(request) 0.172 sec
+2017-11-16 20:58:43 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:43 - S - STEP
+2017-11-16 20:58:43 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:43 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:43 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:43 -  - loadFile
+2017-11-16 20:58:46 - U - RETURN
+2017-11-16 20:58:46 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:46 -  - TIME UnGzipArchive 0.195 sec
+2017-11-16 20:58:46 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855126/fileman/updater17.5.2.php'
+2017-11-16 20:58:46 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855126/fileman/updater17.5.2.php': CopyFiles(install/components, components)
+2017-11-16 20:58:46 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855126/fileman/updater17.5.2.php': CopyFiles(install/js, js)
+2017-11-16 20:58:46 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855126/fileman/updater17.5.2.php': CopyFiles(install/images, images)
+2017-11-16 20:58:47 -  - TIME UpdateStepModules 0.33 sec
+2017-11-16 20:58:47 - UPD_SUCCESS - Updated: fileman (17.5.2)<br><li>Добавлен новый компонент для просмотра pdf-файлов. <li>Изменения в инициализации плеера. <li>Добавлена загрузка по требованию для плеера. <li>Добавлен автостарт при скролле для плеера.
+2017-11-16 20:58:47 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:47 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:47 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.2&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:47 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:47 -  - TIME LoadModulesUpdates(request) 0.174 sec
+2017-11-16 20:58:47 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:47 - S - STEP
+2017-11-16 20:58:47 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:47 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:47 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:47 -  - loadFile
+2017-11-16 20:58:48 - U - RETURN
+2017-11-16 20:58:48 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:48 -  - TIME UnGzipArchive 0.138 sec
+2017-11-16 20:58:48 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855128/fileman/updater17.5.3.php'
+2017-11-16 20:58:48 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855128/fileman/updater17.5.3.php': CopyFiles(install/js, js)
+2017-11-16 20:58:48 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855128/fileman/updater17.5.3.php': CopyFiles(install/components, components)
+2017-11-16 20:58:48 -  - TIME UpdateStepModules 0.177 sec
+2017-11-16 20:58:48 - UPD_SUCCESS - Updated: fileman (17.5.3)<br><li>Добавлен новый тип пользовательских полей \"Адрес\". 
+2017-11-16 20:58:48 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:48 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:48 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.3&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:48 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:48 -  - TIME LoadModulesUpdates(request) 0.173 sec
+2017-11-16 20:58:48 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:48 - S - STEP
+2017-11-16 20:58:48 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:49 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:49 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:49 -  - loadFile
+2017-11-16 20:58:49 - U - RETURN
+2017-11-16 20:58:49 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:49 -  - TIME UnGzipArchive 0.002 sec
+2017-11-16 20:58:49 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855129/fileman/updater17.5.4.php'
+2017-11-16 20:58:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855129/fileman/updater17.5.4.php': CopyFiles(install/components, components)
+2017-11-16 20:58:49 -  - TIME UpdateStepModules 0.003 sec
+2017-11-16 20:58:49 - UPD_SUCCESS - Updated: fileman (17.5.4)<br><li>Незначительные исправления.
+2017-11-16 20:58:49 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:49 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:49 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.4&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:49 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:49 -  - TIME LoadModulesUpdates(request) 0.171 sec
+2017-11-16 20:58:49 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:49 - S - STEP
+2017-11-16 20:58:49 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:49 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:49 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:49 -  - loadFile
+2017-11-16 20:58:49 - U - RETURN
+2017-11-16 20:58:49 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:49 -  - TIME UnGzipArchive 0.006 sec
+2017-11-16 20:58:49 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855129/fileman/updater17.5.5.php'
+2017-11-16 20:58:49 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855129/fileman/updater17.5.5.php': CopyFiles(install/js, js)
+2017-11-16 20:58:49 -  - TIME UpdateStepModules 0.008 sec
+2017-11-16 20:58:49 - UPD_SUCCESS - Updated: fileman (17.5.5)<br><li>Исправлена ошибка с некорректным скроллированием при редактировании текста в Chrome. <li>Исправлена ошибка с нестабильным поведением редактора в мобильном Chrome и Safari на устройствах Apple.
+2017-11-16 20:58:49 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:49 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:49 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.9&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:49 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:50 -  - TIME LoadModulesUpdates(request) 0.187 sec
+2017-11-16 20:58:50 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:50 - S - STEP
+2017-11-16 20:58:50 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:50 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:50 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:50 -  - loadFile
+2017-11-16 20:58:50 - U - RETURN
+2017-11-16 20:58:50 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:50 -  - TIME UnGzipArchive 0.072 sec
+2017-11-16 20:58:50 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855130/iblock/updater17.0.10/index.php'
+2017-11-16 20:58:50 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855130/iblock/updater17.0.10/index.php': CopyFiles(install/components, components)
+2017-11-16 20:58:50 -  - TIME UpdateStepModules 0.067 sec
+2017-11-16 20:58:50 - UPD_SUCCESS - Updated: iblock (17.0.10)<br><li>Исправлена ошибка редактирования коэффициентов единиц измерения на административных страницах списков элементов. <li>Исправлена ошибка привязки инфоблока торговых предложений к основному инфоблоку в случае, когда инфоблок торговых предложений хранит свойства в отдельной таблице. <li>Исправлена ошибка выбора разделов собственного инфоблока для свойства типа \"Привязка к разделам с автозаполнением\" в форме редактирования элемента. <li>В компоненте catalog.comments в шаблоне по умолчанию используется новый html-редактор. <li>Исправлены ошибки компонентов catalog.smart.filter, catalog.section. <li>Исправлены ошибки шаблонов по умолчанию компонентов catalog.element, catalog.top. <li>Улучшена производительность шаблонов компонентов catalog.element, catalog.section, catalog.top для свойств с большим числом значений. <li>Улучшена совместимость с PHP 7. <li>В XML-эспорт/импорт добавлена возможность работы с диапазонами цен. <li>Исправлена ошибка привязки к основному разделу при импорте из 1С. <li>Разработчикам: метод \\Bitrix\\Iblock\\Component\\Base::processLinkAction возвращает ответ на аякс-запрос в json-формате. <li>Разработчикам: в методе \\CIBlockElement::GetPropertyValuesArray можно указать перечень возвращаемых полей свойств. <li>Разработчикам: метод \\CAllIBlockSection::GetMixedList поддерживает фильтрацию по ключу CNT_ACTIVE. <li>Разработчикам: в классе \\Bitrix\\Iblock\\Component\\Base можно сохранять рассчитанные цены всех типов. Для включения этой возможности в шаблон необходимо добавить параметр FILL_ITEM_ALL_PRICES типа checkbox. 
+2017-11-16 20:58:50 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:50 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:50 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.10&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:50 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:51 -  - TIME LoadModulesUpdates(request) 0.206 sec
+2017-11-16 20:58:51 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:51 - S - STEP
+2017-11-16 20:58:51 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:51 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:51 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:51 -  - loadFile
+2017-11-16 20:58:52 - U - RETURN
+2017-11-16 20:58:52 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:52 -  - TIME UnGzipArchive 0.071 sec
+2017-11-16 20:58:52 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855132/iblock/updater17.0.11/index.php'
+2017-11-16 20:58:52 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855132/iblock/updater17.0.11/index.php': CopyFiles(install/components, components)
+2017-11-16 20:58:52 -  - TIME UpdateStepModules 0.084 sec
+2017-11-16 20:58:52 - UPD_SUCCESS - Updated: iblock (17.0.11)<br><li>Изменен интерфейс административной страницы списка инфоблоков. <li>В административной форме редактирования элемента одиночные файловые свойства используют новый файловый загрузчик. <li>В административной форме редактирования раздела изображения используют новый файловый загрузчик. <li>В административном списке элементов исправлена проверка прав для вывода списка групповых действий. <li>Исправлена ошибка строгой проверки разделов при использовании шаблона #SECTION_CODE_PATH#. <li>В компонент catalog.comments добавлена поддержка пользовательских соглашений. Внимание! Для поддержки этой возможности в кастомизированных шаблонах компонент catalog и catalog.element необходимо самостоятельно внести правки. <li>Исправлена ошибка выгрузки количества товара на складах из 1С для редакции \"Малый бизнес\". <li>Исправлены ошибки компонент catalog.section, catalog.top, catalog.search, catalog.link.list, news.mail.list. <li>Исправлены ошибки шаблона по умолчанию компонент catalog.element, catalog.item, catalog.top, catalog.comments. <li>Улучшена производительность компонента catalog.element при большом количестве типов цен. <li>Улучшена производительность компонент catalog.element, catalog.section, catalog.top для инфоблоков с большим количеством значений списочных свойств. <li>Разработчикам: в методы \\CIBlock::GetList, \\CIBlockSection::GetList, \\CIBlockElement::GetList добавлена фильтрация по правам произвольного пользователя. Для использования в фильтр необходимо добавить ключ PERMISSIONS_BY, содержащий ID пользователя.
+2017-11-16 20:58:52 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:52 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:52 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.11&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:52 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:52 -  - TIME LoadModulesUpdates(request) 0.177 sec
+2017-11-16 20:58:52 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:52 - S - STEP
+2017-11-16 20:58:52 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:52 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:52 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:52 -  - loadFile
+2017-11-16 20:58:52 - U - RETURN
+2017-11-16 20:58:52 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:52 -  - TIME UnGzipArchive 0.054 sec
+2017-11-16 20:58:52 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855132/iblock/updater17.0.12/index.php'
+2017-11-16 20:58:52 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855132/iblock/updater17.0.12/index.php': CopyFiles(install/components, components)
+2017-11-16 20:58:53 -  - TIME UpdateStepModules 0.067 sec
+2017-11-16 20:58:53 - UPD_SUCCESS - Updated: iblock (17.0.12)<br><li>Улучшена производительность формы редактирования элемента инфоблока и торгового предложения. <li>Для свойства типа HTML/Текст значение \"по умолчанию\" выводится в форме редактирования только при создании элемента. <li>Исправлена ошибка записи значения свойства типа HTML/Текст для инфоблоков 2.0. <li>Исправлены ошибки компонентов catalog.smart.filter, catalog.section.list. <li>Исправлены ошибки базового шаблона компонентов catalog.section.list, catalog.socnet.buttons, catalog.element. <li>Исправлена ошибка вывода комментариев в компоненте catalog.comments для неавторизованных пользователей. <li>Исправлена ошибка отображения единиц измерения в административном списке товаров для совмещенного режима отображения.
+2017-11-16 20:58:53 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:53 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:53 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=15.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:53 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:53 -  - TIME LoadModulesUpdates(request) 0.166 sec
+2017-11-16 20:58:53 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:53 - S - STEP
+2017-11-16 20:58:53 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:53 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:53 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:53 -  - loadFile
+2017-11-16 20:58:53 - U - RETURN
+2017-11-16 20:58:53 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:53 -  - TIME UnGzipArchive 0.005 sec
+2017-11-16 20:58:53 -  - TIME UpdateStepModules 0.006 sec
+2017-11-16 20:58:53 - UPD_SUCCESS - Updated: translate (15.5.0)<br><li>Исправлена ошибка работы настройки \"Конвертировать в национальную кодировку\". <li>Добавлена проверка на формат загружаемых архивов с переводами. <li>Добавлен режим обновления отдельных фраз при загрузке переводов. <li>Исправлена ошибка сохранения данных на странице настроек модуля. <li>Исправлены незначительные ошибки.
+2017-11-16 20:58:53 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:53 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:53 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=15.5.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:53 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:53 -  - TIME LoadModulesUpdates(request) 0.168 sec
+2017-11-16 20:58:53 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:53 - S - STEP
+2017-11-16 20:58:53 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:53 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:53 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:53 -  - loadFile
+2017-11-16 20:58:53 - U - RETURN
+2017-11-16 20:58:53 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:53 -  - TIME UnGzipArchive 0.003 sec
+2017-11-16 20:58:53 -  - TIME UpdateStepModules 0.004 sec
+2017-11-16 20:58:53 - UPD_SUCCESS - Updated: translate (16.0.0)<br><li>Исправлена ошибка загрузки переводов.
+2017-11-16 20:58:54 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:54 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.6&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:54 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:54 -  - TIME LoadModulesUpdates(request) 0.174 sec
+2017-11-16 20:58:54 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:54 - S - STEP
+2017-11-16 20:58:54 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:54 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:54 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:54 -  - loadFile
+2017-11-16 20:58:54 - U - RETURN
+2017-11-16 20:58:54 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:54 -  - TIME UnGzipArchive 0.002 sec
+2017-11-16 20:58:54 -  - TIME UpdateStepModules 0.004 sec
+2017-11-16 20:58:54 - UPD_SUCCESS - Updated: seo (17.0.7)<br><li>Исправлена ошибка работы с рекламой Facebook. API для работы с рекламой в Facebook переведено на версию 2.10.
+2017-11-16 20:58:54 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:54 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.1.4&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.7&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:54 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:54 -  - TIME LoadModulesUpdates(request) 0.173 sec
+2017-11-16 20:58:54 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:54 - S - STEP
+2017-11-16 20:58:54 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:54 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:54 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:54 -  - loadFile
+2017-11-16 20:58:54 - U - RETURN
+2017-11-16 20:58:54 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:54 -  - TIME UnGzipArchive 0.002 sec
+2017-11-16 20:58:54 -  - TIME UpdateStepModules 0.002 sec
+2017-11-16 20:58:54 - UPD_SUCCESS - Updated: socialservices (17.1.5)<br><li>Исправлена ошибка работоспособности двух форм авторизации через соц. сети на одной странице. <li>Сделана поддержка возможности получения ошибок Facebook при авторизации через Facebook.
+2017-11-16 20:58:54 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:54 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:54 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.1.5&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.0.7&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:54 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:55 -  - TIME LoadModulesUpdates(request) 0.174 sec
+2017-11-16 20:58:55 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:55 - S - STEP
+2017-11-16 20:58:55 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:55 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:55 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:55 -  - loadFile
+2017-11-16 20:58:55 - U - RETURN
+2017-11-16 20:58:55 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:55 -  - TIME UnGzipArchive 0.021 sec
+2017-11-16 20:58:55 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855135/seo/updater17.1.0.php'
+2017-11-16 20:58:55 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855135/seo/updater17.1.0.php': CopyFiles(install/js, js)
+2017-11-16 20:58:55 -  - TIME UpdateStepModules 0.043 sec
+2017-11-16 20:58:55 - UPD_SUCCESS - Updated: seo (17.1.0)<br><li>Улучшен вид страницы инструментов для поисковой оптимизации. <li>Улучшена безопасность модуля. <li>Добавлена поддержка сервиса Facebook Lead Ads. <li>Добавлена поддержка сервиса ретаргетинга Google AdWords. <li>Визуальные улучшения окна SEO для страницы.
+2017-11-16 20:58:55 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:55 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:55 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.1.5&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.1.0&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:55 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:55 -  - TIME LoadModulesUpdates(request) 0.169 sec
+2017-11-16 20:58:55 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:55 - S - STEP
+2017-11-16 20:58:55 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:55 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:55 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:55 -  - loadFile
+2017-11-16 20:58:56 - U - RETURN
+2017-11-16 20:58:56 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:56 -  - TIME UnGzipArchive 0.022 sec
+2017-11-16 20:58:56 -  - TIME UpdateStepModules 0.014 sec
+2017-11-16 20:58:56 - UPD_SUCCESS - Updated: seo (17.1.1)<br><li>Оптимизация некоторых методов работы с Яндекс.Директом. <li>Исправления работы Яндекс.Вебмастера с кириллическими доменами. <li>Исправления работы Яндекс.Вебмастера с HTTPS-протоколом.
+2017-11-16 20:58:56 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:56 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:56 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.1.5&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.1.1&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:56 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:56 -  - TIME LoadModulesUpdates(request) 0.189 sec
+2017-11-16 20:58:56 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:56 - S - STEP
+2017-11-16 20:58:56 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:56 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:56 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:56 -  - loadFile
+2017-11-16 20:58:56 - U - RETURN
+2017-11-16 20:58:56 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:56 -  - TIME UnGzipArchive 0.01 sec
+2017-11-16 20:58:56 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855136/socialservices/updater17.5.0.php'
+2017-11-16 20:58:56 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855136/socialservices/updater17.5.0.php': CopyFiles(install/components, components)
+2017-11-16 20:58:56 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855136/socialservices/updater17.5.0.php': CopyFiles(install/gadgets, gadgets)
+2017-11-16 20:58:56 -  - TIME UpdateStepModules 0.014 sec
+2017-11-16 20:58:56 - UPD_SUCCESS - Updated: socialservices (17.5.0)<br><li>Исправлена ошибка авторизации через \"Одноклассники\". <li>Исправлены ошибки работы с сервисами \"Битрикс\". 
+2017-11-16 20:58:56 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:56 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:56 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.5.0&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.1.1&bitm_clouds=17.0.0&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:56 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:56 -  - TIME LoadModulesUpdates(request) 0.171 sec
+2017-11-16 20:58:56 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:56 - S - STEP
+2017-11-16 20:58:56 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:56 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:56 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:56 -  - loadFile
+2017-11-16 20:58:57 - U - RETURN
+2017-11-16 20:58:57 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:57 -  - TIME UnGzipArchive 0.003 sec
+2017-11-16 20:58:57 -  - TIME UpdateStepModules 0.003 sec
+2017-11-16 20:58:57 - UPD_SUCCESS - Updated: clouds (17.0.1)<br><li>Исправлена ошибка загрузки больших файлов в HotBox.
+2017-11-16 20:58:57 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:57 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:57 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.5.0&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.1.1&bitm_clouds=17.0.1&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:57 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:57 -  - TIME LoadModulesUpdates(request) 0.172 sec
+2017-11-16 20:58:57 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:57 - S - STEP
+2017-11-16 20:58:57 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:57 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:57 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:57 -  - loadFile
+2017-11-16 20:58:57 - U - RETURN
+2017-11-16 20:58:57 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:57 -  - TIME UnGzipArchive 0.004 sec
+2017-11-16 20:58:57 -  - TIME UpdateStepModules 0.004 sec
+2017-11-16 20:58:57 - UPD_SUCCESS - Updated: clouds (17.0.2)<br><li>Для хранилища Hotbox домен hb.cldmail.ru заменён на hb.bizmrg.com. <li>Добавлен учёт очистки кеша ресайза картинок в дисковой квоте. <li>Решена проблема работы с хранилищем clodo.ru при включённом https. <li>Решена проблема загрузки файлов больше 5Мб в Selectel при наличии в их имени пробелов. 
+2017-11-16 20:58:57 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:57 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:57 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.5.0&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.0&bitm_seo=17.1.1&bitm_clouds=17.0.2&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:57 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:57 -  - TIME LoadModulesUpdates(request) 0.175 sec
+2017-11-16 20:58:57 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:57 - S - STEP
+2017-11-16 20:58:57 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:57 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:57 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:57 -  - loadFile
+2017-11-16 20:58:57 - U - RETURN
+2017-11-16 20:58:57 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:57 -  - TIME UnGzipArchive 0.005 sec
+2017-11-16 20:58:57 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855137/bitrixcloud/updater17.0.1.php'
+2017-11-16 20:58:57 - CRUPDCF1 - Run updater '/bitrix/updates/update_m1510855137/bitrixcloud/updater17.0.1.php': CopyFiles(install/components, components)
+2017-11-16 20:58:57 -  - TIME UpdateStepModules 0.005 sec
+2017-11-16 20:58:57 - UPD_SUCCESS - Updated: bitrixcloud (17.0.1)<br><li>Убрана индикация расхода трафика CDN. <li>Улучшена совместимость с php 7.0. 
+2017-11-16 20:58:57 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:57 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:57 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.5.0&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.1&bitm_seo=17.1.1&bitm_clouds=17.0.2&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:57 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:58 -  - TIME LoadModulesUpdates(request) 0.173 sec
+2017-11-16 20:58:58 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:58 - S - STEP
+2017-11-16 20:58:58 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:58 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:58 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:58 -  - loadFile
+2017-11-16 20:58:58 - U - RETURN
+2017-11-16 20:58:58 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:58 -  - TIME UnGzipArchive 0.026 sec
+2017-11-16 20:58:58 -  - TIME UpdateStepModules 0.034 sec
+2017-11-16 20:58:58 - UPD_SUCCESS - Updated: scale ()
+2017-11-16 20:58:58 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:58 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:58 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.5.0&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.1&bitm_scale=14.5.0&bitm_seo=17.1.1&bitm_clouds=17.0.2&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:58 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:58 -  - TIME LoadModulesUpdates(request) 0.179 sec
+2017-11-16 20:58:58 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:58 - S - STEP
+2017-11-16 20:58:58 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:59 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:59 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:59 -  - loadFile
+2017-11-16 20:58:59 - U - RETURN
+2017-11-16 20:58:59 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:58:59 -  - TIME UnGzipArchive 0.021 sec
+2017-11-16 20:58:59 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855139/scale/updater14.5.1.php'
+2017-11-16 20:58:59 -  - TIME UpdateStepModules 0.026 sec
+2017-11-16 20:58:59 - UPD_SUCCESS - Updated: scale (14.5.1)<br><li>Добавлена проверка типа базы. <li>Добавлена возможность выводить время до окончания действия. <li>Добавлена роль Apache. <li>Добавлена возможность двухшаговой генерации действий. <li>Добавлена возможность модифицировать действия, запрашивать параметры у пользователя в случае необходимости. <li>Добавлено окно подтверждения при действиях с БД, если есть базы, кроме базы текущего сайта. <li>Добавлена роль Sphinx. <li>Добавлено предупреждение, если в данный момент уже есть запущеное действие. <li>Исправлены незначительные ошибки. 
+2017-11-16 20:58:59 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:59 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:58:59 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.5.0&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.1&bitm_scale=14.5.1&bitm_seo=17.1.1&bitm_clouds=17.0.2&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:58:59 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:58:59 -  - TIME LoadModulesUpdates(request) 0.174 sec
+2017-11-16 20:58:59 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:59 - S - STEP
+2017-11-16 20:58:59 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:58:59 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:58:59 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:58:59 -  - loadFile
+2017-11-16 20:59:00 - U - RETURN
+2017-11-16 20:59:00 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:59:00 -  - TIME UnGzipArchive 0.025 sec
+2017-11-16 20:59:00 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855140/scale/updater14.5.2.php'
+2017-11-16 20:59:00 -  - TIME UpdateStepModules 0.03 sec
+2017-11-16 20:59:00 - UPD_SUCCESS - Updated: scale (14.5.2)<br><li>Добавлена возможность работы с провайдерами VPS. <li>Добавлены графики, градусники для ролей memcached, sphinx. <li>Исправлены незначительные ошибки.
+2017-11-16 20:59:00 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:59:00 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:59:00 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.5.0&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.1&bitm_scale=14.5.2&bitm_seo=17.1.1&bitm_clouds=17.0.2&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:59:00 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:59:00 -  - TIME LoadModulesUpdates(request) 0.175 sec
+2017-11-16 20:59:00 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:59:00 - S - STEP
+2017-11-16 20:59:00 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:59:00 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:59:00 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:59:00 -  - loadFile
+2017-11-16 20:59:00 - U - RETURN
+2017-11-16 20:59:00 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:59:00 -  - TIME UnGzipArchive 0.018 sec
+2017-11-16 20:59:00 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855140/scale/updater16.0.0.php'
+2017-11-16 20:59:00 -  - TIME UpdateStepModules 0.016 sec
+2017-11-16 20:59:00 - UPD_SUCCESS - Updated: scale (16.0.0)<br><li>Добавлены переводы на украинский язык. <li>Исправлена ошибка, при которой не работала настройка почты для сайта. <li>Исправлена ошибка, при которой не создавался дополнительный сайт. 
+2017-11-16 20:59:00 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:59:00 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:59:00 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.5.0&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.1&bitm_scale=16.0.0&bitm_seo=17.1.1&bitm_clouds=17.0.2&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:59:00 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:59:01 -  - TIME LoadModulesUpdates(request) 0.197 sec
+2017-11-16 20:59:01 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:59:01 - S - STEP
+2017-11-16 20:59:01 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:59:01 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:59:01 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:59:01 -  - loadFile
+2017-11-16 20:59:01 - U - RETURN
+2017-11-16 20:59:01 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:59:01 -  - TIME UnGzipArchive 0.002 sec
+2017-11-16 20:59:01 -  - TIME UpdateStepModules 0.003 sec
+2017-11-16 20:59:01 - UPD_SUCCESS - Updated: scale (16.5.0)<br><li>Исправлена ошибка, при которой в панели управления показывались не все данные об использовании ресурсов.
+2017-11-16 20:59:01 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:59:01 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:59:01 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.5.0&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.1&bitm_scale=16.5.0&bitm_seo=17.1.1&bitm_clouds=17.0.2&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:59:01 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:59:01 -  - TIME LoadModulesUpdates(request) 0.174 sec
+2017-11-16 20:59:01 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:59:01 - S - STEP
+2017-11-16 20:59:01 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:59:01 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:59:01 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:59:01 -  - loadFile
+2017-11-16 20:59:01 - U - RETURN
+2017-11-16 20:59:01 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:59:01 -  - TIME UnGzipArchive 0.003 sec
+2017-11-16 20:59:01 -  - TIME UpdateStepModules 0.005 sec
+2017-11-16 20:59:01 - UPD_SUCCESS - Updated: scale (17.0.0)<br><li>Незначительные правки. 
+2017-11-16 20:59:01 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:59:01 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:59:01 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.5.0&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.1&bitm_scale=17.0.0&bitm_seo=17.1.1&bitm_clouds=17.0.2&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:59:01 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:59:02 -  - TIME LoadModulesUpdates(request) 0.229 sec
+2017-11-16 20:59:02 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:59:02 - S - STEP
+2017-11-16 20:59:02 - LMU01 - LoadModulesUpdates-Step
+2017-11-16 20:59:02 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:59:02 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:59:02 -  - loadFile
+2017-11-16 20:59:02 - U - RETURN
+2017-11-16 20:59:02 -  - exec CUpdateClient::UnGzipArchive
+2017-11-16 20:59:02 -  - TIME UnGzipArchive 0.01 sec
+2017-11-16 20:59:02 - CSURUS1 - Run updater '/bitrix/updates/update_m1510855142/scale/updater17.0.1.php'
+2017-11-16 20:59:02 -  - TIME UpdateStepModules 0.014 sec
+2017-11-16 20:59:02 - UPD_SUCCESS - Updated: scale (17.0.1)<br><li>Исправлена ошибка, при которой затирался пароль в настройках параметров SMTP при редактировании. <li>Добавлена возможность указывать отсутствие / наличие авторизации при настройке параметров SMTP. <li>Другие незначительные исправления. 
+2017-11-16 20:59:02 -  - exec CUpdateClient::LoadModulesUpdates
+2017-11-16 20:59:02 -  - exec CUpdateClient::CollectRequestData
+2017-11-16 20:59:02 -  - LICENSE_KEY=X&lang=ru&SUPD_VER=17.5.0&VERSION=17.5.4&TYPENC=E&SUPD_STS=1&SUPD_URS=0&SUPD_DBS=MYSQL&XE=N&CLIENT_SITE=y98099gq.beget.tech&CHHB=y98099gq.beget.tech&CSAB=87.236.19.73&SUID=52ecaca348e87ef08264d0fa2ebfc230&CANGZIP=Y&CLIENT_PHPVER=5.6.30&stable=Y&NGINX=Y&rerere=Y&bitm_main=17.5.4&bitm_fileman=17.5.5&bitm_perfmon=17.0.0&bitm_socialservices=17.5.0&bitm_iblock=17.0.12&bitm_search=17.0.1&bitm_translate=16.0.0&bitm_bitrixcloud=17.0.1&bitm_scale=17.0.1&bitm_seo=17.1.1&bitm_clouds=17.0.2&bitm_highloadblock=17.0.2&bitm_compression=16.0.0&bitm_b24connector=17.0.1&bitl_en=&bitl_ru=&SUPD_SRS=RU&SUPD_CMP=N&SALE_15=Y
+2017-11-16 20:59:02 -  - exec CUpdateClient::GetHTTPPage
+2017-11-16 20:59:02 -  - TIME LoadModulesUpdates(request) 0.207 sec
+2017-11-16 20:59:02 -  - exec CUpdateClient::ParseServerData
+2017-11-16 20:59:02 - STEP - Finish - NOUPDATES
+2017-11-16 20:59:02 - STEP - Finish - NOUPDATES

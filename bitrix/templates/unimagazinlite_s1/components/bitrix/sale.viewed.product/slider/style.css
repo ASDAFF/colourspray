@@ -1,0 +1,65 @@
+.view-list-slider {
+	position:relative;
+	text-align:left;
+}
+.view-list-slider .view-item {
+	border:1px solid #e7e7e7;
+	margin-bottom:18px;	
+	position: relative;
+	text-align:left;
+}
+.view-list-slider .nbs-flexisel-container .view-item {
+	margin-left: 8px;
+    margin-right: 8px;
+}
+.view-list-slider ul {
+	padding:0;
+	list-style:none;
+}
+.view-list-slider .left_block {
+	float:left;
+	width:33%;
+	text-align:center;
+	padding-top:33%;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+.view-list-slider .right_block {
+	float:right;
+	width:64%;
+    overflow: hidden;
+}
+.view-list-slider a.name {
+	text-decoration: none;
+	font-size: 13px;
+	display: block;
+	padding-bottom: 5px;
+	height:35px;
+	overflow:hidden;
+}
+.view-list-slider .price {
+	font-weight:bold;
+	font-size:18px;
+	height:25px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.view-list-slider .nbs-flexisel-container {
+	
+}
+.view-list-slider .nbs-flexisel-nav-left {
+	top: -50px !important;
+	left:auto;
+	right: 36px;
+}
+.view-list-slider .nbs-flexisel-nav-right {
+	top: -50px !important;
+	right: 8px;
+}
+.view-list-slider .nbs-flexisel-container,
+.view-list-slider .nbs-flexisel-inner {	
+	  position: static;
+	  width: initial;
+	  max-width: initial;
+}

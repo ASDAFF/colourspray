@@ -1,0 +1,1 @@
+<? $filesInfo = array( 'FILES' => array("/bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/style.css" => "1513325612611","/bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/bitrix/catalog.section.list/tile/style.css" => "15133256121710",)); ?>

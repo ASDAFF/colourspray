@@ -1,0 +1,35 @@
+div.view-list {
+	width: 100%;	
+}
+div.view-header {
+	height: 20px;
+	text-align: center;	
+	margin-bottom:10px;
+}
+div.view-item {
+	text-align: center;
+	margin-bottom: 10px;
+}
+.view-list .img_see {
+	width:58px;
+	float:left;
+	text-align:center;
+}
+.view-list .right_see {
+	float: right;
+	width: 60%;
+}
+.view-list .one_see {
+	margin-bottom:15px;
+}
+.view-list .header_grey {
+	margin-bottom: 15px;
+}
+.view-list .price_see {
+	font-size:14px;
+	font-weight:bold;
+}
+.view-list .name_see {
+	height:36px;
+	overflow:hidden;
+}

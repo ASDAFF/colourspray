@@ -1,0 +1,184 @@
+.follow_elements {
+	margin-bottom:45px;
+}
+.follow_elements ul.follow_flex {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.follow_elements ul.follow_flex li {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.follow_elements .one_section_product_cells {
+	width:19%;	
+	display:inline-block;
+	margin-bottom:40px;
+	padding-bottom:22px;	
+	vertical-align:top;
+}
+.follow_elements .one_section_product_cells .image_product {
+	width: 88%;
+	padding-top: 64%;
+	display: block;
+	background-position:center;	
+	background-repeat:no-repeat;
+	background-size:contain;
+	margin:0 auto;
+	position:relative;
+}
+.follow_elements .one_section_product_cells .image_product:hover {
+	-webkit-filter: contrast(110%);
+}
+.follow_elements .one_section_product_cells .name_product {
+	height:40px;
+	overflow:hidden;
+	margin-top:15px;
+	width: 88%;
+	margin:0 auto;
+	margin-top:10px;
+	text-align:left;
+}
+.follow_elements .price_block .name_price {		
+}
+.follow_elements .price_block .old_price, 
+.follow_elements .price_block .old_price span{
+	color:#2d2d2d;
+	font-size:12px;
+	font-weight:normal;
+	text-decoration:line-through;
+}
+.follow_elements .name_product a {
+	color:#1d6eb1;
+	font-size:13px;
+	font-weight:normal;
+	font-weight:bold;
+	
+}
+.follow_elements .name_product a:hover{
+	color:#444648;
+}
+.follow_elements .one_section_product_cells .buys {
+	width: 88%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.follow_elements .one_section_product_cells .price_block {
+	margin-left:0;
+	float:left;
+}
+.follow_elements .one_section_product_cells .price_block .new_price {
+	font-size:14px;
+	font-weight:bold;
+	color:#3b3b43;
+}
+.follow_elements .one_section_product_cells .price_block .new_price span { 
+	font-size:13px;
+}
+.follow_elements .one_section_product_cells .buy_block {	
+	float:right;
+}
+.follow_elements .one_section_product_cells .big_buy{
+	width:100%;
+} 
+.follow_elements .one_section_product_cells a.buy {
+	display:block;
+	font-size:0;
+	width: 43px;
+	height: 26px;
+	background:url(images/buy_inner.png) no-repeat top;
+	cursor:pointer;
+}
+.follow_elements .one_section_product_cells a.buy:hover {
+	background-position: 0 -26px;
+}
+.follow_elements .one_section_product_cells a.added, 
+.follow_elements .one_section_product_cells a.added:hover {
+	background:url(images/buy_inner.png) no-repeat bottom;
+}
+.follow_elements .one_section_product_cells .under_compare {
+	width: 100%;
+	box-sizing:border-box;	
+	margin:0 auto;
+	margin-top:10px;
+	height:26px;
+	border:1px solid #ebebec;
+	border-radius:3px;
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f1f2f5 99%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(99%,#f1f2f5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f1f2f5 99%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#f1f2f5 99%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f1f2f5 99%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#f1f2f5 99%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f1f2f5',GradientType=0 ); /* IE6-9 */
+}
+
+.follow_elements .nbs-flexisel-container {
+   position:relative;   
+	margin:0 auto;
+	overflow:hidden;
+}
+.follow_elements .nbs-flexisel-ul {
+	position:relative;
+	width:9999px;
+	margin:0px;
+	padding:0px;
+	list-style-type:none;   
+	text-align:center;  
+}
+
+.follow_elements .nbs-flexisel-inner {
+   overflow:hidden; 
+}
+
+.follow_elements .nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+}
+.follow_elements .nbs-flexisel-item img {
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:100px;
+    max-height:45px;
+}
+
+/*** Navigation ***/
+
+.follow_elements .nbs-flexisel-nav-left,
+.follow_elements .nbs-flexisel-nav-right {
+	width: 14px;
+	height: 56px; 
+	position: absolute;
+	cursor: pointer;
+	z-index: 100;
+	top: 25%!important;
+	opacity: 0.5;	
+	background:url(images/arrows.png) no-repeat;
+}
+.follow_elements .nbs-flexisel-nav-left:hover,
+.follow_elements .nbs-flexisel-nav-right:hover {
+	opacity:1;
+}
+
+.follow_elements .nbs-flexisel-nav-left {
+	background-position:top;
+	left:0;
+}
+
+.follow_elements .nbs-flexisel-nav-right {
+	background-position:bottom;
+	right:0;
+}
+@media screen and (max-width:960px) {
+	.elastislide-list a.quick_view {
+		display:none;
+	}
+}

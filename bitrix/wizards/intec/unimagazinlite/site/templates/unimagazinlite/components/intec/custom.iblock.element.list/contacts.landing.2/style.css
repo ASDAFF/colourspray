@@ -1,0 +1,147 @@
+.contacts.landing-1 {
+    display: block;
+    /* position:relative; */
+}
+
+.contacts.landing-1 .contacts-contacts {
+    position: relative;
+}
+
+.contacts.landing-1 .contacts-contacts-wrapper {
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 0;
+    overflow: hidden;
+    text-align: center;
+    z-index: 1;
+}
+
+.contacts.landing-1 .contacts-contacts-wrapper-wrapper {
+    display: block;
+    font-size: 0px;
+    margin: 23px 35px;
+    /* z-index: 10; */
+}
+
+.contacts.landing-1 .contacts-contacts .contacts-contacts-contact {
+    vertical-align: top;
+    width: 460px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    border: 1px solid rgba(204, 204, 204, 0.48);
+    box-sizing: content-box;
+}
+
+.contacts.landing-1 .contacts-contacts .contacts-contacts-contact-city {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    height: 16px;
+    overflow: hidden;
+    color: #1a1a1a;
+}
+
+.contacts.landing-1 .contacts-contacts .contacts-contacts-contact-delimiter {
+    display: block;
+    background: #1a58d7;
+    height: 2px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.contacts.landing-1 .contacts-contacts .contacts-contacts-contact-field {
+    display: inline-block;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+	width: 220px;
+    max-width: 220px;
+}
+
+.contacts.landing-1 .contacts-contacts .contacts-contacts-contact-field-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 42px;
+    height: 42px;
+    background: url('images/sprite.png') no-repeat;
+    background-position: 42px 0px;
+}.contacts.landing-1 .contacts-contacts .contacts-contacts-contact-field-icon.contacts-contacts-contact-field-icon-address {
+    background-position: -84px 0px;
+}.contacts.landing-1 .contacts-contacts .contacts-contacts-contact-field-icon.contacts-contacts-contact-field-icon-mail {
+    background-position: -42px 0px;
+}.contacts.landing-1 .contacts-contacts .contacts-contacts-contact-field-icon.contacts-contacts-contact-field-icon-phone {
+    background-position: 0px 0px;
+}
+
+.contacts.landing-1 .contacts-contacts .contacts-contacts-contact-field-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: normal;
+    color: #1a1a1a;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 52px;
+    overflow: hidden;
+    white-space: normal;
+}
+.contacts.landing-1 .contacts-contacts .contacts-contacts-contact-field-text.address {
+    font-weight: bold;
+}
+
+.contacts.landing-1 .contacts-map {
+    display: block;
+    height: 600px;
+}
+
+.contacts.landing-1 .contacts-map .contacts-map-wrapper {
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    left: 0;
+    right: 0;
+    height: 600px;
+    left: 0px;
+}
+
+.contacts.landing-1 .contacts-map .bx-yandex-map,
+.contacts.landing-1 .contacts-map .bx-yandex-map .ymaps-map {
+    width: 100% !important;
+}
+
+@media (max-width:550px) {
+	.adaptiv .contacts.landing-1 .contacts-contacts .contacts-contacts-contact-field-icon {
+		display: none;
+	}
+	.contacts.landing-1 .contacts-contacts-wrapper-wrapper {
+		margin: 0;
+	}
+	.adaptiv .contacts.landing-1 .contacts-contacts .contacts-contacts-contact {
+		margin: 5px;
+	}
+	.adaptiv .contacts.landing-1 .contacts-contacts-wrapper {
+		position: static;
+	}
+	.contacts.landing-1 .contacts-contacts .contacts-contacts-contact {
+		width: auto;
+	}
+	.contacts.landing-1 .contacts-map .contacts-map-wrapper {
+		position: absolute;
+		width: 95%;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		height: 600px;
+		left: 0px;
+	}
+}

@@ -1,0 +1,725 @@
+/*Ссылки*/
+a {
+    
+}
+a:focus,
+a:hover {
+    outline: none;
+}
+/**Ссылки**/
+
+/*Метки*/
+.marks {
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	top: 0;
+	margin: -8px -4px;	
+}
+.marks .mark {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+    background: #fff;
+    margin: 6px 4px;
+    padding: 6px 5px;
+    border-radius: 15px;
+}
+.marks .mark.hit {
+    width: 39px;
+    background: #329b48;
+    color: #ffffff;
+}
+.marks .mark.new {
+    width: 63px;
+    background: #1a58d7;
+    color: #ffffff;
+    background: rgb(86,171,210);
+    background: -moz-linear-gradient(45deg, rgba(86,171,210,1) 0%, rgba(91,28,196,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(86,171,210,1) 0%,rgba(91,28,196,1) 100%);
+    background: linear-gradient(45deg, rgba(86,171,210,1) 0%,rgba(91,28,196,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56abd2', endColorstr='#5b1cc4',GradientType=1 );
+}
+.marks .mark.action {
+	border: 1px solid #e42828;
+    background: #e42828;
+    color: #ffffff;
+}
+.marks .mark.recommend {
+    width: 70px;
+    background: #1a5d96;
+    color: #ffffff;
+    background: #621276;
+    background: -moz-linear-gradient(top, #621276 0%, #a61d62 100%);
+    background: -webkit-linear-gradient(top, #621276 0%,#a61d62 100%);
+    background: linear-gradient(to bottom, #621276 0%,#a61d62 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#621276', endColorstr='#a61d62',GradientType=0 );
+}
+/**Метки**/
+
+/*Вкладки*/
+.uni-tabs .tabs
+{
+	display: block;
+	padding-left: 0px;
+	margin-bottom: 30px;
+	font-size: 0px;
+}
+
+.uni-tabs .tabs .tab {
+	display: inline-block;
+	white-space: nowrap;
+	font-size: 14px;
+	color: #7a7a7a;
+	cursor: pointer;
+	border-bottom: 2px solid transparent;
+	transition-property: background-color, border-color;
+	transition: 0.2s;
+}
+
+.uni-tabs .tabs .tab a {
+	display: block;
+	color: inherit;
+	font-size: inherit;
+	text-decoration: none;
+	padding: 7px 25px;
+	font-size: 14px;
+	font-weight: bold;
+    transition: 0.2s;
+}
+
+.uni-tabs .tabs .tab a:focus {
+	outline: none;
+}
+
+.uni-tabs .tabs .bottom-line {
+	left: 0px;
+	background: #f1f1f1;
+	height: 1px;
+	width: 100%;
+}
+
+.uni-tabs .tabs .tab.current,
+.uni-tabs .tabs .tab.ui-state-hover,
+.uni-tabs .tabs .tab:hover,
+.uni-tabs .tabs .tab.ui-state-active {
+	color: #000;
+	border-color: #1a58d7;
+}
+
+.uni-tabs .tabs .tab:focus {
+	outline: none;
+}
+/**Вкладки**/
+
+/*Кнопки*/
+.uni-button {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 14px;
+	text-align: center;
+	padding: 7px 11px 6px 11px;
+	cursor: pointer;
+	border-radius: 3px;
+	border: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	transition-property: background-color, border-color;
+	transition: 0.4s;
+}.uni-button:hover {
+	text-decoration: none;
+}.uni-button:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+.uni-button.uni-button-gray {
+	border: 1px solid #cbcbcb;
+	color: #363636;
+	background: #fff;
+}
+.uni-button.uni-button-gray:hover {
+	background: #cbcbcb;
+}
+/**Кнопки**/
+
+/*Кнопки прокрутки*/
+.uni-slider-button-small,
+.uni-slider-button {
+	position: relative;
+	border: none;
+	background: transparent;
+	transition: 0.3s;
+	padding: 0px;
+	cursor: pointer;
+}
+.uni-slider-button-small {
+	width: 24px;
+	height: 24px;
+	border-radius: 12px;
+}
+.uni-slider-button {
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+}
+.uni-slider-button-small:hover,
+.uni-slider-button:hover {
+	background: #1a58d7;
+}
+.uni-slider-button-small:focus,
+.uni-slider-button:focus {
+	outline: none;
+}
+
+.uni-slider-button-small .icon, 
+.uni-slider-button .icon {
+	position: absolute;
+	
+	background: url('images/uni-slider-buttons.png') no-repeat;
+}
+.uni-slider-button-small .icon {
+	top: 4px;
+	left: 4px;
+	right: 4px;
+	bottom: 4px;
+}
+.uni-slider-button .icon {
+	top: 7px;
+	left: 7px;
+	right: 7px;
+	bottom: 7px;
+}
+
+.uni-slider-button-small.uni-slider-button-left .icon,
+.uni-slider-button.uni-slider-button-left .icon {
+	background-position: -16px 0px;
+}
+.uni-slider-button-small.uni-slider-button-left:hover .icon,
+.uni-slider-button.uni-slider-button-left:hover .icon {
+	background-position: -16px -16px;
+}
+
+.uni-slider-button-small.uni-slider-button-right .icon,
+.uni-slider-button.uni-slider-button-right .icon {
+	background-position: 0px 0px;
+}
+.uni-slider-button-small.uni-slider-button-right:hover .icon,
+.uni-slider-button.uni-slider-button-right:hover .icon {
+    background-position: 0px -16px;
+}
+/**Кнопки прокрутки**/
+
+/*Отступы*/
+.uni-indents-vertical {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}.uni-indents-vertical.indent-5 {
+	padding-top: 5px;
+}.uni-indents-vertical.indent-10 {
+	padding-top: 10px;
+}.uni-indents-vertical.indent-15 {
+	padding-top: 15px;
+}.uni-indents-vertical.indent-20 {
+	padding-top: 20px;
+}.uni-indents-vertical.indent-25 {
+	padding-top: 25px;
+}.uni-indents-vertical.indent-30 {
+	padding-top: 30px;
+}.uni-indents-vertical.indent-35 {
+	padding-top: 35px;
+}.uni-indents-vertical.indent-40 {
+	padding-top: 40px;
+}.uni-indents-vertical.indent-45 {
+	padding-top: 45px;
+}.uni-indents-vertical.indent-50 {
+	padding-top: 50px;
+}
+
+.uni-indents-horizontal {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	min-height: 1px;
+	height: 100%;
+}.uni-indents-horizontal.indent-5 {
+	padding-left: 5px;
+}.uni-indents-horizontal.indent-10 {
+	padding-left: 10px;
+}.uni-indents-horizontal.indent-15 {
+	padding-left: 15px;
+}.uni-indents-horizontal.indent-20 {
+	padding-left: 20px;
+}.uni-indents-horizontal.indent-25 {
+	padding-left: 25px;
+}.uni-indents-horizontal.indent-30 {
+	padding-left: 30px;
+}.uni-indents-horizontal.indent-35 {
+	padding-left: 35px;
+}.uni-indents-horizontal.indent-40 {
+	padding-left: 40px;
+}.uni-indents-horizontal.indent-45 {
+	padding-left: 45px;
+}.uni-indents-horizontal.indent-50 {
+	padding-left: 50px;
+}
+/**Отступы**/
+
+/*Текст*/
+.uni-text-default {
+	font-size: 13px;
+	line-height: 20px;
+	letter-spacing: 0.1px;
+}
+/**Текст**/
+
+/*Выравниватель*/
+.uni-aligner-vertical {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	width: 0px;
+	overflow: hidden;
+}
+/**Выравниватель**/
+
+/*Поля ввода*/
+.uni-input-textarea,
+.uni-input-text {
+	display: inline-block;
+	vertical-align: middle;
+	border: none;
+	background: #ededed;
+	color: #494949;
+	font-size: 14px;
+	padding: 0px 10px;
+	border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uni-input-text {
+	line-height: 35px;
+    height: 35px;
+}
+
+.uni-input-textarea {
+	padding: 10px 10px;
+}
+/**Поля ввода**/
+
+/*Минималистичные кнопки*/
+.min-button div {
+	position: relative;
+	width: 24px;
+	height: 24px;
+	cursor:pointer;
+}
+.min-button div.remove:before,
+.min-button:hover div:before {
+	content: '';
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 12px;
+	width:24px;
+	height: 24px;
+	//background: #3a58d2;
+	z-index: -1;
+}
+.min-button div.remove:before {
+	background: #3a58d2!important;
+}
+/* .min-button:hover div:before {
+	background: #e5e5e5;
+} */
+.min-button div.remove {
+	background-position: 0 -24px;
+}
+/*Добавить в отложенные*/
+.min-button.like div {
+	background-image: url('images/like.png');
+}
+.min-button.like .add:hover {
+	background-image: url('images/like2.png');
+	background-position: 0 -48px; 
+}
+
+/*Добавить в сравнение*/
+.min-button.compare div {
+	background-image: url('images/compare.png');
+}
+.min-button.compare .add:hover {
+	background-image: url('images/compare.png');
+	background-position: 0 -48px;
+}
+/*Удалить*/
+.min-button.delete div {
+	background-image: url('images/delete.png');
+	background-position: 0 -24px;
+}
+.min-button.delete div:before {
+	border-radius: 4px;
+	width: 18px;
+	height: 18px;
+	margin: 3px;
+}
+.min-button.delete:hover div:before {
+	/*background: #3a58d2;*/
+}
+.min-button.delete:hover div {
+	background-position: bottom;
+	
+}
+/**Минималистичные кнопки**/
+
+/*Изображения*/
+.uni-image {
+	font-size: 0px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.uni-image * {
+	white-space: normal;
+	text-align: left;
+	font-size: 14px;
+}
+
+.uni-image > img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	max-height: 100%;
+}
+/**Изображения**/
+
+/*Панель сортировки*/
+.uni-panel-sort {
+    position: relative;
+    display: block;
+    height: 40px;
+    border: 1px solid #e7e7e7;
+    background: #ffffff;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.uni-panel-sort .sort,
+.uni-panel-sort .view {
+    display: block;
+    height: 100%;
+    font-size: 0px;
+}
+
+.uni-panel-sort .sort {
+    float: left;
+    padding-left: 20px;
+}
+
+.uni-panel-sort .view {
+    float: right;
+    padding-right: 20px;
+}
+
+.uni-panel-sort .caption {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.uni-panel-sort .sort .values {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.uni-panel-sort .sort .values .value {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    padding: 3px 7px;
+}
+.uni-panel-sort .sort .values .value a {
+    text-decoration: none;
+    color: #363636;
+    font-size: 12px;
+    line-height: 16px;
+    height: 16px;
+}
+.uni-panel-sort .sort .values .value a .icon {
+    display: none;
+    vertical-align: middle;
+    overflow: hidden;
+    width: 16px;
+    height: 16px;
+    background: url('images/uni-panel-sort.png') no-repeat;
+    background-position: -48px 0px;
+}
+.uni-panel-sort .sort .values .value:hover,
+.uni-panel-sort .sort .values .value.ui-state-active {
+   /* background: #363636;*/
+    border-radius: 3px;
+}
+.uni-panel-sort .sort .values .value:hover a,
+.uni-panel-sort .sort .values .value.ui-state-active a {
+    /*color: #fff;*/
+}
+
+.uni-panel-sort .sort .values .value.ui-state-active a .icon {
+    display: inline-block;
+}
+.uni-panel-sort .sort .values .value.ui-state-active a .icon.desc {
+    background-position: -48px 0px;
+}
+.uni-panel-sort .sort .values .value.ui-state-active a .icon.asc {
+    background-position: -48px -16px;
+}
+
+.uni-panel-sort .view .views {
+    display: inline-block;
+    vertical-align:  middle;
+}
+
+.uni-panel-sort .view .views > a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    background: url('images/uni-panel-sort.png') no-repeat;
+}
+
+.uni-panel-sort .view .views > a.text {
+    background-position: -16px 0px;
+}
+.uni-panel-sort .view .views > a.text.ui-state-active,
+.uni-panel-sort .view .views > a.text:hover {
+    background-position: -16px -16px;
+}
+.uni-panel-sort .view .views > a.list {
+    background-position: 0px 0px;
+}
+.uni-panel-sort .view .views > a.list.ui-state-active,
+.uni-panel-sort .view .views > a.list:hover {
+    background-position: 0px -16px;
+}
+.uni-panel-sort .view .views > a.tile {
+    background-position: -32px 0px;
+}
+.uni-panel-sort .view .views > a.tile.ui-state-active,
+.uni-panel-sort .view .views > a.tile:hover {
+	background-position: -32px -16px;
+}
+
+.uni-panel-sort .view .views > a:focus {
+    outline: none;
+}
+@media (max-width: 600px) {
+	.uni-panel-sort {
+    	height: auto;
+	}
+	.uni-panel-sort .sort {
+		float: none;
+		padding: 5px;
+	}
+	.uni-panel-sort .view {
+    	float: none;
+    	padding: 5px;
+	}
+	.uni-panel-sort .caption {
+		padding:5px 0;
+		font-style: oblique;
+	}
+	.uni-panel-sort .sort .values {
+		padding:5px 0;
+	}
+	
+	.uni-panel-sort .sort .values .value {
+		margin-left: 0;
+		padding: 5px 5px 5px 0;
+		margin-right: 5px;
+	}
+	.uni-panel-sort .view .views > a {
+		margin: 0 10px 0 0;
+	}
+}
+/**Панель сортировки**/
+
+/*Радиокнопка*/
+.uni-button-radio {
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.uni-button-radio input {
+	display: none;
+}
+
+.uni-button-radio .selector {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	width: 14px;
+	height: 14px;
+	border-radius: 7px;
+	background: #e9e9e9;
+	margin-right: 4px;
+	border: 1px solid #c9c9c9;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uni-button-radio:hover .selector {
+	border-color: #b9b9b9;
+	background: #d9d9d9;
+}
+
+.uni-button-radio input:checked + .selector:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	right: 3px;
+	bottom: 3px;
+	border-radius: 4px;
+	background: #1a58d7;
+}
+
+.uni-button-radio .text {
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
+	margin-right: 20px;
+}
+/**Радиокнопка**/
+
+/*Чекбокс*/
+.uni-button-checkbox {
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.uni-button-checkbox input {
+	display: none;
+}
+
+.uni-button-checkbox .selector {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	width: 14px;
+	height: 14px;
+	border-radius: 2px;
+	background: #e9e9e9;
+	margin-right: 4px;
+	border: 1px solid #c9c9c9;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.uni-button-checkbox:hover .selector {
+	border-color: #b9b9b9;
+	background: #d9d9d9;
+}
+
+.uni-button-checkbox input:checked + .selector:before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	right: 3px;
+	bottom: 3px;
+	background: #1a58d7;
+	border-radius: 2px;
+}
+
+.uni-button-checkbox .text {
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
+	margin-right: 20px;
+}
+/**Чекбокс**/
+
+/*Числовой ввод*/
+.uni-input-numeric {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	font-size: 0px;
+}
+
+.uni-input-numeric * {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.uni-input-numeric button {
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #d2d2d2;
+	background: #fff;
+	width: 26px;
+	color: #272727;
+	font-size: 14px;
+	line-height: 26px;
+	height: 30px;
+	text-align: center;
+	transition: 0.3s;
+}
+.uni-input-numeric button:hover {
+	background: #d2d2d2;
+}
+.uni-input-numeric button:focus {
+	outline: none;
+}
+
+.uni-input-numeric button.increase {
+	border-left: 0px;
+	border-radius: 0px 3px 3px 0px;
+}
+
+.uni-input-numeric button.decrease {
+	border-right: 0px;
+	border-radius: 3px 0px 0px 3px;
+}
+
+.uni-input-numeric input {
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #d2d2d2;
+	background: #fff;
+	width: 32px;
+	color: #272727;
+	font-size: 14px;
+	line-height: 28px;
+	height: 30px;
+	text-align: center;
+}
+/**Числовой ввод**/
+@media (max-width:770px) {
+	.uni-tabs .tabs .tab a {
+		text-align: center;
+		margin: 7px auto;
+		padding: 0; 
+	}
+	.uni-tabs .tabs .tab {
+		width: 33%;
+	}
+}

@@ -1,0 +1,39 @@
+.bx_profile .save_personal {
+	width:130px;
+	height:42px;
+	line-height:42px;
+	text-align:center;
+	border:0;
+	color:#fff;
+	border-radius:6px;
+	font-size: 14px;
+}
+.bx_profile .personal_data {
+	float:left;
+	width:50%;
+	max-width:580px;
+}
+.socials {
+	float:left;
+	margin-left:100px;
+	max-width:278px;
+	margin-top: 24px;
+}
+font.notetext {
+	color: green;
+	font-size: 14px;
+	margin-bottom: 20px;
+	display:block;
+}
+@media (max-width:800px) {
+	.adaptiv .bx_profile .personal_data{
+		float:none;
+		width:100%;
+		max-width:580px;
+	}
+	.adaptiv .socials {
+		float:none;
+		margin-left:0;
+		width:100%;
+	}
+}

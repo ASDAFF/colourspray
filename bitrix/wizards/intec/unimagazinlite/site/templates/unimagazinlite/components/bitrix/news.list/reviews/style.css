@@ -1,0 +1,104 @@
+.reviews {
+	position: relative;
+    padding-bottom: 50px;
+}
+.reviews .review .img_review {
+	display:block;
+	width:115px;
+	height:115px;
+	border-radius:50%;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:0 auto;
+	position:relative;
+	text-decoration: none;
+	z-index:50;
+	-webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+  	-o-filter: grayscale(100%);
+  	filter: url(desaturate.svg#greyscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+	filter: grayscale(100%);
+}
+.reviews  .uni_col:hover .img_review{
+	-webkit-filter: initial;
+    -moz-filter: initial;
+    -ms-filter: initial;
+    -o-filter: initial;
+    filter: initial;
+    filter: initial;
+    -webkit-filter: initial;
+    filter: initial;
+}
+.reviews .review .name_news  {
+	font-size:13px;
+	text-decoration:none;
+	margin-bottom: 21px;
+	display:block;
+}
+.reviews .review .preview {
+	text-align: left;
+	height: 72px;
+	overflow: hidden;
+	margin-top:7px;
+}
+.reviews .wrap_review {
+	padding:0 20px 16px; 
+}
+.reviews .review_text  {
+	display: block;
+	text-decoration: none;
+	padding-top: 55px;
+	margin-top: -45px;
+	background: #f9f9f9;
+}
+.reviews .review_text .delimiter {
+	border-bottom: 1px solid #bdbdbd; 
+	width:20%;
+}
+.reviews .name_review {
+	text-align:center;
+	color:#515151;
+	font-size:14px;
+	line-height:27px;
+}
+.reviews .staff_review {
+	font-size:14px;
+	color:#bdbdbd;
+	text-align:center;
+}
+.reviews .preview {
+	font-size:13px;
+	color:#606060;
+}
+.reviews  .uni_col.uni-33 {
+	display: block;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+.review_text .read_more {
+	display: block;
+	border-top:1px solid #e4e4e4;
+	text-decoration: none;
+	text-align:center;
+	padding:10px 15px;	
+}.review_text .read_more:hover {
+	color: #636363 !important;
+}
+.reviews .see_all {
+	position:absolute;
+	right:0;
+	bottom:0;
+	display:block;
+	padding: 8px 17px;
+	border:1px solid #eaeaea;
+	border-radius:3px;
+}
+.reviews .see_all a {
+	text-decoration:none;
+	color:#1c1c1c;
+	font-size:12px;
+}

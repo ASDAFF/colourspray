@@ -1,0 +1,107 @@
+.contact {
+	margin-top: 15px;
+}
+
+.contact .section {
+	overflow: hidden;
+	display: block;
+}
+
+.contact .section.section-left {
+	float: left;
+	width: 370px;
+	line-height:normal;
+}
+
+.contact .section.section-right {
+	display: block;
+	margin-left: 385px;
+}
+.contact .section .field {
+	margin-bottom: 23px;
+}
+.contact .section .field .title {
+	color: #888;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 4px;
+}
+
+.contact .section .field div.text {
+	color: #383838;
+    font-size: 13px;
+    line-height: 20px;
+}
+.contact .section .field a.text {
+	display: block;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.contact .section .description {
+	position: relative;
+	font-size: 13px;
+    min-height: 40px;
+    padding-left: 25px;
+}
+
+.contact .section .description:before {
+	bottom: 3px;
+    content: " ";
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 2px;
+}
+
+.section.map{
+	float:left;
+	width:100%;
+}
+
+.contact .section .bx-yandex-map,
+.contact .section yamaps {
+	width: 100% !important;
+}
+
+.contact .section .images {
+	display: block;
+	margin-top: 9px;
+	margin-bottom: 9px;
+}
+
+.contact .section .images .image img {
+	width: 100%;
+	padding-top: 9px;
+	padding-bottom: 9px;
+}
+#map_div{
+	position:absolute;
+	left:0px; 
+	width:100%;
+	margin-top:2%;
+	
+}
+
+@media all and (max-width: 850px) {
+	.adaptiv .contact .section.section-left {
+		width: auto;
+		float: none;
+	}
+	
+	.adaptiv .contact .section.section-right {
+		margin-left: 0px;
+		padding-left:0px;
+		margin-top: 50px;
+		border-left:0px;
+		width:100%;
+	}
+	#map_div{
+		position:absolute;
+	left:5%; 
+	width:90%;
+	margin-top:2%;
+	margin-right:5%;
+	}
+}

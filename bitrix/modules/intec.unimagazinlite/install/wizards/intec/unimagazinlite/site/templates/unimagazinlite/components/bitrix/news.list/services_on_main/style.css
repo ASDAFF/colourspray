@@ -1,0 +1,30 @@
+.services_min.standart_block {
+	margin-bottom:30px;
+}
+.services_min .img_review {
+	text-align:center;
+	display:block;
+}
+.services_min a.name_news {
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    line-height: 20px;
+    margin-top: 15px;
+    height: 41px;
+    overflow: hidden;
+}
+.services_min .preview {
+ 	font-size: 13px;
+   	 margin-top: 7px;
+    	height: 55px;
+    	overflow: hidden;
+}
+.services_min {
+	margin-bottom:15px;
+}
+.uni_col .one_service {
+	max-width:249px;
+	max-height:245px;
+	margin-bottom:20px;
+}

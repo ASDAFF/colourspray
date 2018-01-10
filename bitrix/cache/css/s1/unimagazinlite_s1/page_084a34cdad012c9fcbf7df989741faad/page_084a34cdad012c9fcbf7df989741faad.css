@@ -1,0 +1,26 @@
+
+
+/* Start:/bitrix/components/bitrix/system.auth.registration/templates/startshop/style.css?1513325601430*/
+.startshop-register {
+    display: block;
+}
+
+.startshop-register .startshop-register-notify {
+    display: block;
+    color: #898989;
+    padding-bottom: 20px;
+}
+
+.startshop-register .startshop-register-table {
+    color: #898989;
+}
+
+.startshop-register .startshop-register-table .startshop-register-table-require {
+    color: #f00;
+}
+
+.startshop-register .startshop-register-table .startshop-input-text {
+    margin-left: 20px;
+}
+/* End */
+/* /bitrix/components/bitrix/system.auth.registration/templates/startshop/style.css?1513325601430 */

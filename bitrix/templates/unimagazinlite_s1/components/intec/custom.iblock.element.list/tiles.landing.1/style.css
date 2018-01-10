@@ -1,0 +1,159 @@
+.tiles.landing-1 {
+    display: block;
+}
+
+.tiles.landing-1 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tiles.landing-1 .tiles-wrapper {
+    display: block;
+    margin: -8px;
+    overflow: hidden;
+}
+
+.tiles.landing-1 .tiles-tile {
+    display: block;
+    position: relative;
+    float: left;
+    width: 25%;
+    padding: 8px;
+}
+
+.tiles.landing-1 .tiles-tile .tiles-tile-wrapper {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #e9e9e9;
+    text-decoration: none;
+    color: #1a1a1a;
+    -webkit-transition: opacity 0.3s;
+       -moz-transition: opacity 0.3s;
+        -ms-transition: opacity 0.3s;
+         -o-transition: opacity 0.3s;
+            transition: opacity 0.3s;
+}.tiles.landing-1 .tiles-tile .tiles-tile-wrapper:hover {
+    opacity: 0.7;
+}
+
+.tiles.landing-1 .tiles-tile .tiles-tile-wrapper.tiles-tile-not_link {
+    cursor: default;
+}
+
+.tiles.landing-1 .tiles-tile .tiles-tile-image {
+    display: block;
+    position: relative;
+    padding-top: 71%;
+}
+
+.tiles.landing-1 .tiles-tile .tiles-tile-image .tiles-tile-image-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.tiles.landing-1 .tiles-tile .tiles-tile-image .uni-image {
+    width: 100%;
+    height: 100%;
+}
+
+.tiles.landing-1 .tiles-tile .tiles-tile-image .uni-image img {
+    width: 100%;
+    max-height: none;
+    max-width: none;
+}
+
+.tiles.landing-1 .tiles-tile .tiles-tile-information {
+    display: block;
+    text-align: left;
+    padding: 15px;
+	background: #ffffff;
+}
+
+.tiles.landing-1 .tiles-tile .tiles-tile-information .tiles-tile-information-name {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.tiles.landing-1 .tiles-tile .tiles-tile-information .tiles-tile-information-description {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    height: 48px;
+    overflow: hidden;
+}
+
+.tiles.landing-1 .tiles-buttons {
+    display: block;
+    text-align: center;
+}
+
+.tiles.landing-1 .tiles-buttons .tiles-buttons-more {
+    display: inline-block;
+    text-decoration: none;
+    color: #1a1a1a;
+    padding: 10px 13px;
+    font-size: 0px;
+    border: 1px solid #1a58d7;
+    border-radius:  5px;
+    transition: 0.2s;
+    transition-property: background-color, border;
+}
+
+.tiles.landing-1 .tiles-buttons .tiles-buttons-more:hover {
+    background: #d8d8d8;
+    border-color: #d8d8d8;
+}
+
+.tiles.landing-1 .tiles-buttons .tiles-buttons-more .tiles-buttons-more-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+}
+.tiles.landing-1 .tiles-buttons .tiles-buttons-more .tiles-buttons-more-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    background: url('images/arrow.png') no-repeat;
+    margin-left: 7px;
+}
+
+.tiles_bgn  {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	background: #f6f6f6;
+}
+.tiles_bgn_wrapper {
+	position: relative;
+    display: block;
+    margin: 0 auto;
+	padding: 0 9px;
+    max-width: 1140px;
+}
+
+@media all and (max-width: 800px) {
+    .adaptiv .tiles.landing-1 .tiles-tile {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .adaptiv .tiles.landing-1 .tiles-tile {
+        width: 100%;
+    }
+}

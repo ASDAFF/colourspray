@@ -1,0 +1,50 @@
+.menu-catalog-1 {
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	background: #f7f7f9;
+	margin: 0;
+	padding: 20px;
+	border-top: 2px solid #936CDC;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: 0 4px 2px rgba(0,0,0,0.5);
+	border-bottom: 1px solid #f4f4f4;
+	text-align: left;
+}
+
+.menu-catalog-1 .menu-catalog-1-item {
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px;
+	text-align: left;
+}
+
+.menu-catalog-1 .menu-catalog-1-item .menu-catalog-1-item-title {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.menu-catalog-1 .menu-catalog-1-item .menu-catalog-1-item-submenu {
+	display: block;
+	line-height: 20px;
+	overflow: hidden;
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.menu-catalog-1 .menu-catalog-1-item .menu-catalog-1-item-submenu-item {
+	display: inline-block;
+	font-size: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #636363;
+}

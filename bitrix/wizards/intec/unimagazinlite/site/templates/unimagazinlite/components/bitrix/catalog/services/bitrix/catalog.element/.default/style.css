@@ -1,0 +1,334 @@
+.item {
+	display: block;
+	margin: 0px;
+}
+
+.item > .information {
+	display: block;
+}
+
+.item > .information .image {
+	display: block;
+	float: left;
+	width: 230px;
+	height: 230px;
+	overflow: hidden;
+	font-size: 0px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.item > .information .image img {
+	display: inline-block;
+	vertical-align: middle;
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.item > .information .content {
+	display: block;
+	margin-left: 270px;
+}
+
+.item > .information .content.full {
+	margin-left: 0px;
+}
+
+.item > .information .content .row {
+	display: block;
+	margin: 0px;
+	overflow: hidden;
+}
+
+.item > .information .content .price {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 32px;
+}
+
+.item > .information .content .button {
+	padding: 12px 36px;
+}
+
+.item .title {
+	display: block;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+/*Специалист*/
+
+.item .specialist {
+	position: relative;
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.item .specialist .image {
+	display: inline-block;
+	vertical-align: middle;
+	width: 52px;
+	height: 52px;
+}
+
+.item .specialist .information {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 82px;
+	margin-left: 30px;
+	width: 100%;
+}
+
+.item .specialist .information .initials {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000;
+}
+
+.item .specialist .information .contacts {
+	display: block;
+	margin-top: 5px;
+	white-space: normal;
+}
+
+.item .specialist .information .contacts .contact {
+	display: inline-block;
+	vertical-align: middle;
+	color: #a3a3a3;
+	font-size: 12px;
+	line-height: 16px;
+	margin-right: 60px;
+}
+
+@media all and (max-width: 600px) {
+	.adaptiv .item .specialist .information .contacts .contact {
+		display: block;
+		margin-right: 0px;
+	}
+}
+/**Специалист**/
+
+/*Документы*/
+.item .documents {
+	display: block;
+	overflow: hidden;
+}
+
+.item .documents .document {
+	display: inline-block;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.item .documents .document .image {
+	display: block;
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: url("images/file.png");
+}
+
+.item .documents .document .information {
+	display: block;
+	margin-left: 55px;
+}
+
+.item .documents .document .information .name {
+	font-size: 12px;
+	line-height: 16px;
+	margin-bottom: 3px;
+	text-decoration: underline;
+}
+
+.item .documents .document .information .size {
+	font-size: 12px;
+	line-height: 16px;
+	color: #9d9d9d;
+	text-decoration: none;
+}
+/**Документы**/
+
+/*Услуги*/
+.item .services-wrapper {
+	display: block;
+	position: relative;
+}
+
+.item .services-wrapper .buttons {
+	position: absolute;
+	top: -50px;
+	right: 0px;
+	margin: -2px;
+	padding-bottom: 20px;
+}
+
+.item .services-wrapper .buttons .uni-slider-button-small {
+	margin: 2px;
+}
+
+.item .services {
+	position: relative;
+	display: block;
+	background: transparent;
+	white-space: nowrap;
+	margin-left: -8px;
+	margin-right: -8px;
+	overflow: hidden;
+	font-size: 0px;
+	padding-bottom: 15px;
+}
+
+.item .services .service {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	padding-left: 8px;
+	padding-right: 8px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.item .services .service .wrapper {
+	position: relative;
+	display: block;
+	border: 1px solid #ebebeb;
+	text-decoration: none;
+	overflow: hidden;
+} .item .services .service .wrapper:focus {
+	outline: none;
+}
+
+.item .services .service .image {
+	position: relative;
+	width: 100%;
+	padding-top: 100%;
+}
+
+.item .services .service .image > div {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-weight: bold;
+    font-size: 0px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.item .services .service .image > div img {
+	position: relative;
+    display: inline-block;
+    vertical-align: middle;
+	border: none;
+    max-width: 100%;
+	max-height: 100%;
+}
+
+.item .services .service .text {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.item .services .service .text .text-wrapper {
+	font-size: 13px;
+	line-height: 19px;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	white-space: normal;
+	height: 38px;
+	overflow: hidden;
+}
+
+.item .services-buttons {
+	display: none;
+	position: relative;
+}
+
+.item .services-buttons .wrapper {
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	margin-top: -54px;
+}
+
+.item .services-buttons button {
+	display: block;
+	float: left;
+}
+
+@media all and (max-width: 850px) {
+	.adaptiv .item > .information .image {
+		width: 150px;
+		height: 150px;
+	}
+	
+	.adaptiv .item > .information .content {
+		margin-left: 190px;
+	}
+}
+
+@media all and (max-width: 630px) {
+	.adaptiv .item > .information .content .price {
+		display: block;
+		text-align: right;
+		padding-bottom: 10px;
+	}
+	
+	.adaptiv .item > .information .content .button {
+		padding: 12px 36px;
+	}
+	
+	.adaptiv .item > .information .content .uni-indents-horizontal {
+		display: none;
+	}
+	
+	.adaptiv .item > .information .content {
+		margin-left: 190px;
+	}
+}
+
+@media all and (max-width: 600px) {
+	.adaptiv .item .services .service {
+		width: 50%;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.adaptiv .item > .information .image {
+		display: none;
+	}
+	
+	.adaptiv .item > .information .content {
+		margin-left: 0px;
+	}
+	
+	.adaptiv .item > .information .content .right {
+		float: none;
+	}
+	
+	.adaptiv .item > .information .content .price {
+		text-align: left;
+	}
+}
+
+@media all and (max-width: 400px) {
+	.adaptiv .item .services .service {
+		width: 100%;
+	}
+}
+

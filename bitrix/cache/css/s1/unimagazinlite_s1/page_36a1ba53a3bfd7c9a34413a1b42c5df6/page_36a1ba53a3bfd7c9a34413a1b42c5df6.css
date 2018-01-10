@@ -1,0 +1,41 @@
+
+
+/* Start:/bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/style.css?1513325612611*/
+.startshop-button.to-cart {
+	background: #1a58d7;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+}.startshop-button.to-cart:hover {
+	background: #6B8ED6;
+	color: #ffffff;
+}
+
+.startshop-button.to-cart-added {
+	background: #6B8ED6;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ffffff;
+}.startshop-button.to-cart-added:hover {
+	color: #ffffff;
+}
+
+ @media all and (max-width: 800px) {
+    .startshop-column-left.adaptiv {
+        float: none !important;
+        width: auto !important;
+ 	}
+
+     .startshop-column-right.adaptiv {
+         float: none !important;
+         width: auto !important;
+     }
+ }
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/system.show_message/templates/.default/style.min.css?151332560151*/
+font.errortext{color:red}font.notetext{color:green}
+/* End */
+/* /bitrix/templates/unimagazinlite_s1/components/bitrix/catalog/catalog/style.css?1513325612611 */
+/* /bitrix/components/bitrix/system.show_message/templates/.default/style.min.css?151332560151 */

@@ -1,0 +1,217 @@
+.contacts-title {
+	display: block;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.contacts {
+	overflow: hidden;
+	margin-top: 20px;
+}
+
+.contacts .section {
+	display: block;
+	border-bottom:1px solid #e5e5e5;
+	padding: 30px 0;
+}
+.map-yandex{
+	position:absolute;
+	width:100%;
+	left:0;
+	
+}
+.phone-email{
+display:inline-block;
+vertical-align: middle;
+}
+.information{
+display:inline-block;
+vertical-align: middle;
+color:#DAA520;
+font-size: 15px;
+font-weight: bold;
+word-break: break-all;
+width:25%;
+text-decoration:none;
+}
+.dec_none{
+	display: block;
+	text-decoration: none;
+}
+.schedule{
+display: inline-block;
+vertical-align: middle;
+width: 25%;
+margin-left: 20%;
+}
+
+.contacts .section .map {
+	position: relative;
+	display: block;
+	margin-top: 30px;
+	overflow: hidden;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.contacts .section .map .bx-yandex-map,
+.contacts .section .map yamaps {
+	width: 100% !important;
+}
+
+.contacts .section .element {
+	position: relative;
+	padding-right: 30px;
+    text-decoration: none;
+}
+
+.contacts .section .element .image {
+	display: block;
+	float: left;
+	width: 100px;
+	height: 70px;
+	font-size: 0px;
+}
+
+.contacts .section .element .image .valign {
+	display: inline-block;
+	vertical-align: middle;
+	width: 0px;
+	height: 100%;
+}
+
+.contacts .section .element .image img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.contacts .section .element .information {
+	margin-left: 130px;
+}
+
+.contacts .section .element .information .address {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	height: 72px;
+}
+.contacts .section .element .information .phone,
+.contacts .section .element .information .email {
+	font-size: 14px;
+	line-height: 18px;
+	color: #6e6e6e;
+}
+.img-inf{
+	
+}
+.schedule-phone-email{
+	
+	
+}
+.header_grey{
+	padding-bottom:39px !important;
+}
+.contacts .section .element .information .phone {
+	margin-bottom: 4px;
+}
+.bg_footer{
+		border-top:0px !important;
+	}
+
+.contacts .section .element .information .email {
+	text-decoration: underline;
+}
+
+	.phone-email{
+		width:10%;
+	}
+
+@media all and (max-width: 1150px) {
+	.schedule{
+		width:14%;
+	}
+	.information{
+		width:16%;
+		word-break:normal;
+	}
+	.map-yandex{
+	position:absolute;
+	width:93%;
+	left:3%;
+	right:3%;
+	}
+	
+	
+}
+
+@media all and (max-width: 750px) {
+	.adaptiv .contacts .section .element {
+		width: 100%;
+	}
+	.section a{
+		width:auto !important;
+	}
+	.information{
+		display:block;
+		width:100%;
+		padding-top:25px;
+		font-size:17px;
+		word-break:normal;
+	}
+	.map-yandex{
+	position:absolute;
+	width:93%;
+	left:3%;
+	right:3%
+	}
+	
+	.element{
+		padding-right:15px !important;
+		padding-left:10px !important;
+	}
+	.contacts .section .map {
+			margin-top:0;
+	}
+	.bg_footer{
+		border-top:0px !important;
+	}
+	.schedule{
+		display:block;
+		width:100%;
+		padding-top:1%;
+	}
+	.phone-email{
+		display:block;
+		width:auto;
+		padding-top:1%;
+	}
+}
+@media all and (max-width:450px){
+	.element{
+		display:none;
+	}
+	.contacts .section {
+		padding: 5px 0;
+	}
+	.information{
+		margin-left:3%;
+		width:100%;
+	}
+	.schedule{
+		margin-left:3%;
+		width:100%;
+	}
+	.map-yandex{
+	position:absolute;
+	width:93%;
+	left:3%;
+	right:3%
+	}
+	
+	.phone-email{
+		margin-left:3%;
+		width:50%;
+	}
+}

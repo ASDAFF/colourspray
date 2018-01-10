@@ -1,0 +1,89 @@
+.tizers-1 {
+    display: block;
+    overflow: hidden;
+}
+
+.tizers-1 .tizers-1-wrapper {
+    font-size: 0;
+    margin: 25px 0 0;
+    text-align: center;
+	padding: 0;
+}
+
+.tizers-1 .tizers-1-tizer {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0;
+    width: 25%;
+    color: #000;
+    box-sizing: border-box;
+    padding: 0 5px 0 0;
+    margin: 25px 0 38px;
+    white-space: nowrap;
+}
+
+.tizers-1 .tizers-1-tizer .tizers-1-tizer-wrapper {
+    display: block;
+	font-size: 0;
+}
+
+.tizers-1 .tizers-1-tizer .tizers-1-image {
+    display: inline-block;
+	vertical-align: middle;
+    width: 30%;
+}
+
+.tizers-1 .tizers-1-tizer .tizers-1-information {
+    display: inline-block;
+	vertical-align: middle;
+	width: 70%;
+	padding: 0 15px;
+	box-sizing: border-box;	
+}
+
+.tizers-1 .tizers-1-tizer .tizers-1-information .tizers-1-name {
+    display: block;
+    font-size: 15px;
+    line-height: 16px;
+    color: #07203c;
+    overflow: hidden;
+    text-align: left;
+    white-space: normal;
+}
+
+.tizers-1 .tizers-1-tizer .tizers-1-information .tizers-1-description {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 19px;
+    height: 63px;
+    color: #83878c;
+    overflow: hidden;
+    text-align: center;
+    white-space: normal;
+}
+@media (max-width: 992px) {
+	.adaptiv .tizers-1 .tizers-1-tizer {
+		width: 33%;
+		text-align: center;
+		margin: 5px 0 20px;
+	}
+}
+@media (max-width: 500px) {
+	.adaptiv .tizers-1 .tizers-1-wrapper {
+		margin: 25px 0 0;
+		padding: 0;
+		box-sizing: content-box;
+		text-align: center;
+	}
+	.adaptiv .tizers-1 .tizers-1-tizer {
+		display: inline-block;
+		width: 50%;
+		margin: 0 0 20px;
+		padding: 0;
+		vertical-align: top;
+	}
+	.adaptiv .tizers-1 .tizers-1-tizer .tizers-1-information .tizers-1-name {
+		font-size: 11px;
+	}
+}

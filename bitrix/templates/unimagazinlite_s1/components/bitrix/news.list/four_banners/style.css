@@ -1,0 +1,51 @@
+.banners-list .banners-list-item {
+	border:1px solid #ededed;
+}
+.banners-list .img_banner {
+	display:block;
+	width:100%;
+	padding-top:100%;
+	background-position:center;
+	background-repeat:no-repeat;
+	border-radius: 0;
+}
+.banners-list ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.banners-list ul  li .banners-list-item {
+	position:relative;
+}
+.banners-list ul  li {
+	padding: 8px;
+}
+.banners-list .name_banner {
+	display: block;
+	position: absolute;
+	background: #fff;
+	height: 95px;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	border-radius: 0;
+	padding: 3%;
+	text-decoration:none;
+	outline:none;
+	box-sizing: border-box;
+}
+.banners-list .name_banner .name {
+	padding: 5px 0 0 5px;
+	font-weight:bold;
+	font-size:14px;
+	color:#363434;
+	text-decoration:none;
+}
+.banners-list .name_banner .preview_text {
+	padding: 5px 0 0 5px;
+	color: #585858;
+	height: 55px;
+	font-size:13px;
+	display:block;
+	overflow: hidden;
+}

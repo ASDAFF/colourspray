@@ -1,0 +1,43 @@
+.startshop-basket-small {
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.startshop-basket-small .startshop-count {
+	display: inline-block;
+    vertical-align:  middle;
+	overflow: hidden;
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	text-align: center;
+	font-size: 0px;
+}
+
+.startshop-basket-small .startshop-count .startshop-text {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 11px;
+    line-height: 18px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.startshop-basket-small .startshop-icon {
+	display: inline-block;
+	vertical-align: middle;
+	width: 16px;
+    height: 16px;
+	background: url('images/startshop.basket.icon.png');
+}
+
+.startshop-basket-small .startshop-text-total {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 5px;
+	color: inherit;
+}

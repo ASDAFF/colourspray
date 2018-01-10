@@ -1,0 +1,14 @@
+<?
+	$MESS["CONTENT_TYPE_NAME"] = "Content";
+	$MESS["CONTENT_ELEMENT_NAME"] = "Element";
+	$MESS["CONTENT_SECTION_NAME"] = "Section";
+	$MESS["CATALOG_TYPE_NAME"] = "Catalog";
+	$MESS["CATALOG_ELEMENT_NAME"] = "Product";
+	$MESS["CATALOG_SECTION_NAME"] = "Section";
+	$MESS["REVIEWS_TYPE_NAME"] = "Reviews";
+	$MESS["REVIEWS_ELEMENT_NAME"] = "Review";
+	$MESS["REVIEWS_SECTION_NAME"] = "Section";
+    $MESS["FEEDBACK_TYPE_NAME"] = "Feedback";
+	$MESS["FEEDBACK_ELEMENT_NAME"] = "Element";
+	$MESS["FEEDBACK_SECTION_NAME"] = "Section";
+?>

@@ -1,0 +1,100 @@
+.consultant-ask-question-1 {
+    display: block;
+    border: 2px solid #f1f1f1;
+}
+
+.consultant-ask-question-1 .consultant-ask-question-1-wrapper {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.consultant-ask-question-1 .consultant-ask-question-1-image {
+    display: block;
+    float: left;
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.consultant-ask-question-1 .consultant-ask-question-1-information {
+    display: block;
+    margin-left: 210px;
+    margin-top: 28px;
+    margin-right: 320px;
+    text-align: left;
+}
+
+.consultant-ask-question-1 .consultant-ask-question-1-information .consultant-ask-question-1-name {
+    display: block;
+}
+
+.consultant-ask-question-1 .consultant-ask-question-1-information .consultant-ask-question-1-name .consultant-ask-question-1-name-wrapper {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 18px;
+    max-height: 36px;
+    padding-bottom: 10px;
+    color: #272e3c;
+    border-bottom:  2px solid #272e3c;
+}
+
+.consultant-ask-question-1 .consultant-ask-question-1-information .consultant-ask-question-1-description {
+    display: block;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 19px;
+    color: #272e3c;
+}
+
+.consultant-ask-question-1 .consultant-ask-question-1-buttons {
+    display: block;
+    position: absolute;
+    width: 300px;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    text-align: center;
+}
+
+.consultant-ask-question-1 .consultant-ask-question-1-buttons .consultant-ask-question-1-button {
+    padding: 17px 40px;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media all and (max-width: 1000px) {
+    .adaptiv .consultant-ask-question-1 .consultant-ask-question-1-information {
+        margin-right: 40px;
+    }
+    
+    .adaptiv .consultant-ask-question-1 .consultant-ask-question-1-buttons {
+        position: relative;
+        width: auto;
+        clear: both;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 510px) {
+    .adaptiv .consultant-ask-question-1 .consultant-ask-question-1-image {
+        display: none;    
+    }
+    
+    .adaptiv .consultant-ask-question-1 .consultant-ask-question-1-information {
+        margin-left: 40px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .adaptiv .consultant-ask-question-1 .consultant-ask-question-1-information .consultant-ask-question-1-name .consultant-ask-question-1-name-wrapper {
+        border: none;    
+    }
+}

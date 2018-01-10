@@ -1,0 +1,52 @@
+.brands {
+	overflow:hidden;
+}
+
+.brands .brand {
+	position: relative;
+	margin-bottom:22px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+.brands .brand .image {
+	display: block;
+	width: 100%;
+	padding-top: 100%;
+	font-size: 0px;
+}
+
+.brands .brand .image .wrapper {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.brands .brand .image .wrapper .valign {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	width: 0px;
+	overflow: hidden;
+}
+
+.brands .brand .image .wrapper img {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.brands .brand .image .wrapper .text {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 24px;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}

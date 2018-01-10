@@ -1,0 +1,107 @@
+body .i_menu .show_all span {
+  color: #32ff26;
+}
+body .i_menu .show_all span:hover {
+  color: #4eff35;
+}
+body .uni-tabs .tabs .tab.current,
+body .uni-tabs .tabs .tab.ui-state-hover,
+body .uni-tabs .tabs .tab:hover,
+body .uni-tabs .tabs .tab.ui-state-active,
+body .top_custom_menu li.active a,
+body .top_custom_menu li:hover a {
+  border-color: #32ff26;
+}
+body .svg_fill_solid {
+  fill: #32ff26;
+}
+body .hover_link:hover {
+  color: #32ff26 !important;
+}
+body a,
+body .open_call,
+body .bx_vertical_menu_advanced .bx_hma_one_lvl.current>a,
+body table.top_menu td.current span.arrow {
+  color: #32ff26;
+}
+body .item .image-slider > .list .image.selected .wrapper > div > div,
+body .item .image-slider > .list .image:hover .wrapper > div > div {
+  border-color: #32ff26;
+}
+body .uni-slider-button-small:hover,
+body .uni-slider-button:hover {
+  background: #32ff26;
+}
+body .item .item_description > .properties .property:before,
+body .item > .properties .property:before,
+body .item .information .properties .property:before,
+body .top .bg_top_menu .min_menu,
+body .catalog_menu.solid {
+  background: #32ff26;
+}
+body .solid_text {
+  color: #32ff26 !important;
+}
+body .solid_button,
+body .solid_element,
+body .catalog-button,
+body .login_page .rememberme .USER_REMEMBER:before {
+  background-color: #32ff26 !important;
+}
+body .min-button.delete:hover div:before,
+body .min-button div.remove:before {
+  background-color: #32ff26 !important;
+}
+table.top_menu .child.submenu,
+body .i_menu,
+body .child.cat_menu,
+body .child.submenu {
+  border-color: #32ff26 !important;
+}
+body .solid_button:hover,
+body .catalog-button:hover {
+  background-color: #4eff35 !important;
+}
+body .buy_added,
+body .buy_added:hover {
+  background-color: #14f80f;
+}
+body .services-sections-list.menu .element:hover,
+body .services-sections-list.menu .element.selected {
+  color: #32ff26;
+}
+body .differences_table .properties .property {
+  color: #32ff26;
+  border-color: #32ff26;
+}
+body .differences_table .properties .property:hover {
+  background-color: #32ff26;
+}
+body .under_catalog_menu .menu_item_l1.more .child.cat_menu a:hover {
+  color: #32ff26;
+}
+body .offers .offer .items .item.selected,
+body .offers .offer .items .item:hover,
+body .offers .offer .items .item:focus {
+  color: #32ff26;
+  border-color: #32ff26;
+}
+body .bx-filter .bx-filter-popup-result.right:before {
+  border-right-color: #32ff26 !important;
+}
+body .bx-filter .bx-filter-popup-result a,
+.under_catalog_menu .menu_item_l1 .submenu a:hover {
+  color: #32ff26 !important;
+}
+.bx-filter .bx-filter-parameters-box.bx-active .bx-filter-parameters-box-title div.bx-filter-parameters-box-hint,
+.bx-filter .bx-filter-parameters-box:hover .bx-filter-parameters-box-title div.bx-filter-parameters-box-hint,
+.bx-filter .bx-filter-parameters-box:focus .bx-filter-parameters-box-title div.bx-filter-parameters-box-hint {
+  color: #32ff26 !important;
+}
+body .bx_ordercart_itemtitle a {
+  color: #32ff26 !important;
+}
+body .uni-button-checkbox input:checked + .selector:before,
+body .uni-button-radio input:checked + .selector:before {
+  background: #32ff26 !important;
+}

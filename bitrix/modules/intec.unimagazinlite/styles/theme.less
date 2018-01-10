@@ -1,0 +1,241 @@
+/* @bcolor = #01aae3 */
+/* @footercolor = #444648;*/
+@bcolor_hover = spin(saturate(lighten(@bcolor, 3%), 1%), -4);
+@bcolor_active = spin(desaturate(darken(@bcolor, 6%), 6%), 2);
+@bcolor_border = spin(desaturate(darken(@bcolor, 6%), 30%), 2);
+/*@footercolor_link_hover = lighten(@footercolor, 25%);*/
+
+body .i_menu .show_all span {
+	color: @bcolor;
+} body .i_menu .show_all span:hover {
+	color: @bcolor_hover;
+}
+
+/*body .bg_footer {
+	background:@footercolor;
+}
+.bottom_menu_wrap .bottom_menu .menu_item a:hover {
+	color: @footercolor_link_hover !important;
+}*/
+body .uni-tabs .tabs .tab.current,
+body .uni-tabs .tabs .tab.ui-state-hover, 
+body .uni-tabs .tabs .tab:hover, 
+body .uni-tabs .tabs .tab.ui-state-active,
+body .top_custom_menu li.active a, 
+body .top_custom_menu li:hover a {
+	border-color:@bcolor;
+}
+body .svg_fill_solid {
+	fill:@bcolor;
+}
+body .hover_link:hover {
+	color: @bcolor !important;
+}
+
+body a,
+body .open_call,
+body .bx_vertical_menu_advanced .bx_hma_one_lvl.current>a {
+	color:@bcolor;
+}
+.contact .section .description:before{
+background-color:@bcolor;
+}
+body .item .image-slider > .list .image.selected .wrapper > div > div,
+body .item .image-slider > .list .image:hover .wrapper > div > div {
+	border-color: @bcolor;
+}
+
+body .uni-slider-button-small:hover,
+body .uni-slider-button:hover {
+	background: @bcolor;
+}
+
+body .item .item_description > .properties .property:before,
+body .item > .properties .property:before,
+body .item .information .properties .property:before,
+body .top .bg_top_menu .min_menu,
+body .catalog_menu.solid {
+	background: @bcolor;
+}
+body .services-sections-list.menu .element.selected{
+	background:@bcolor;
+	color:#ffffff !important;
+}
+.service.landing .service-header .service-header-menu .service-header-menu-item.ui-state-active{
+	color:@bcolor !important;
+	border-color:@bcolor !important;
+}
+.startshop-catalog .startshop-item .startshop-slider 
+.startshop-slider-slides .startshop-slider-list 
+.startshop-slider-image.startshop-ui-state-active 
+.startshop-slider-image-wrapper .startshop-slider-image-wrapper-wrapper 
+.startshop-slider-image-wrapper-wrapper-wrapper, .startshop-catalog 
+.startshop-item .startshop-slider .startshop-slider-slides 
+.startshop-slider-list .startshop-slider-image:hover 
+.startshop-slider-image-wrapper .startshop-slider-image-wrapper-wrapper 
+.startshop-slider-image-wrapper-wrapper-wrapper {
+	border:3px solid @bcolor !important;
+}
+body .solid_text {
+	color: @bcolor !important;
+}
+
+body .solid_button,
+body .solid_element,
+body .catalog-button,
+body .login_page .rememberme .USER_REMEMBER:before {
+	background-color:@bcolor !important;
+}
+body .min-button.delete:hover div:before,
+body .min-button div.remove:before {
+	background-color:@bcolor!important;
+}
+table.top_menu .child.submenu,
+body .i_menu,
+body .menu-catalog-1,
+body .child.cat_menu,
+body .child.submenu {
+	border-color: @bcolor !important;
+}
+body .solid_button:hover,
+body .catalog-button:hover {
+	background-color:@bcolor_hover!important;
+}
+body .buy_added,
+body .buy_added:hover {
+	background-color:@bcolor_active;
+}
+body .services-sections-list.menu .element:hover, 
+body .services-sections-list.menu .element.selected {
+	color: @bcolor;
+}
+table.top_menu .child.submenu a:hover {
+    background: @bcolor !important;
+    color: #ffffff !important;
+}
+body .differences_table .properties .property {
+    color: @bcolor;
+    border-color: @bcolor;
+}
+body .differences_table .properties .property:hover {
+    background-color: @bcolor;  
+}
+body .under_catalog_menu .menu_item_l1.more .child.cat_menu a:hover {
+	color: @bcolor;
+}
+body .offers .offer .items .item.selected,
+body .offers .offer .items .item:hover,
+body .offers .offer .items .item:focus {
+    color: @bcolor;
+    border-color: @bcolor;
+}
+body .bx-filter .bx-filter-popup-result.right:before {
+    border-right-color: @bcolor !important;
+}
+body .bx-filter .bx-filter-popup-result a,
+.under_catalog_menu .menu_item_l1 .submenu a:hover {
+    color: @bcolor !important;
+}
+.bx-filter .bx-filter-parameters-box.bx-active .bx-filter-parameters-box-title div.bx-filter-parameters-box-hint,
+.bx-filter .bx-filter-parameters-box:hover .bx-filter-parameters-box-title div.bx-filter-parameters-box-hint,
+.bx-filter .bx-filter-parameters-box:focus .bx-filter-parameters-box-title div.bx-filter-parameters-box-hint {
+    color: @bcolor !important;
+}
+body .bx_ordercart_itemtitle a {
+    color: @bcolor !important;    
+}
+
+/*UNI чекбоксы*/
+body .uni-button-checkbox input:checked + .selector:before,
+body .uni-button-radio input:checked + .selector:before {
+	background: @bcolor !important;
+}
+/**UNI чекбоксы**/
+
+.bx-wrapper .bx-pager.bx-default-pager .bx-pager-item a:hover, .bx-wrapper .bx-pager.bx-default-pager .bx-pager-item a.active {
+	background: @bcolor !important; 
+}
+.min-button.like .add:hover {
+	background-color: @bcolor !important;
+}
+.min-button.compare .add:hover {
+	background-color: @bcolor !important;
+}
+.slider-main-1-item-part-text-button {
+	background: @bcolor !important;
+	transition: all 0.4s;
+	color: #ffffff !important;
+}
+.slider-main-1-item-part-text-button:hover {
+	background: @bcolor_hover !important;
+	color: #ffffff !important;
+}
+.sl_button1 {
+	background: @bcolor !important;
+	transition: all 0.4s;
+	color: #ffffff !important;
+}
+.sl_button2 {
+	background: @bcolor !important;
+	transition: all 0.4s;
+	color: #ffffff !important;
+}
+.sl_button1:hover {
+	background: @bcolor_hover !important;
+	color: #ffffff !important;
+}
+.sl_button2:hover {
+	background: @bcolor_hover !important;
+	color: #ffffff !important;
+}
+.personal_cabinet:hover {
+	color: @bcolor !important;
+}
+
+.header_wrap_information table.top_menu td:hover span.arrow {
+	color: @bcolor !important;;
+}
+.header_wrap_information table.top_menu td.current  span.arrow{
+	border-bottom: 2px solid @bcolor_hover !important;
+}
+.review_text .read_more {
+	color: @bcolor !important;
+}
+.reviews .see_all a:hover {
+	color: @bcolor !important;
+}
+.main_news_pictures .see_all a:hover {
+	color: @bcolor !important;
+}
+.tabs_block #tabs_block ul.nav li.ui-tabs-active a {
+	border-bottom: 2px solid @bcolor;
+}
+.tabs_block #tabs_block ul.nav li a {
+	color: @bcolor !important;
+}
+.basket-small-fly > .header .opener .text {
+	background: @bcolor !important; 
+}
+ul.breadcrumb-navigation li .bn_space {
+	border-bottom: 6px solid @bcolor;
+}
+ul.breadcrumb-navigation li .dropdown {
+	border-top: 1px solid @bcolor;
+}
+.paginator .static .buttons .button {
+	border: 1px solid @bcolor;
+	color: @bcolor;
+}
+.paginator .static .buttons .button:hover,
+.paginator .static .buttons .button.ui-state-current {
+	background: @bcolor;
+	color: #ffffff;
+}
+.main_news .news-item a.name_news:hover{
+color:@bcolor;
+}
+.characteristics.landing-1 .characteristics-buttons-more:hover .characteristics-buttons-more-text {
+	background: @bcolor;
+	color: #ffffff;
+	border-color: #ffffff;
+}

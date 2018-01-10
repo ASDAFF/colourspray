@@ -1,0 +1,492 @@
+.bx_vertical_menu_advanced>ul{
+	display:block;
+	margin:0;
+	padding:0;
+	width:100%;
+	background:#fff;
+	list-style:none;
+	outline:none;
+}
+
+/* 1 уровень */
+.bx_vertical_menu_advanced .bx_hma_one_lvl{
+	display:block;
+	padding:0;
+	outline:none;
+}
+.bx_vertical_menu_advanced .bx_hma_one_lvl>a{
+	position:relative;
+	z-index:105;
+	display:block;
+	padding:10px 10px 10px 20px;
+	color:#494847;
+	vertical-align:middle;
+	text-align:left;
+	border-radius: 6px;
+	color: #262626;
+	font-size:14px;
+	line-height:16px;
+	outline:none;
+	text-decoration: none;
+}.bx_vertical_menu_advanced .bx_hma_one_lvl>a:hover{
+	 background: #f7f7f7;
+	 color: #3a58d2;
+ }.bx_vertical_menu_advanced .bx_hma_one_lvl.current>a {
+	  background: #f7f7f7;
+	  color: #3a58d2;
+  }
+
+.bx_vertical_menu_advanced ul:last-child .bx_hma_one_lvl:last-child>a{border-bottom:none}
+
+.bx_vertical_menu_advanced .bx_hma_one_lvl>a{outline:none;}
+.bx_vertical_menu_advanced .bx_hma_one_lvl.hover{
+	border:none;
+}
+.bx_vertical_menu_advanced .bx_hma_one_lvl.dropdown.hover{}
+.bx_vertical_menu_advanced .bx_hma_one_lvl.dropdown.hover>a{z-index:1500}
+
+/* // 1й уровень */
+/* Контейнер*/
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:1300;
+	display:none;
+	overflow:hidden;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	border-radius:2px;
+	background:#fff;
+
+}
+.bx_vertical_menu_advanced .bx_hma_one_lvl.hover .bx_children_container{display:block}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_block{
+	float:left;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	margin-bottom:-20000px;
+	padding:10px 12px;
+	padding-bottom:20000px;
+	min-width:130px;
+	max-width:280px;
+	border-left:1px solid #f2f2f2;
+	background:#fff;
+}
+.bx_shadow_fix{display:none}
+.bx_vertical_menu_advanced .dropdown:hover .bx_shadow_fix,
+.bx_vertical_menu_advanced .dropdown.hover .bx_shadow_fix{
+	position: absolute;
+	top: 0;
+	right: -2px;
+	bottom: -5px;
+	z-index: 1500;
+	display: block;
+	width: 5px;
+	background: #fff;
+	opacity: 1;
+}
+
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_block:first-child{border-left:none}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container.b1 .bx_children_block{width:100%}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container.b2 .bx_children_block{width:50%}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container.b3 .bx_children_block{width:33.3%}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container.b4 .bx_children_block{width:25%}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_block.advanced{
+	border-left:none;
+	background:#f7fafb;
+	box-shadow:inset 5px 0 7px -5px rgba(0,0,0,.12);
+}
+/*// Контейнер*/
+/* 2й уровень*/
+.bx_vertical_menu_advanced .bx_hma_one_lvl ul{
+	display:block;
+	margin:0;
+	padding:0 0 14px 0;
+	list-style:none;
+}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_advanced_panel {
+	display: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_block li.parent>a{
+	display:block;
+	padding:5px 10px;
+}
+
+/*.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_block li.parent>a:hover{
+	color: #366181;
+}*/
+/* //2й уровень*/
+/* 3й уровень */
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_block li.parent ul{border-bottom:1px solid #f2f2f2}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_block li.parent:last-child ul{border-bottom:none}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_block li.parent ul li{line-height:24px}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_block li.parent ul a{
+	display:block;
+	padding:5px 10px;
+}
+/*.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_block li.parent ul a:hover{
+	background:#f0f6f8;
+	box-shadow:inset 0 1px 1px 0 #e3e9eb;
+}*/
+/* // 3й уровень */
+
+/* Панель */
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_advanced_panel{
+	display:none;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	text-align:center;
+}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_block.advanced .bx_children_advanced_panel{display:block !important}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_advanced_panel img{
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	max-width:100%;
+	max-height:220px;
+	border:1px solid #e7e9ea;
+}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_advanced_panel p{
+	max-width:100%;
+	max-height:220px;
+	color:#000;
+	text-align:left;
+	white-space:normal;
+	font-weight:normal;
+	font-size:12px;
+	line-height:18px;
+}
+
+/* // Панель*/
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_block>ul>li{
+	display:block;
+	background:#fff;
+}
+.bx_vertical_menu_advanced .bx_hma_one_lvl .bx_children_container .bx_children_block>ul>li>a{
+	display:block;
+	color:#20394c;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:15px;
+	line-height:23px;
+}
+
+.bx_vertical_menu_advanced .bx_hma_one_lvl ul li ul li a{
+	color:#000;
+	text-decoration:none;
+	font-size:13px;
+	line-height:16px;
+}
+
+@media (max-width:800px) {
+	.adaptiv .bx_vertical_menu_advanced .bx_hma_one_lvl {
+		float:left;
+		margin-right:5px;
+		margin-bottom:5px;
+	}
+	.adaptiv .bx_vertical_menu_advanced .bx_hma_one_lvl>a {
+		padding: 3px 10px 3px 10px;
+	}
+}
+/*ќбщие*/
+
+* {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.services-sections-list > .description {
+	display: block;
+	white-space: normal;
+	margin-top: 10px;
+}
+
+/*MENU*/
+
+.services-sections-list.menu {
+	border: 1px solid #ebebeb;
+	background: #fff;
+	width: 100%;
+}
+
+.services-sections-list.menu .valign {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.services-sections-list.menu .element:first-child {
+	border-top: none;
+}
+
+.services-sections-list.menu .element {
+	position: relative;
+	display: block;
+	border-top: 1px solid #ebebeb;
+	color: #484848;
+	height: auto;
+	transition-property: color;
+	transition: 0.2s;
+}
+
+.services-sections-list.menu .element:hover, .services-sections-list.menu .element.selected {
+	color: #1a58d7;
+}
+
+.services-sections-list.menu .element .content {
+	position: relative;
+//margin: 10px;
+	padding: 13px 32px 14px 20px;
+}
+
+.services-sections-list.menu .element .content a {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	margin-right: 15px;
+	white-space: normal;
+	color: inherit;
+	text-decoration: none;
+}
+.services-sections-list.menu .element.selected .content a:hover {
+	color: #ffffff !important;
+}
+
+.services-sections-list.menu .element .content .selector {
+	position: absolute;
+	display: inline-block;
+	top: 0px;
+	right: 20px;
+	color: inherit;
+	height: 100%;
+	font-size: 14px;
+}
+
+.services-sections-list.menu .element:hover .content .selector, .services-sections-list.menu .element.selected .content .selector {
+	font-size: 14px;
+}
+
+/*TILES*/
+
+.services-sections-list.tile {
+	position: relative;
+	display: block;
+	background: transparent;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-top: -8px;
+	margin-bottom: -8px;
+}
+
+.services-sections-list.tile .element {
+	position: relative;
+	display: block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.services-sections-list.tile .element .wrapper {
+	position: relative;
+	display: block;
+	border: 1px solid #ebebeb;
+	text-decoration: none;
+	overflow: hidden;
+}.services-sections-list.tile .element .wrapper:focus {
+	 outline: none;
+ }
+
+.services-sections-list.tile .element .image {
+	position: relative;
+	width: 100%;
+	padding-top: 100%;
+}
+
+.services-sections-list.tile .element .image > div {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-weight: bold;
+	font-size: 0px;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.services-sections-list.tile .element .image > div img {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	border: none;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.services-sections-list.tile .element .text {
+	display: block;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.services-sections-list.tile .element .text .text-wrapper {
+	font-size: 13px;
+	line-height: 19px;
+	color: #333;
+	font-weight: bold;
+	text-align: center;
+	white-space: normal;
+	height: 38px;
+	overflow: hidden;
+}
+
+.services-sections-list.tile  > .description {
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+/*TEXT*/
+.services-sections-list.text {
+	position: relative;
+	display: block;
+	background: transparent;
+	white-space: nowrap;
+}
+
+.services-sections-list.text .element {
+	display: block;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+.services-sections-list.text .element .content {
+	display: block;
+	text-decoration: inherit;
+}
+
+.services-sections-list.text .element .content a {
+	display: block;
+	text-decoration: none;
+}
+
+.services-sections-list.text .element .content .name {
+	display: block;
+	text-decoration: underline;
+	overflow: hidden;
+	font-size: 18px;
+	line-height: 24px;
+	height: 48px;
+	white-space: normal;
+	margin-bottom: 10px;
+}
+
+.services-sections-list.text .element .content .description {
+	display: block;
+	text-decoration: inherit;
+	white-space: normal;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 16px;
+	height: 48px;
+	color: #000;
+}
+
+/*LIST*/
+.services-sections-list.list {
+	position: relative;
+	display: block;
+	background: transparent;
+	white-space: nowrap;
+}
+
+.services-sections-list.list .element {
+	position: relative;
+	display: block;
+	text-decoration: none;
+	margin-bottom: 20px;
+}
+
+.services-sections-list.list .element .content {
+	position: relative;
+	display: block;
+	text-decoration: inherit;
+	overflow: hidden;
+}
+
+.services-sections-list.list .element .content a {
+	position: relative;
+	display: block;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.services-sections-list.list .element .content .image {
+	display: block;
+	position: relative;
+	vertical-align: top;
+	float: left;
+	width:40%;
+	padding-top: 40%;
+	height: auto;
+}
+
+.services-sections-list.list .element .content .image > div {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.services-sections-list.list .element .content .image > div img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.services-sections-list.list .element .content .text {
+	display: block;
+	vertical-align: top;
+	width: 55%;
+	margin-left: 45%;
+}
+
+.services-sections-list.list .element .content .text .name {
+	display: block;
+	text-decoration: underline;
+	overflow: hidden;
+	font-size: 18px;
+	line-height: 24px;
+	max-height: 48px;
+	margin-bottom: 10px;
+	white-space: normal;
+}
+
+.services-sections-list.list .element .content .text .description {
+	display: block;
+	text-decoration: inherit;
+	white-space: normal;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 16px;
+	max-height: 64px;
+	color: #000;
+}
+@media (max-width: 800px) {
+	.adaptiv .services-sections-list.menu {
+		display: none;
+	}
+}

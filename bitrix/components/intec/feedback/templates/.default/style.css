@@ -1,0 +1,115 @@
+.feedback {
+    display: block;
+    font-size: 14px;
+    padding: 20px;
+    overflow: hidden;
+    width: 280px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.feedback * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.feedback .feedback-wrapper {
+    margin: -15px;
+}
+
+.feedback .feedback-wrapper .feedback-title {
+    margin: 15px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.feedback .feedback-wrapper .feedback-field {
+    position: relative;
+    margin: 15px;
+}
+
+.feedback .feedback-wrapper .feedback-field .required-mark {
+    color: #ff0000;
+}
+
+.feedback .feedback-wrapper .feedback-field .feedback-field-name {
+    padding-bottom: 5px;
+}
+
+.feedback .feedback-wrapper .feedback-field .feedback-field-image {
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.feedback .feedback-wrapper .feedback-buttons {
+    position: relative;
+    margin: 15px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.feedback .feedback-wrapper .feedback-message {
+    margin: 15px;
+    text-align: center;
+}
+
+.feedback .feedback-wrapper .feedback-buttons .feedback-button {
+    width: 47%;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-radius: 7px;
+    height: 40px;
+    transition: 0.2s;
+    transition-property: background, color;
+}
+
+.feedback .feedback-wrapper .feedback-buttons .feedback-button.feedback-button-gray {
+    border: 1px solid #d9d9d9;
+}.feedback .feedback-wrapper .feedback-buttons .feedback-button.feedback-button-gray:hover {
+    background: #d9d9d9;
+}
+
+.feedback .input-textarea,
+.feedback .input-text {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    background: #e9e9e9;
+    border: 1px solid #e9e9e9;
+    border-radius: 7px;
+}
+
+.feedback .input-textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.feedback .input-textarea.empty,
+.feedback .input-text.empty {
+    border-color: #ff0000;
+}
+/*соглашение*/
+.consent {
+	margin-top: 10px;
+}
+.consent a {
+	text-decoration: none;
+}
+.consent label {
+	font-size: 11px;
+	color: #585858;
+	cursor: pointer;
+}.consent label:hover {color: #8e8e8e;}
+.consent label, .consent input {
+	display: inline-block;
+	vertical-align: middle;
+}

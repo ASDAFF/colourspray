@@ -1,0 +1,231 @@
+.specialist.landing-1 {
+    display: block;
+    padding: 20px 0 25px 0;
+    overflow: hidden;
+	box-sizing: border-box;
+}
+
+.specialist.landing-1 .specialist-information {
+    display: inline-block;
+    width: 512px;
+    text-align: left;
+    overflow: hidden;
+	background:rgb(255,255,255);
+	border-radius: 3px;
+}
+.uni-image{
+	width:100% !important;
+	height:100% !important;
+}
+.specialist_card{
+	display:inline-block;
+	vertical-align:middle;
+	left:0;
+	
+}
+.specialist-img{
+	width:100%;
+	height:100%;
+	border-radius:50%;
+}
+.specialist.landing-1 .specialist-information .specialist-information-image {
+    display: block;
+    float: left;
+    overflow: hidden;
+	margin-top:38px;
+	margin-left:53px;
+	width:135px;
+	height:135px;
+}
+
+.specialist.landing-1 .specialist-information .specialist-information-information {
+    display: block;
+    margin-left: 214px;
+	padding: 37px 0px;
+}
+
+.specialist.landing-1 .specialist-information .specialist-information-information .specialist-information-information-name,
+.specialist.landing-1 .specialist-information .specialist-information-information .specialist-information-information-post {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 22px;
+    max-height: 44px;
+    color: #1a1a1a;
+}
+.specialist.landing-1 .specialist-information .specialist-information-information .specialist-information-information-post {
+	font-weight: normal;
+}
+.specialist.landing-1 .specialist-information .specialist-information-information .specialist-information-information-delimiter {
+    display: block;
+    height: 1px;
+    background: #dcdcdc;
+    overflow: hidden;
+	width: 70%;
+}
+
+.specialist.landing-1 .specialist-information .specialist-information-information .specialist-information-information-phone,
+.specialist.landing-1 .specialist-information .specialist-information-information .specialist-information-information-skype {
+    display: block;
+    font-size: 14px;
+    line-height: 22px;
+    color: #25282c;
+}
+
+.specialist.landing-1 .specialist-question {
+    display: inline-block;
+    width: 340px;
+    margin-left: 110px;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 40px;
+    margin-top: 0;
+}
+
+.specialist.landing-1 .specialist-question .specialist-question-caption {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #1a1a1a;
+}
+
+.specialist.landing-1 .specialist-question .specialist-question-text {
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+    color: #878787;
+}
+
+.specialist.landing-1 .specialist-question .uni-button {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 14px 20px;
+}
+
+@media all and (min-width:810px) and (max-width:1030px){
+	.specialist-information{
+		width:auto !important;
+	}
+	.specialist-information-information{
+		display:inline-block !important;
+		margin-left:0px !important;
+	}
+	
+}
+@media all and (min-width:750px) and (max-width:800px){
+	.specialist-information{
+		width:auto !important;
+	}
+	.specialist-information-information{
+		display:inline-block !important;
+		margin-left:0px !important;
+	}
+	.specialist.landing-1 .specialist-question{
+		padding-left: 0;
+		margin-left:45px;
+	}
+}
+@media all and (max-width: 740px) {
+    .adaptiv .specialist.landing-1 table,
+    .adaptiv .specialist.landing-1 table tr,
+    .adaptiv .specialist.landing-1 table tr td {
+        display: block;
+        text-align: left;
+        width: auto !important;
+    }
+    
+    .adaptiv .specialist.landing-1 .specialist-information {
+        display: block;
+        width: auto;
+    }
+    .specialist.landing-1 .specialist-information .specialist-information-image{
+		margin: 0 auto;
+	}
+    .adaptiv .specialist.landing-1 .specialist-question {
+        width: auto;
+        padding-left: 0px;
+        /*padding-top: 5px;*/
+		
+    }
+	.specialist-information{
+		background:#f6f6f6 !important;
+		
+	}
+	.adaptiv .specialist.landing-1 .specialist-question .uni-button {
+		display: block;
+		margin-left:10px;
+		margin-right:10px;
+	}
+}
+
+@media all and (max-width: 550px) {
+    .adaptiv .specialist.landing-1 .specialist-information .specialist-information-image {
+        float: none;
+    }
+	.specialist_card{
+		width:100%;
+		
+	}
+	.service-section{
+		margin-bottom:20px !important;
+	}
+	.specialist.landing-1 .specialist-question .specialist-question-caption{
+		line-height:12px;
+	}
+	
+	.specialist.landing-1 .specialist-question{
+		margin-left:0px;
+	}
+    .specialist-information{
+		background:#f6f6f6 !important;
+		
+	}
+	.service.landing .block_specialist {
+		padding:0px 0 0px 0;
+		box-sizing: border-box;
+	}
+	.specialist.landing-1 .specialist-question .specialist-question-text{
+		padding-left:10px;
+		padding-right:10px;
+	}
+	.specialist.landing-1{
+		padding:0px 0 1px 0;
+	}
+	.specialist-question-caption{
+		text-align:center;
+	}
+	.specialist-question-text{
+		
+	}
+    .adaptiv .specialist.landing-1 .specialist-information .specialist-information-information {
+        margin-top: 0px;
+        margin-left: 0px;
+		text-align:center;
+    }
+	.uni-button .solid_button{
+		margin-right:15px;
+		margin-left:15px;
+		color:red;
+	}
+	.specialist.landing-1 .specialist-information .specialist-information-image{
+		margin-top:0px;
+	}
+	.specialist.landing-1 .specialist-information .specialist-information-information{
+		padding:10px 0px;
+	}
+	.uni-indents-vertical.indent-20 {
+		padding-top:0px !important;
+	}
+	.uni-indents-vertical.indent-15 {
+		padding-top:0px !important;
+	}
+	.specialist.landing-1 .specialist-question{
+		margin-top:0px;
+	}
+	.specialist-information-information-delimiter{
+		height:0px !important;
+	}
+}

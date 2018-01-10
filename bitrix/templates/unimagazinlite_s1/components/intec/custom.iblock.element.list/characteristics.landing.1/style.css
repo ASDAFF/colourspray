@@ -1,0 +1,103 @@
+.characteristics.landing-1 {
+    display: block;
+}
+
+.characteristics.landing-1 .characteristics-table_wrapper {
+    display: block;
+    overflow: auto;
+}
+
+.characteristics.landing-1 .characteristics-table {
+    width: 100%;
+}
+
+.characteristics.landing-1 .characteristics-table tr.even {
+    background: #f6f6f6;
+}
+
+.characteristics.landing-1 .characteristics-table tr + tr {
+    //border-top:  1px solid #e8e8e8;
+}
+
+.characteristics.landing-1 .characteristics-table tr td {
+    text-align: left;
+    color: #000000;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 25px 100px;
+    vertical-align: top;
+	font-family: 'Myriad Pro';
+}
+.characteristics.landing-1 .characteristics-table tr td:first-child{
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.characteristics.landing-1 .characteristics-table tr td:last-child{
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.characteristics.landing-1 .characteristics-table tr.characteristics-table-tr-hideable {
+    display: none;
+}
+
+.characteristics.landing-1 .characteristics-buttons {
+    display: block;
+    width: auto;
+    text-align: center;
+}
+
+.characteristics.landing-1 .characteristics-buttons-more {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.characteristics.landing-1 .characteristics-buttons-more .characteristics-buttons-more-text {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    padding: 15px 20px;
+	border-radius: 3px;
+	border: 1px solid #e8e8e8;
+}
+.characteristics.landing-1 .characteristics-buttons-more .characteristics-buttons-more-icon {
+    display: inline-block;
+    position: relative;
+	vertical-align: middle;
+   /*  width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: #d8d8d8;
+    -webkit-transition: background-color 0.3s;
+       -moz-transition: background-color 0.3s;
+        -ms-transition: background-color 0.3s;
+         -o-transition: background-color 0.3s;
+            transition: background-color 0.3s; */
+}
+/*.characteristics.landing-1 .characteristics-buttons-more:hover .characteristics-buttons-more-icon {
+    background-color: #e8e8e8;
+} */
+
+.characteristics.landing-1 .characteristics-buttons-more .characteristics-buttons-more-icon .characteristics-buttons-more-icon-picture {
+    display: block;
+    width: 7px;
+    height: 5px;
+    top: -3px;
+    background-image: url('images/arrow_black.png');
+}
+.characteristics.landing-1 .characteristics-buttons-more:hover .characteristics-buttons-more-icon .characteristics-buttons-more-icon-picture {
+	background-image: url('images/arrow_white.png');
+}
+
+.characteristics.landing-1 .characteristics-buttons-more.ui-state-active .characteristics-buttons-more-icon .characteristics-buttons-more-icon-picture {
+    background-position: 0px -5px;
+}
+
+@media all and (max-width: 450px)
+{
+    .adaptiv .characteristics.landing-1 .characteristics-table tr td {
+        padding: 25px 10px;
+    }
+}

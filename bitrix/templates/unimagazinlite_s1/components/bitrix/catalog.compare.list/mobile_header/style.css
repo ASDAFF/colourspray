@@ -1,0 +1,55 @@
+.b_compare_mobile .compare-small-mobile {
+	position: relative;
+	text-decoration:none;
+	display:block;
+	white-space: nowrap;
+	font-size: 0px;
+}
+.b_compare_mobile .compare-small-mobile.header,
+.b_compare_mobile .compare-small-mobile.fly {
+	margin-left: 15px;
+	margin-top: 0;
+}
+
+.b_compare_mobile .compare-small-mobile .text-wrapper {
+	display: block;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-top: -10px;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-align: center;
+    font-size: 0px;
+}
+.b_compare_mobile .compare-small-mobile.header .text-wrapper,
+.b_compare_mobile .compare-small-mobile.fly .text-wrapper {
+	position: absolute;
+	display: block;
+	top: -10px;
+	left: -15px;
+	margin-right: 0px;
+}
+
+.b_compare_mobile .compare-small-mobile .text-wrapper .text {
+    display: inline-block;
+	vertical-align: middle;
+    font-size: 11px;
+	color: #fff;
+    line-height: normal;
+	font-weight: 700;
+}
+.b_compare_mobile .compare-small-mobile .icon {
+	display: inline-block;
+	vertical-align: middle;
+	background-repeat:no-repeat;
+    width: 20px;
+    height: 20px;
+	margin-top: 0;
+	margin-bottom: 0px;
+	background:url(images/compare.png) no-repeat;
+	background-repeat:no-repeat;
+	margin-left: 1px;
+}

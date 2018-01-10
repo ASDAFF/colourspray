@@ -1,0 +1,34 @@
+.brands_view_list .brand_letter {
+	float: left;
+	width: 10%;
+	min-height: 115px;
+}
+.brands_view_list .brand_letter .letter {
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.brands_view_list .brand_letter .brand_link {
+	display: block;
+	color: black;
+	padding: 5px 0px;
+}
+.brands_view_list .brand_letter .brand_link:hover {
+	color:#1d6eb1;
+}
+@media (max-width:1024px) {
+	.adaptiv .brands_view_list .brand_letter {
+		width:20%;
+	}
+}
+@media (max-width:800px) {
+	.adaptiv .brands_view_list .brand_letter {
+		width:25%;
+	}
+}
+@media (max-width:768px) {
+	.adaptiv .brands_view_list .brand_letter {
+		width:33.33%;
+	}
+}

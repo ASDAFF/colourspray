@@ -1,0 +1,34 @@
+.prod_old_day {
+	margin-top:35px;
+}
+.prod_old_day .title {	
+	font-size:14px;
+	font-weight:bold;
+	color:#444648;
+	margin-top:40px;
+}
+.prod_old_day .elem:before,
+.prod_old_day .elem:after {
+	content:".";
+	visibility:hidden;
+	display:block;
+	clear:both;	
+}
+.prod_old_day .elem {	
+}
+.prod_old_day .photo_elem {
+	float:left;
+	width:30%;
+	text-align:center;
+}
+.prod_old_day .name {
+	float:right;
+	width:60%;
+}
+.prod_old_day .name a {
+	font-size:12px;
+	color:#636363;
+}
+.prod_old_day .name a:hover {
+	color: #1d6eb1;
+}

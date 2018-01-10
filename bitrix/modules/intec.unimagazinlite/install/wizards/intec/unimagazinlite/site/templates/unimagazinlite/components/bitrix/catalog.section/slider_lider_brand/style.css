@@ -1,0 +1,199 @@
+.elastislide-list ul li {
+	vertical-align:top;
+	max-width:182px;	
+	position:relative;
+	margin-right:16px;
+}
+.elastislide-carousel ul li a img{
+	border:0;
+	
+}
+.elastislide-list{
+	width: 100%;
+}
+.elastislide-list a.img_brand {
+	max-width:86px;
+	height:120px;
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+	display:block;
+	margin:0 auto;
+	line-height: 120px;
+}
+.elastislide-list .img_brand {
+	-webkit-filter: initial;
+	-moz-filter: initial;
+	-ms-filter: initial;
+	-o-filter: initial;
+    filter: initial;	
+}
+.elastislide-list .img_brand img {
+	display:table-cell;
+	vertical-align:middle;
+	position: relative;
+  	display: inline-block;
+  	vertical-align: middle;
+  	border: none;
+  	max-width: 100%;
+  	max-height: 100%;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+  	-o-filter: grayscale(100%);
+  	filter: url(desaturate.svg#greyscale);
+    filter: gray;
+    -webkit-filter: grayscale(1);
+	filter: grayscale(100%);
+}
+.elastislide-list .img_brand img:hover {
+    -webkit-filter: initial;
+    -moz-filter: initial;
+    -ms-filter: initial;
+    -o-filter: initial;
+    filter: initial;
+    filter: initial;
+    -webkit-filter: initial;
+    filter: initial;
+}
+.elastislide-list .one_product .name_product {
+	text-align:center;
+	width:100%;	
+}
+.elastislide-list .one_product .name_product a {
+	display: block;
+	font-family: Arial,sans-serif;
+	color: #2e2e2e;
+	font-weight: bold;
+	font-size: 12px;
+	white-space: normal;
+	height: 32px;
+	text-decoration: none;
+}
+.elastislide-list .one_product .name_product a:hover{
+	text-decoration:underline;
+}
+.elastislide-list {
+	box-shadow:none;
+}
+.elastislide-list nav span.elastislide-next {
+	background:url(images/prev_next.png) no-repeat top right;
+	width:8px;
+	height:25px;
+	
+}
+.elastislide-list nav span.elastislide-next:hover {	
+}
+.elastislide-list nav span.elastislide-prev {
+	background:url(images/prev_next.png) no-repeat top left;
+	width:8px;
+	height:25px;
+	opacity:0.8;
+}
+.elastislide-list nav span.elastislide-prev:hover {
+	opacity:1;
+}
+.elastislide-list .price_block {
+	height:55px;
+}
+.elastislide-list .price_block .new_price {
+	font-family:'Babas',Arial,sans-serif;
+	color:#2e2e2e;
+	font-size:17px;
+	text-align:center;
+}
+.elastislide-list .price_block .old_price {
+	color:#c39326;
+	font-size:15px;
+	font-family:'Babas',Arial,sans-serif;
+	text-align:center;
+	text-decoration:line-through;
+}
+.elastislide-list li.one_product:hover .quick_view {
+	visibility:visible;
+}
+.elastislide-list a.quick_view {
+	margin-top:18px;
+	visibility:hidden;
+	width:123px;
+	height:25px;
+	background:#424242;
+	text-align:center;
+	color:#fff;
+	font-size:11px;
+	font-family:'Babas',Arial,sans-serif;
+	line-height:25px;
+	text-decoration:none;
+	margin:0 auto;
+	display:block;
+	border-radius:2px;
+}
+.bx_brand .carouselbrand .nbs-flexisel-container {
+    position:relative;
+    max-width:98%;
+	margin:0 auto;
+	overflow:hidden;
+}
+.bx_brand .carouselbrand .nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.bx_brand .carouselbrand .nbs-flexisel-inner {
+	overflow:hidden;    
+	width:97%;
+	margin:0 auto;
+}
+
+.bx_brand .carouselbrand .nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+}
+.bx_brand .carouselbrand .nbs-flexisel-item img {
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width:100px;
+    max-height:45px;
+}
+/*** Navigation ***/
+
+.bx_brand .nbs-flexisel-nav-left,
+.bx_brand .nbs-flexisel-nav-right {
+    position: absolute;
+    z-index: 100;
+	top: 50px !important;
+}
+
+.bx_brand .nbs-flexisel-nav-left {
+	left: 0px;
+}
+
+.bx_brand .nbs-flexisel-nav-right {
+	right: 0px;
+}
+@media screen and (max-width:960px) {
+	.elastislide-list a.quick_view {
+		display:none;
+	}
+}
+.bx_brand{
+	padding-bottom:5px;
+	padding-top:5px;
+	margin-top: 30px;
+}
+.one_brand {
+	opacity:0.8;	
+}
+.one_brand:hover {
+	opacity:1;	
+}

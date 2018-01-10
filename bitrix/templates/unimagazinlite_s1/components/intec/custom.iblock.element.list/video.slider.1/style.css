@@ -1,0 +1,92 @@
+.video.slider-1 {
+    display: block;
+}
+
+.video.slider-1 .video-slider {
+    display: block;
+    overflow: hidden;
+}
+
+.video.slider-1 .video-slider .video-slider-table {
+    width: 100%;
+}
+
+.video.slider-1 .video-slider .video-slider-pages {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    font-size: 0px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.video.slider-1 .video-slider .video-slider-pages .video-slider-pages-page {
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.video.slider-1 .video-slider .video-slider-pages .video-slider-pages-page-video {
+    display: block;
+    position: relative;
+    float: left;
+    width: 700px;
+    height: 350px;  
+}
+
+.video.slider-1 .video-slider .video-slider-pages .video-slider-pages-page-information {
+    display: block;
+    margin-left: 720px;
+    text-align: left;
+}
+
+.video.slider-1 .video-slider .video-slider-pages .video-slider-pages-page-information-name {
+    display: block;
+    font-size: 22px;
+    color: #1a1a1a;
+}
+
+.video.slider-1 .video-slider .video-slider-pages .video-slider-pages-page-information-delimiter {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 1px;
+    background: #e8e8e8;
+}
+
+.video.slider-1 .video-slider .video-slider-pages .video-slider-pages-page-information-description {
+    display: block;
+    font-size: 13px;
+    color: #a0a0a0;
+	padding-top: 15px;
+}
+
+@media all and (max-width: 950px) {
+    .adaptiv .video.slider-1 .video-slider .video-slider-pages .video-slider-pages-page {
+       // width: 420px;
+    }
+    .adaptiv .video.slider-1 .video-slider .video-slider-pages .video-slider-pages-page-video {
+        float: none;
+        width: auto;
+    }
+    .adaptiv .video.slider-1 .video-slider .video-slider-pages .video-slider-pages-page-information {
+        margin-top: 20px;
+        margin-left: 0px;    
+    }
+    .adaptiv .video.slider-1 .video-slider .video-slider-pages .video-slider-pages-page-information-delimiter {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 530px) {
+    .adaptiv .video.slider-1 .video-slider .video-slider-pages .video-slider-pages-page {
+       // width: 260px;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .adaptiv .video.slider-1 .video-slider .video-slider-pages .video-slider-pages-page {
+       // width: 200px;
+    }
+}

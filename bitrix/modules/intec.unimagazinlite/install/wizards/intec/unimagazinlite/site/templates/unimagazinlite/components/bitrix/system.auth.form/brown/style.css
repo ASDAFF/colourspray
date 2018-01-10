@@ -1,0 +1,50 @@
+.bx_auth {	
+	
+}
+.bx_auth a.personal_cabinet {
+	font-size: 13px;
+	text-decoration:underline;
+	display: block;
+	color: #656565;
+	position:relative;
+}
+.bx_auth a.personal_cabinet:hover {
+
+}
+.bx_auth a.logout {
+	margin-left: 10px;
+}
+.bx_auth a.personal_cabinet:after {
+	content:"";
+	float:left;
+	width:18px;
+	height:19px;
+	background:url(images/lock.png);
+	margin-top: 9px;
+	margin-right: 6px;
+}
+.bx_auth .bx_login_top_inline_link {
+	display:block;
+	float:left;
+	font-size: 13px;
+	text-decoration:none;	
+	margin-left: 20px;
+	text-decoration:underline;
+	color: #656565;
+}
+@media (max-width:480px){
+	.adaptiv .top_panel_wrap .top_personal {
+		float:left;
+	}
+	.adaptiv .bx_auth .bx_login_top_inline_link {
+		margin-right: 7px;
+		margin-left:0;
+	}
+	.adaptiv .bx_auth{
+		margin-right:0px;
+		margin-left:0;
+	}
+	.adaptiv .bx_auth a.personal_cabinet:after {
+		margin-right:5px;
+	}
+}

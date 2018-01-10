@@ -1,0 +1,93 @@
+.tizers.landing-2 {
+    display: block;
+}
+
+.tizers.landing-2 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.tizers.landing-2 .tizers-wrapper {
+    display: block;
+    overflow: hidden;
+    margin: -8px;
+}
+
+.tizers.landing-2 .tizers-tizer {
+    display: block;
+    float: left;
+    padding: 8px;
+    width: 33.33333%;
+    overflow: hidden;
+}
+
+.tizers.landing-2 .tizers-tizer .tizers-tizer-wrapper {
+    display: block;
+    max-width: 270px;
+    margin: 0 auto 0 0;
+}
+
+.tizers.landing-2 .tizers-tizer .tizers-tizer-image {
+    display: block;
+    float: left;
+    position: relative;
+    width: 62px;
+    height: 62px;
+}
+
+.tizers.landing-2 .tizers-tizer .tizers-tizer-image .uni-image {
+    width: 100%;
+    height: 100%;
+	border-radius:50%;
+}
+
+.tizers.landing-2 .tizers-tizer .tizers-tizer-information {
+    display: block;
+    margin-left: 70px;
+    text-align: left;
+    height: 141px;
+    overflow: hidden;
+}
+
+.tizers.landing-2 .tizers-tizer .tizers-tizer-information-caption {
+    display:  block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 18px;
+    max-height: 36px;
+    color: #272727;
+    overflow: hidden;
+}
+
+.tizers.landing-2 .tizers-tizer .tizers-tizer-information-text {
+    display: block;
+    font-size: 13px;
+    line-height: 18px;
+    height: 90px;
+    overflow: hidden;
+    color: #848484;
+}
+
+@media all and (max-width: 850px)
+{
+    .adaptiv .tizers.landing-2 .tizers-tizer {
+        width: 50%;    
+    }
+}
+
+@media all and (max-width: 550px)
+{
+    .adaptiv .tizers.landing-2 .tizers-tizer {
+        width: 100%;    
+    }
+	.tizers.landing-2 .tizers-tizer .tizers-tizer-wrapper{
+		margin:0 auto;
+	}
+	.tizers.landing-2 .tizers-wrapper {
+    display: block;
+    overflow: hidden;
+    margin: 0;
+	}
+}

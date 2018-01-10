@@ -1,0 +1,15 @@
+div.view-list {	
+	border: 1px solid #F1F1F1;
+	border-radius: 3px 3px 3px 3px;
+}
+div.view-header {	
+    background-color: #F1F1F1;
+    line-height: 14px;
+    margin-bottom: 10px;
+    padding: 4px 0;
+    text-align: center;
+}
+div.view-item {
+	text-align: center;
+	margin-bottom: 10px;
+}

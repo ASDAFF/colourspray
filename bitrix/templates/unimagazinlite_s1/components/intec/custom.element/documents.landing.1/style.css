@@ -1,0 +1,70 @@
+.documents.landing-1 {
+    display: block;
+    overflow: hidden;
+    margin: -8px;
+    font-size: 0px;
+    white-space: normal;
+    text-align: center;
+}
+
+.documents.landing-1 * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.documents.landing-1 .documents-item {
+    display: inline-block;
+    width: 25%;
+    padding: 8px;
+    text-align: left;
+	overflow: hidden;
+}
+
+.documents.landing-1 .documents-item .documents-item-wrapper {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.documents.landing-1 .documents-item .documents-item-image {
+    display: block;
+    float: left;
+    width: 48px;
+}
+
+.documents.landing-1 .documents-item .documents-item-information {
+    display: block;
+    margin-left: 48px;
+    text-align: left;
+}
+
+.documents.landing-1 .documents-item .documents-item-information .documents-item-information-name {
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+    height:  18px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.documents.landing-1 .documents-item .documents-item-information .documents-item-information-size {
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    height:  16px;
+    color: #8a8a8a;
+    overflow: hidden;
+}
+
+@media all and (max-width: 900px) {
+    .adaptiv .documents.landing-1 .documents-item {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .adaptiv .documents.landing-1 .documents-item {
+        width: 100%;
+    }
+}
